@@ -12,12 +12,92 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--deep:#130906;--brown:#24130D;--mid:#3A2118;--gold:#C6A66A;--gold2:#E7D7AA;--cream:#F6F0E7;--ivory:#FFFDF8;--paper:#FBF7F0;--muted:#6F625A;--text:#1F1A17;--whats:#25D366;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Inter',system-ui,sans-serif}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:var(--sans);background:var(--ivory);color:var(--text);line-height:1.65;overflow-x:hidden}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}.wrap{width:min(1180px,calc(100% - 32px));margin:auto}.top{position:fixed;inset:0 0 auto;height:76px;background:rgba(19,9,6,.94);backdrop-filter:blur(18px);z-index:50;border-bottom:1px solid rgba(198,166,106,.18)}.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:12px;color:var(--gold2);min-width:max-content}.brand img{width:54px;height:54px;object-fit:contain;filter:drop-shadow(0 0 10px rgba(198,166,106,.25))}.brand b{font-family:var(--serif);font-weight:500;font-size:20px;letter-spacing:.05em}.brand small{display:block;font-size:10px;letter-spacing:.28em;text-transform:uppercase;opacity:.78}.nav{display:flex;align-items:center;gap:18px}.nav a{color:#fffdf8cc;font-size:13px;font-weight:700}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:12px 18px;border:1px solid rgba(198,166,106,.45);text-transform:uppercase;letter-spacing:.08em;font-size:12px;font-weight:800;transition:.25s;cursor:pointer}.btn:hover{transform:translateY(-2px)}.btn.gold{background:linear-gradient(135deg,var(--gold),var(--gold2));color:var(--brown);box-shadow:0 14px 40px rgba(198,166,106,.22)}.btn.out{color:var(--gold2);background:rgba(255,255,255,.04)}.hero{position:relative;min-height:100vh;padding:128px 0 74px;color:var(--ivory);background:var(--deep);overflow:hidden}.hero-video-wrap{position:absolute;inset:0;z-index:0;overflow:hidden;background:linear-gradient(152deg,#130906,#24130D 48%,#160B07)}.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;filter:brightness(.34) contrast(1.06) saturate(.9);transform:scale(1.04);pointer-events:none}.hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(19,9,6,.90) 0%,rgba(19,9,6,.66) 34%,rgba(19,9,6,.32) 52%,rgba(19,9,6,.70) 100%),linear-gradient(180deg,rgba(19,9,6,.48) 0%,rgba(19,9,6,.16) 30%,rgba(19,9,6,.68) 100%)}.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.08fr .82fr;gap:62px;align-items:center}.hero-copy{padding-top:28px}.badge{display:inline-flex;gap:10px;align-items:center;border:1px solid rgba(198,166,106,.28);padding:8px 14px;color:var(--gold2);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;background:rgba(19,9,6,.42);margin-bottom:18px}.badge:before{content:'';width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 14px var(--gold)}h1{font-family:var(--serif);font-size:clamp(50px,7.4vw,88px);font-weight:300;line-height:.95;letter-spacing:-.035em;background:linear-gradient(135deg,#fff,#F3E9D0 28%,#C6A66A 55%,#fff);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:24px}h1 em{display:block;font-size:.50em;color:var(--gold2);-webkit-text-fill-color:var(--gold2)}.lead{max-width:760px;color:#fffdf8d6;font-size:clamp(17px,2vw,21px);font-weight:300;margin-bottom:30px}.hero-actions{display:flex;gap:14px;flex-wrap:wrap}.hero-note{margin-top:24px;color:#fffdf890;font-size:13px;max-width:620px}.hero-card{border:1px solid rgba(198,166,106,.18);background:rgba(19,9,6,.44);backdrop-filter:blur(13px);padding:16px;box-shadow:0 26px 80px rgba(0,0,0,.28)}.hero-card-in{border:1px solid rgba(198,166,106,.14);background:rgba(255,255,255,.035);padding:24px}.portrait{aspect-ratio:4/5;object-fit:cover;object-position:center top;width:100%;border:1px solid rgba(198,166,106,.22);box-shadow:0 20px 60px rgba(0,0,0,.26)}.hero-card h2{font-family:var(--serif);font-size:34px;font-weight:400;color:#fff;margin-top:20px;line-height:1}.hero-card p{color:#fffdf8b8;font-size:14px;margin-top:10px}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.chip{border:1px solid rgba(198,166,106,.24);color:var(--gold2);padding:7px 10px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;background:rgba(198,166,106,.06)}section{padding:92px 0}.head{text-align:center;max-width:860px;margin:0 auto 48px}.label{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}.title{font-family:var(--serif);font-size:clamp(38px,5vw,58px);font-weight:300;line-height:1.08;color:var(--brown);margin:12px 0}.sub{color:var(--muted);font-size:17px;font-weight:300}.about{background:linear-gradient(135deg,var(--cream),#F8F5F0 52%,#fff)}.about-grid{display:grid;grid-template-columns:.84fr 1.16fr;gap:58px;align-items:center}.photo{position:relative;max-width:430px;margin:auto}.photo:before{content:'';position:absolute;inset:-18px 18px 18px -18px;border:1px solid rgba(198,166,106,.56)}.photo img{position:relative;width:100%;aspect-ratio:1/1.12;object-fit:cover;object-position:center top;box-shadow:0 24px 70px rgba(36,19,13,.16);border:1px solid rgba(198,166,106,.18)}.about h2{font-family:var(--serif);font-size:54px;font-weight:300;color:var(--brown);line-height:1}.role{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:12px 0 24px}.about p{color:var(--muted);font-size:16px;margin-top:14px}.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.meta div{border:1px solid rgba(198,166,106,.18);background:rgba(255,253,248,.65);padding:15px}.meta b{display:block;font-size:12px;color:var(--brown);text-transform:uppercase;letter-spacing:.08em}.meta span{display:block;margin-top:4px;color:var(--muted);font-size:13px}.areas{background:linear-gradient(180deg,#FFFDF8,#F6F0E7 58%,#FFFDF8)}.areas-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.area-card{background:rgba(255,253,248,.96);border:1px solid rgba(198,166,106,.18);box-shadow:0 10px 32px rgba(36,19,13,.06);transition:.3s;min-height:340px;overflow:hidden}.area-card:hover{transform:translateY(-8px);box-shadow:0 24px 70px rgba(36,19,13,.14);border-color:rgba(198,166,106,.44)}.area-card summary{list-style:none;cursor:pointer;padding:28px 24px}.area-card summary::-webkit-details-marker{display:none}.area-number{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.area-card h3{font-family:var(--serif);font-size:31px;font-weight:500;color:var(--brown);line-height:1.05;margin:16px 0 12px}.area-card p{color:var(--muted);font-size:14px}.area-open{border-top:1px solid rgba(198,166,106,.16);background:rgba(246,240,231,.65);padding:22px 24px}.area-open b{display:block;color:var(--brown);font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}.area-open ul{margin-left:17px;color:var(--muted);font-size:14px}.area-open li{margin:4px 0}.area-card[open]{border-color:rgba(198,166,106,.48)}.differentials{background:var(--ivory);border-top:1px solid rgba(198,166,106,.12)}.diff-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.diff{border:1px solid rgba(198,166,106,.18);background:var(--paper);padding:24px 18px;min-height:150px}.diff b{font-family:var(--serif);font-size:25px;font-weight:500;color:var(--brown);line-height:1.08}.diff p{color:var(--muted);font-size:13px;margin-top:10px}.impact{position:relative;background:linear-gradient(160deg,var(--brown),var(--mid) 52%,#1A0B07);color:var(--ivory);text-align:center;overflow:hidden}.impact:before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(198,166,106,.16),transparent 45%)}.impact .wrap{position:relative}.impact blockquote{font-family:var(--serif);font-size:clamp(36px,5vw,62px);line-height:1.05;font-weight:300;color:#fff;margin:auto;max-width:960px}.impact p{color:var(--gold2);margin-top:18px;letter-spacing:.06em;text-transform:uppercase;font-size:12px;font-weight:800}.process{background:linear-gradient(180deg,var(--cream),#F8F5F0)}.process-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:54px;align-items:start}.process-intro{position:sticky;top:105px}.steps{counter-reset:steps;display:grid;gap:15px}.step{counter-increment:steps;background:var(--ivory);border:1px solid rgba(198,166,106,.18);padding:24px 24px 24px 76px;position:relative;box-shadow:0 10px 32px rgba(36,19,13,.055)}.step:before{content:counter(steps,decimal-leading-zero);position:absolute;left:24px;top:24px;width:36px;height:36px;display:grid;place-items:center;border-radius:50%;border:1px solid rgba(198,166,106,.62);color:var(--gold);background:var(--cream);font-size:11px;font-weight:800}.step h3{font-family:var(--serif);font-size:26px;font-weight:500;color:var(--brown);line-height:1.12;margin-bottom:6px}.step p{color:var(--muted);font-size:15px}.insights{background:var(--ivory);border-top:1px solid rgba(198,166,106,.12)}.insights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.insight{background:rgba(255,253,248,.94);border:1px solid rgba(198,166,106,.18);padding:28px 22px;box-shadow:0 10px 32px rgba(36,19,13,.06);min-height:245px}.insight-tag{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}.insight h3{font-family:var(--serif);font-size:27px;font-weight:500;color:var(--brown);line-height:1.08;margin-bottom:12px}.insight p{color:var(--muted);font-size:14px}.insight small{display:block;margin-top:18px;color:#9a8a7d;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.contact{background:linear-gradient(170deg,var(--mid),var(--brown) 50%,var(--deep));color:var(--ivory)}.contact .title{color:var(--ivory)}.contact .sub{color:#fffdf8b8}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}.contact-card{border:1px solid rgba(198,166,106,.22);background:rgba(255,255,255,.045);padding:28px}.contact-card h3{font-family:var(--serif);font-size:34px;font-weight:400;color:#fff;line-height:1;margin-bottom:12px}.contact-card p,.contact-card li{color:#fffdf8ba;font-size:14px}.contact-card ul{margin:18px 0 0 18px}.social{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}.social a{border:1px solid rgba(198,166,106,.28);color:var(--gold2);padding:12px 16px}.form{display:grid;gap:12px}.form input,.form select,.form textarea{width:100%;border:1px solid rgba(198,166,106,.22);background:rgba(255,253,248,.96);padding:14px;font-family:var(--sans);color:var(--text);font-size:14px}.form textarea{min-height:130px;resize:vertical}.form small{color:#fffdf888;font-size:12px}footer{background:#100704;color:#fffdf88f;padding:44px 0 26px}footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}footer h3{font-family:var(--serif);font-size:26px;color:var(--gold2);font-weight:500}.ot-signature{width:100%;margin-top:26px;padding-top:22px;border-top:1px solid rgba(198,166,106,.12);display:flex;justify-content:center}.ot-signature a{display:inline-flex;align-items:center;gap:12px;padding:12px 16px;border:1px solid rgba(198,166,106,.22);background:rgba(255,255,255,.035);color:var(--gold2);transition:.25s}.ot-signature a:hover{transform:translateY(-2px);border-color:rgba(198,166,106,.55);background:rgba(198,166,106,.07)}.ot-mark{width:36px;height:36px;border:1px solid rgba(198,166,106,.55);display:grid;place-items:center;font-family:var(--serif);font-size:18px;line-height:1;color:var(--gold2);letter-spacing:.04em}.ot-copy{display:grid;line-height:1.15;text-align:left}.ot-copy small{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#fffdf880}.ot-copy strong{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold2)}.float{position:fixed;right:22px;bottom:22px;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--whats);z-index:40;box-shadow:0 16px 40px rgba(37,211,102,.34)}.float img{width:34px;height:34px}@media(max-width:1120px){.nav{gap:12px}.nav a{font-size:12px}.hero-grid,.about-grid,.process-grid,.contact-grid{grid-template-columns:1fr}.hero-card{max-width:520px}.areas-grid{grid-template-columns:repeat(2,1fr)}.diff-grid{grid-template-columns:repeat(2,1fr)}.insights-grid{grid-template-columns:1fr}.process-intro{position:static}.meta{grid-template-columns:1fr}}@media(max-width:850px){.nav{display:none}.brand b{font-size:17px}.hero{min-height:auto;padding:116px 0 60px}.hero-copy{padding-top:0}.hero-card{display:none}.hero-actions{flex-direction:column}.btn{width:100%}.areas-grid,.diff-grid{grid-template-columns:1fr}.area-card{min-height:auto}section{padding:72px 0}.impact blockquote{font-size:36px}.ot-signature{justify-content:flex-start}.ot-signature a{width:100%;justify-content:center}}
+
+/* === OLEGARIO TECH / HIPÁSIA — LAPIDAÇÃO PREMIUM FINAL === */
+:root{--ease:cubic-bezier(.16,1,.3,1);--ease2:cubic-bezier(.25,1,.5,1)}
+::selection{background:rgba(198,166,106,.25);color:var(--deep)}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.top{transition:height .45s var(--ease),background .45s var(--ease),border-color .45s var(--ease),box-shadow .45s var(--ease)}
+.top.scrolled{height:64px;background:rgba(19,9,6,.98);border-bottom-color:rgba(198,166,106,.26);box-shadow:0 14px 38px rgba(0,0,0,.18)}
+.nav a:not(.btn){position:relative;padding:8px 0;transition:color .35s var(--ease)}
+.nav a:not(.btn):after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.nav a:not(.btn):hover{color:var(--gold2)}
+.nav a:not(.btn):hover:after{transform:scaleX(1);transform-origin:left}
+.mobile-toggle{display:none;flex-direction:column;justify-content:center;gap:5px;width:42px;height:42px;border:1px solid rgba(198,166,106,.28);background:rgba(255,255,255,.035);cursor:pointer}
+.mobile-toggle span{display:block;width:20px;height:1.5px;background:var(--gold2);margin:auto;transition:transform .35s var(--ease),opacity .25s var(--ease)}
+.mobile-toggle.active span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.mobile-toggle.active span:nth-child(2){opacity:0}
+.mobile-toggle.active span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.btn{position:relative;overflow:hidden;border-radius:0;transition:transform .42s var(--ease),box-shadow .42s var(--ease),border-color .42s var(--ease),background .42s var(--ease)}
+.btn.gold{box-shadow:0 16px 46px rgba(198,166,106,.26), inset 0 1px 0 rgba(255,255,255,.18)}
+.btn.gold:hover{box-shadow:0 22px 62px rgba(198,166,106,.36),0 0 60px rgba(198,166,106,.10), inset 0 1px 0 rgba(255,255,255,.25)}
+.btn.out:hover{border-color:rgba(198,166,106,.72);background:rgba(198,166,106,.08);box-shadow:0 14px 44px rgba(0,0,0,.18),0 0 42px rgba(198,166,106,.08)}
+.hero:after{content:"";position:absolute;inset:-35%;z-index:1;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");background-size:256px 256px;opacity:.032;pointer-events:none;animation:grainDrift 7s steps(8) infinite}
+@keyframes grainDrift{0%,100%{transform:translate(0,0)}20%{transform:translate(-1.5%,-1%)}40%{transform:translate(1%,1.5%)}60%{transform:translate(-1%,1%)}80%{transform:translate(1.5%,-1.5%)}}
+.hero-video{transition:transform .2s linear}
+.hero-card{position:relative;overflow:visible;transition:transform .55s var(--ease),border-color .55s var(--ease),box-shadow .55s var(--ease),background .55s var(--ease);background:rgba(19,9,6,.50);backdrop-filter:blur(22px) saturate(1.12);-webkit-backdrop-filter:blur(22px) saturate(1.12)}
+.hero-card:hover{transform:translateY(-5px);border-color:rgba(198,166,106,.44);box-shadow:0 34px 90px rgba(0,0,0,.36),0 0 58px rgba(198,166,106,.08)}
+.signature-aura{position:absolute;inset:-68px -42px auto -42px;height:260px;z-index:0;opacity:.19;pointer-events:none;mix-blend-mode:screen;filter:saturate(.95) contrast(1.08)}
+.signature-aura video{width:100%;height:100%;object-fit:contain}
+.signature-aura:after{content:"";position:absolute;inset:20px;background:radial-gradient(ellipse at 50% 50%,rgba(198,166,106,.24) 0%,rgba(198,166,106,.08) 35%,transparent 70%);animation:auraPulse 6.5s ease-in-out infinite}
+@keyframes auraPulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:.95;transform:scale(1.045)}}
+.hero-card-in{position:relative;z-index:1;overflow:hidden}
+.hero-card-in:before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(198,166,106,.45),transparent)}
+.portrait{transition:filter .55s var(--ease),transform .55s var(--ease),border-color .55s var(--ease)}
+.hero-card:hover .portrait{filter:contrast(1.05) saturate(.96);transform:scale(1.012);border-color:rgba(198,166,106,.42)}
+.area-card,.diff,.insight,.step,.contact-card,.meta div{transition:transform .48s var(--ease),box-shadow .48s var(--ease),border-color .48s var(--ease),background .48s var(--ease)}
+.area-card,.diff,.insight{position:relative}
+.area-card:before,.diff:before,.insight:before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transition:transform .7s var(--ease)}
+.area-card:hover:before,.diff:hover:before,.insight:hover:before{transform:scaleX(1)}
+.diff:hover,.insight:hover,.step:hover,.contact-card:hover,.meta div:hover{transform:translateY(-4px);border-color:rgba(198,166,106,.38);box-shadow:0 18px 54px rgba(36,19,13,.09)}
+.area-card summary{position:relative;padding-right:48px}
+.area-card summary:after{content:"+";position:absolute;right:22px;top:26px;width:28px;height:28px;display:grid;place-items:center;border:1px solid rgba(198,166,106,.34);color:var(--gold);font-weight:700;transition:transform .35s var(--ease),background .35s var(--ease)}
+.area-card[open] summary:after{content:"–";background:rgba(198,166,106,.10)}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.reveal.in{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-28px);transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.reveal-left.in{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(28px);transition:opacity .85s var(--ease),transform .85s var(--ease)}
+.reveal-right.in{opacity:1;transform:translateX(0)}
+@media(max-width:850px){
+  .mobile-toggle{display:flex}
+  .top{height:72px}
+  .top .wrap{position:relative}
+  .nav{position:absolute;top:72px;left:0;right:0;display:grid;gap:0;background:rgba(19,9,6,.985);border:1px solid rgba(198,166,106,.16);border-top:0;padding:14px;box-shadow:0 24px 60px rgba(0,0,0,.25);opacity:0;visibility:hidden;transform:translateY(-10px);transition:opacity .32s var(--ease),visibility .32s var(--ease),transform .32s var(--ease)}
+  .nav.active{display:grid;opacity:1;visibility:visible;transform:translateY(0)}
+  .nav a{padding:14px 8px;border-bottom:1px solid rgba(198,166,106,.10);font-size:14px}
+  .nav .btn{margin-top:12px;width:100%;border-bottom:1px solid rgba(198,166,106,.45)}
+  .brand img{width:46px;height:46px}
+  .brand small{font-size:9px}
+  .hero-grid{gap:34px}
+  .hero-card{display:block;margin-top:10px;max-width:430px;width:100%}
+  .signature-aura{height:210px;inset:-54px -28px auto -28px;opacity:.14}
+  .hero-card-in{padding:18px}
+  .hero-card h2{font-size:28px}
+  .portrait{max-height:460px}
+}
+@media(max-width:520px){
+  .wrap{width:min(100% - 24px,1180px)}
+  h1{font-size:39px;line-height:1}
+  h1 em{font-size:.48em;margin-top:10px}
+  .lead{font-size:16px}
+  .photo:before{inset:-10px 10px 10px -10px}
+  .hero-card{max-width:360px}
+  .signature-aura{display:none}
+  .float{width:56px;height:56px;right:16px;bottom:16px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal,.reveal-left,.reveal-right{opacity:1!important;transform:none!important}
+  .hero-video{transform:none!important}
+}
+
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="#hero"><img src="assetslogo-cintia-oficial.png" alt="Logotipo Cíntia Almeida Gomes Advocacia"><span><b>Cíntia Almeida Gomes</b><small>Advocacia</small></span></a><nav class="nav"><a href="#sobre">Sobre</a><a href="#areas">Áreas</a><a href="#diferenciais">Diferenciais</a><a href="#atendimento">Atendimento</a><a href="#contato">Contato</a><a class="btn js-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a></nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="#hero"><img src="assetslogo-cintia-oficial.png" alt="Logotipo Cíntia Almeida Gomes Advocacia"><span><b>Cíntia Almeida Gomes</b><small>Advocacia</small></span></a><nav class="nav" id="nav"><a href="#sobre">Sobre</a><a href="#areas">Áreas</a><a href="#diferenciais">Diferenciais</a><a href="#atendimento">Atendimento</a><a href="#contato">Contato</a><a class="btn js-wa" target="_blank" rel="noopener noreferrer">WhatsApp</a></nav><button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button></div></header>
 <main>
-<section class="hero" id="hero"><div class="hero-video-wrap"><video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="cintia-logo-hero-poster.jpg"><source src="cintia-logo-hero-site.mp4" type="video/mp4"></video><div class="hero-overlay"></div></div><div class="wrap hero-grid"><div class="hero-copy"><div class="badge">Advogada</div><h1>Advocacia estratégica e humanizada <em>para proteger seus direitos com segurança e acolhimento.</em></h1><p class="lead">Atuação em Direito de Família, Direito Civil, Direito do Consumidor, Direito Imobiliário e Locação de Imóveis.</p><div class="hero-actions"><a class="btn gold" href="#areas">Conhecer áreas de atuação</a><a class="btn out js-wa" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a></div><p class="hero-note">Atendimento jurídico com técnica, sensibilidade e análise individualizada para cada demanda apresentada.</p></div><aside class="hero-card"><div class="hero-card-in"><img class="portrait" src="assetsdra-cintia-retrato.png.jpeg?v=20260528b" alt="Dra. Cíntia Pereira Almeida Gomes"><h2>Cíntia Pereira Almeida Gomes</h2><p>Advogada com atuação voltada à condução estratégica e responsável de demandas familiares, cíveis, consumeristas e imobiliárias.</p><div class="chips"><span class="chip">Família</span><span class="chip">Civil</span><span class="chip">Consumidor</span><span class="chip">Imobiliário</span><span class="chip">Locação</span></div></div></aside></div></section>
+<section class="hero" id="hero"><div class="hero-video-wrap"><video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="cintia-logo-hero-poster.jpg"><source src="cintia-logo-hero-site.mp4" type="video/mp4"></video><div class="hero-overlay"></div></div><div class="wrap hero-grid"><div class="hero-copy"><div class="badge">Advogada</div><h1>Advocacia estratégica e humanizada <em>para proteger seus direitos com segurança e acolhimento.</em></h1><p class="lead">Atuação em Direito de Família, Direito Civil, Direito do Consumidor, Direito Imobiliário e Locação de Imóveis.</p><div class="hero-actions"><a class="btn gold" href="#areas">Conhecer áreas de atuação</a><a class="btn out js-wa" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a></div><p class="hero-note">Atendimento jurídico com técnica, sensibilidade e análise individualizada para cada demanda apresentada.</p></div><aside class="hero-card"><div class="signature-aura" aria-hidden="true"><video autoplay muted loop playsinline preload="none" poster="cintia-logo-hero-poster.jpg"><source src="cintia-logo-hero-site.mp4" type="video/mp4"></video></div><div class="hero-card-in"><img class="portrait" src="assetsdra-cintia-retrato.png.jpeg?v=20260528b" alt="Dra. Cíntia Pereira Almeida Gomes"><h2>Cíntia Pereira Almeida Gomes</h2><p>Advogada com atuação voltada à condução estratégica e responsável de demandas familiares, cíveis, consumeristas e imobiliárias.</p><div class="chips"><span class="chip">Família</span><span class="chip">Civil</span><span class="chip">Consumidor</span><span class="chip">Imobiliário</span><span class="chip">Locação</span></div></div></aside></div></section>
 <section class="about" id="sobre"><div class="wrap about-grid"><div class="photo"><img src="assetsdra-cintia-retrato.png.jpeg?v=20260528b" alt="Dra. Cíntia Pereira Almeida Gomes"></div><div><span class="label">Sobre</span><h2>Cíntia Pereira Almeida Gomes</h2><div class="role">Advogada</div><p>Sou advogada atuante nas áreas de Direito de Família, Direito Civil, Direito do Consumidor e Direito Imobiliário, oferecendo atendimento humanizado, estratégico e comprometido com a busca das melhores soluções jurídicas para cada cliente.</p><p>Cada demanda é conduzida com ética, responsabilidade e atenção individualizada, sempre priorizando segurança jurídica, acolhimento e transparência.</p><p><strong>“Cada cliente possui uma história única, e cada caso merece atenção individualizada.”</strong></p><div class="meta"><div><b>Atuação</b><span>Família, Civil, Consumidor e Imobiliário</span></div><div><b>Atendimento</b><span>Online e presencial</span></div><div><b>Contato</b><span>WhatsApp e canais oficiais</span></div></div></div></div></section>
 <section class="areas" id="areas"><div class="wrap"><div class="head"><span class="label">Áreas de atuação</span><h2 class="title">Orientação jurídica clara para decisões importantes</h2><p class="sub">Conheça as principais áreas de atuação do escritório. Clique nos cards para entender, de forma objetiva, quais situações costumam exigir análise jurídica.</p></div><div class="areas-grid"><details class="area-card" open><summary><span class="area-number">01</span><h3>Direito de Família</h3><p>Assessoria jurídica em conflitos familiares, com atuação estratégica e humanizada em divórcios, guarda, alimentos e convivência familiar.</p></summary><div class="area-open"><b>Demandas comuns</b><ul><li>Divórcio e dissolução de união estável</li><li>Guarda e convivência familiar</li><li>Pensão alimentícia</li><li>Acordos e reorganização familiar</li></ul></div></details><details class="area-card"><summary><span class="area-number">02</span><h3>Direito Imobiliário e Locação</h3><p>Atuação estratégica em locações imobiliárias, contratos, inadimplência, despejo e conflitos patrimoniais, com atendimento personalizado e foco na prevenção de litígios.</p></summary><div class="area-open"><b>Demandas comuns</b><ul><li>Contratos de locação</li><li>Cobranças de aluguéis e encargos</li><li>Rescisão e despejo</li><li>Conflitos entre locador e locatário</li></ul></div></details><details class="area-card"><summary><span class="area-number">03</span><h3>Direito do Consumidor</h3><p>Atuação na proteção dos direitos do consumidor, buscando soluções responsáveis em conflitos decorrentes das relações de consumo.</p></summary><div class="area-open"><b>Demandas comuns</b><ul><li>Cobranças indevidas</li><li>Negativação indevida</li><li>Falha na prestação de serviços</li><li>Pedidos de reparação e indenização</li></ul></div></details><details class="area-card"><summary><span class="area-number">04</span><h3>Direito Civil</h3><p>Atuação consultiva e contenciosa em demandas cíveis, contratos, responsabilidade civil e indenizações.</p></summary><div class="area-open"><b>Demandas comuns</b><ul><li>Contratos e obrigações</li><li>Responsabilidade civil</li><li>Danos materiais e morais</li><li>Demandas cíveis em geral</li></ul></div></details></div></div></section>
 <section class="differentials" id="diferenciais"><div class="wrap"><div class="head"><span class="label">Diferenciais</span><h2 class="title">Compromisso com um atendimento humanizado e estratégico</h2><p class="sub">A atuação do escritório busca unir clareza, técnica e acolhimento para que o cliente compreenda melhor o cenário jurídico e seus próximos passos.</p></div><div class="diff-grid"><article class="diff"><b>Atendimento personalizado</b><p>Cada caso é analisado de acordo com sua própria realidade, contexto e documentação.</p></article><article class="diff"><b>Ética e transparência</b><p>Comunicação responsável, clara e alinhada aos limites éticos da advocacia.</p></article><article class="diff"><b>Estratégia individualizada</b><p>A condução jurídica considera riscos, possibilidades e caminhos adequados a cada demanda.</p></article><article class="diff"><b>Comunicação clara</b><p>Explicações objetivas para facilitar a compreensão do cliente em cada etapa.</p></article><article class="diff"><b>Online e presencial</b><p>Atendimento adaptado à necessidade do caso e à melhor forma de comunicação com o cliente.</p></article></div></div></section>
@@ -28,6 +108,87 @@
 </main>
 <footer><div class="wrap"><div><h3>Cíntia Almeida Gomes Advocacia</h3><p>Cíntia Pereira Almeida Gomes<br>Advogada<br>WhatsApp: (19) 99880-8725<br>E-mail: cintiapalmeida@adv.oabsp.org.br</p></div><p>As informações deste site possuem caráter exclusivamente informativo e não substituem consulta jurídica individualizada.</p><div class="ot-signature"><a href="https://olegariotech.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Site desenvolvido por Olegario Tech"><span class="ot-mark">OT</span><span class="ot-copy"><small>Desenvolvido por</small><strong>Olegario Tech</strong></span></a></div></div></footer>
 <a class="float js-wa" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp"><img src="whatsapp.svg" alt="WhatsApp"></a>
-<script>const msg='Olá, Dra. Cíntia. Vim pelo site e gostaria de solicitar atendimento jurídico.';document.querySelectorAll('.js-wa').forEach(a=>a.href='https://wa.me/5519998808725?text='+encodeURIComponent(msg));document.querySelectorAll('.area-card').forEach(card=>card.addEventListener('toggle',()=>{if(card.open){document.querySelectorAll('.area-card').forEach(other=>{if(other!==card)other.open=false})}}));</script>
+<script>
+(function(){
+  const msg='Olá, Dra. Cíntia. Vim pelo site e gostaria de solicitar atendimento jurídico.';
+  document.querySelectorAll('.js-wa').forEach(a=>a.href='https://wa.me/5519998808725?text='+encodeURIComponent(msg));
+
+  document.querySelectorAll('.area-card').forEach(card=>{
+    card.addEventListener('toggle',()=>{
+      if(card.open){
+        document.querySelectorAll('.area-card').forEach(other=>{if(other!==card)other.open=false});
+      }
+    });
+  });
+
+  const header=document.querySelector('.top');
+  const onScroll=()=>{ if(header){ header.classList.toggle('scrolled', window.scrollY>46); } };
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+
+  const nav=document.getElementById('nav');
+  const toggle=document.getElementById('mobileToggle');
+  if(nav && toggle){
+    toggle.addEventListener('click',()=>{
+      const open=nav.classList.toggle('active');
+      toggle.classList.toggle('active',open);
+      toggle.setAttribute('aria-expanded',String(open));
+    });
+    nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{
+      nav.classList.remove('active');
+      toggle.classList.remove('active');
+      toggle.setAttribute('aria-expanded','false');
+    }));
+  }
+
+  const revealGroups=[
+    ['.hero-copy','reveal-left'],
+    ['.hero-card','reveal-right'],
+    ['.about .photo','reveal-left'],
+    ['.about-grid > div:last-child','reveal-right'],
+    ['.head','reveal'],
+    ['.area-card','reveal'],
+    ['.diff','reveal'],
+    ['.impact blockquote','reveal'],
+    ['.impact p','reveal'],
+    ['.process-intro','reveal-left'],
+    ['.step','reveal'],
+    ['.insight','reveal'],
+    ['.contact-card','reveal']
+  ];
+  revealGroups.forEach(([selector,klass])=>{
+    document.querySelectorAll(selector).forEach((el,i)=>{
+      el.classList.add(klass);
+      el.style.transitionDelay = Math.min(i*70, 360)+'ms';
+    });
+  });
+
+  if('IntersectionObserver' in window){
+    const io=new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>io.observe(el));
+  }else{
+    document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>el.classList.add('in'));
+  }
+
+  const heroVideo=document.querySelector('.hero-video');
+  const hero=document.querySelector('.hero');
+  let ticking=false;
+  function parallax(){
+    if(heroVideo && hero && window.innerWidth>850){
+      const y=window.scrollY;
+      const h=hero.offsetHeight;
+      if(y<h){ heroVideo.style.transform='translateY('+(y*.06)+'px) scale(1.055)'; }
+    }
+    ticking=false;
+  }
+  window.addEventListener('scroll',()=>{ if(!ticking){ requestAnimationFrame(parallax); ticking=true; } },{passive:true});
+})();
+</script>
 </body>
 </html>
