@@ -1,0 +1,24 @@
+name: Footer clickable links
+
+on:
+  push:
+    paths:
+      - '.github/workflows/footer-links.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-footer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Atualizar rodapé
+        run: python scripts/footer_links.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "fix: torna WhatsApp e e-mail clicáveis no rodapé"
+          git push
