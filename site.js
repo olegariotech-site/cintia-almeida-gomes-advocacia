@@ -54,7 +54,7 @@
       fallback.querySelector('a').textContent = 'solicitar atendimento diretamente pelo WhatsApp';
       status.textContent = '';
     });
-    // With JS absent or unparseable, disabled fields + method=dialog cannot leak a GET URL.
+    // Enable only after submit is intercepted. Without JS, only the direct contact link is available.
     fields.disabled = false;
   });
 
