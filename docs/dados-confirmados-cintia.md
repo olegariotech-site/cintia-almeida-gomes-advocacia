@@ -70,16 +70,17 @@ Direção de texto aprovada para o site:
 
 A frase foi aprovada pela Cíntia e foi implementada no `index.html` como assinatura narrativa do Signature Motion.
 
-## Contatos
-- E-mail confirmado: cintiapalmeida@adv.oabsp.org.br
-- WhatsApp profissional: número anteriormente informado existe, porém não está sendo usado no momento por ainda não estar configurado no WhatsApp Business. **Não publicar/forçar CTA para este número até confirmação final.**
-- Instagram: manter o perfil pessoal já utilizado, mas falta confirmar o link exato a ser publicado.
-- LinkedIn confirmado: https://www.linkedin.com/in/cintia-almeida-gomes-768b401a3
+## Contatos confirmados
+- WhatsApp: (19) 99880-8725
+- E-mail: cintiapalmeida@adv.oabsp.org.br
+- Instagram: https://www.instagram.com/cintiap.almeida?utm_source=qr&igsh=bW0zMzU2emk2azdz
+- LinkedIn: https://www.linkedin.com/in/cintia-almeida-gomes-768b401a3
 
 ## Fluxo de primeiro contato
 - Manter pedido de breve resumo inicial do caso.
 - Prazo de até 24h: autorizado pela cliente.
-- Enquanto o WhatsApp profissional não estiver confirmado, o formulário usa temporariamente o e-mail profissional confirmado e não aponta para o número antigo.
+- Formulário do site monta mensagem estruturada e abre o WhatsApp oficial.
+- Botão flutuante e links de WhatsApp usam o número confirmado.
 
 ## Imagens
 - Uso de foto e identidade visual autorizado.
@@ -88,7 +89,5 @@ A frase foi aprovada pela Cíntia e foi implementada no `index.html` como assina
 ## Pendências antes da publicação definitiva
 1. confirmar grafia oficial do nome profissional (Almeida x Allmeida);
 2. confirmar grafia/endereço completo e CEP;
-3. confirmar número definitivo do WhatsApp Business;
-4. confirmar URL exata do Instagram pessoal;
-5. receber e selecionar novas fotos;
-6. definir o domínio `.com.br`.
+3. receber e selecionar novas fotos;
+4. definir o domínio `.com.br`.
