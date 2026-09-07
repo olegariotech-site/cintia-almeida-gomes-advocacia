@@ -17,9 +17,9 @@ Este projeto usa **100% GitHub + GitHub Pages**.
 
 ## Status da finalização
 
-A evolução visual **Signature Motion** está em revisão no PR #3.
+A evolução visual **Signature Motion** já está publicada na `main`.
 
-Dados profissionais já incorporados na branch:
+Dados profissionais incorporados:
 - Cíntia Pereira Almeida Gomes;
 - OAB/SP 541.172;
 - Valinhos/SP e região de Campinas;
@@ -28,13 +28,15 @@ Dados profissionais já incorporados na branch:
 - pós-graduação em Direito de Família, Direito Processual Civil e Direito Imobiliário;
 - foco em Família, Imobiliário, Civil, Contratos e Direito Condominial;
 - locações de imóveis e assessoria a síndicos e administradoras;
+- WhatsApp confirmado: (19) 99880-8725;
+- Instagram pessoal confirmado;
 - LinkedIn confirmado.
 
 Assinatura narrativa aprovada pela cliente:
 
 > Experiência prática para compreender. Estratégia jurídica para orientar. Proximidade para conduzir.
 
-Enquanto o WhatsApp Business profissional não estiver confirmado, o preview não aponta para o número antigo. O formulário usa temporariamente o e-mail profissional confirmado.
+O formulário monta uma mensagem estruturada e abre o WhatsApp oficial. O site não depende de backend ou serviço externo de formulário.
 
 Os dados detalhados estão em `docs/dados-confirmados-cintia.md`.
 
@@ -53,11 +55,9 @@ Quando o domínio definitivo for confirmado:
 
 - confirmar grafia exata do nome (`Almeida` x `Allmeida`);
 - confirmar grafia do endereço e CEP;
-- confirmar WhatsApp Business definitivo;
-- confirmar URL exata do Instagram;
 - selecionar as novas fotos da cliente;
 - definir o domínio `.com.br`.
 
 ## Regra de publicação
 
-Nenhum dado profissional, credencial, endereço, domínio ou contato deve ser inventado ou presumido. A `main` só deve receber a versão final após validação visual desktop/mobile e confirmação dos dados pendentes.
+Nenhum dado profissional, credencial, endereço, domínio ou contato deve ser inventado ou presumido. Alterações visuais finais devem passar por validação desktop/mobile antes do fechamento definitivo.
