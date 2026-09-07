@@ -68,7 +68,7 @@ Direção de texto aprovada para o site:
 ## Frase de impacto aprovada
 **Experiência prática para compreender. Estratégia jurídica para orientar. Proximidade para conduzir.**
 
-A frase foi aprovada pela Cíntia e passa a ser tratada como assinatura narrativa do projeto Signature Motion.
+A frase foi aprovada pela Cíntia e foi implementada no `index.html` como assinatura narrativa do Signature Motion.
 
 ## Contatos
 - E-mail confirmado: cintiapalmeida@adv.oabsp.org.br
@@ -79,7 +79,7 @@ A frase foi aprovada pela Cíntia e passa a ser tratada como assinatura narrativ
 ## Fluxo de primeiro contato
 - Manter pedido de breve resumo inicial do caso.
 - Prazo de até 24h: autorizado pela cliente.
-- Enquanto o WhatsApp profissional não estiver confirmado, o formulário do preview deve usar um canal confirmado e não pode apontar para o número antigo.
+- Enquanto o WhatsApp profissional não estiver confirmado, o formulário usa temporariamente o e-mail profissional confirmado e não aponta para o número antigo.
 
 ## Imagens
 - Uso de foto e identidade visual autorizado.
@@ -90,4 +90,5 @@ A frase foi aprovada pela Cíntia e passa a ser tratada como assinatura narrativ
 2. confirmar grafia/endereço completo e CEP;
 3. confirmar número definitivo do WhatsApp Business;
 4. confirmar URL exata do Instagram pessoal;
-5. receber e selecionar novas fotos.
+5. receber e selecionar novas fotos;
+6. definir o domínio `.com.br`.
