@@ -344,6 +344,7 @@ footer p a { color: var(--gold2); text-decoration: underline; text-underline-off
   z-index: 4;
 }
 .hero-signature {
+  grid-area: auto;
   position: absolute;
   z-index: 1;
   left: -56px;
