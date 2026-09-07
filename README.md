@@ -4,14 +4,13 @@ Site institucional premium desenvolvido pela **Olegario Tech**.
 
 ## Arquitetura de publicação
 
-Este projeto é **100% GitHub**.
+Este projeto usa o **GitHub como fonte única de verdade e o GitHub Pages como ambiente de publicação**.
 
 - Código e versionamento: GitHub
 - Hospedagem: GitHub Pages
 - Publicação: branch `main`, diretório raiz `/`
 - Formulário de contato: JavaScript → WhatsApp
 - Domínio personalizado: GitHub Pages + DNS do domínio `.com.br`
-- Netlify: **não utilizado**
 
 ## Estrutura de GitHub Pages
 
@@ -38,4 +37,4 @@ Quando o domínio `.com.br` estiver confirmado:
 
 ## Regra OT
 
-Não adicionar dependências de Netlify, Vercel, WordPress ou outros hosts a este projeto sem uma decisão explícita de arquitetura. A fonte de verdade e o ambiente de publicação deste site são o GitHub e o GitHub Pages.
+A fonte de verdade e o ambiente de publicação deste site são o GitHub e o GitHub Pages. Mudanças de infraestrutura devem ser deliberadas e documentadas antes de qualquer alteração no projeto.
