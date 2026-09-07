@@ -38,7 +38,7 @@ Dados profissionais já confirmados pela cliente:
 - possibilidade de atendimento noturno até 21h, sem grade fixa publicada;
 - pós-graduação em Direito de Família, Direito Processual Civil e Direito Imobiliário;
 - ênfase em locações de imóveis, condomínio e assessoria a síndicos e administradoras;
-- LinkedIn profissional/pessoal confirmado para publicação.
+- LinkedIn confirmado para publicação.
 
 Os dados detalhados e pendências estão em `docs/dados-confirmados-cintia.md`.
 
