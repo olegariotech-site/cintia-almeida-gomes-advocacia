@@ -20,7 +20,7 @@ Atualização recebida em 07/09/2026 para finalização do site.
 ## Endereço informado
 Rua Pauo Setúbla, 302, sala 03 — Vila Angeli — Espaço Lacarzi — Valinhos/SP
 
-**Atenção antes da publicação:** confirmar grafia exata do logradouro (provável “Rua Paulo Setúbal”) e, se possível, CEP.
+**Atenção antes da publicação:** confirmar grafia exata do logradouro e, se possível, CEP.
 
 ## Formação / posicionamento profissional
 Não divulgar faculdade.
@@ -43,7 +43,7 @@ Pós-graduações informadas:
 - guarda
 - inventário
 
-### Direito Civil / Imobiliário
+### Direito Civil / Imobiliário / Condominial
 - contratos
 - locações de imóveis
 - responsabilidade civil
@@ -55,6 +55,21 @@ Pós-graduações informadas:
 - Direito Civil
 - Direito Imobiliário e Locação de Imóveis
 
+## Trajetória profissional confirmada
+A Cíntia informou que sua trajetória une experiência prática no mercado imobiliário e atuação jurídica. Esse repertório deve ser usado como diferencial real do posicionamento, especialmente nas relações entre proprietários, locatários, administradoras, síndicos e condomínios.
+
+Direção de texto aprovada para o site:
+- atuação principalmente em Direito de Família, Direito Imobiliário, Direito Civil, Contratos e Direito Condominial;
+- atendimento individualizado, ético e próximo;
+- análise ampla da situação;
+- orientação clara, estratégica e responsável;
+- prioridade, sempre que possível, à prevenção e à resolução adequada dos conflitos.
+
+## Frase de impacto aprovada
+**Experiência prática para compreender. Estratégia jurídica para orientar. Proximidade para conduzir.**
+
+A frase foi aprovada pela Cíntia e passa a ser tratada como assinatura narrativa do projeto Signature Motion.
+
 ## Contatos
 - E-mail confirmado: cintiapalmeida@adv.oabsp.org.br
 - WhatsApp profissional: número anteriormente informado existe, porém não está sendo usado no momento por ainda não estar configurado no WhatsApp Business. **Não publicar/forçar CTA para este número até confirmação final.**
@@ -64,6 +79,7 @@ Pós-graduações informadas:
 ## Fluxo de primeiro contato
 - Manter pedido de breve resumo inicial do caso.
 - Prazo de até 24h: autorizado pela cliente.
+- Enquanto o WhatsApp profissional não estiver confirmado, o formulário do preview deve usar um canal confirmado e não pode apontar para o número antigo.
 
 ## Imagens
 - Uso de foto e identidade visual autorizado.
@@ -74,5 +90,4 @@ Pós-graduações informadas:
 2. confirmar grafia/endereço completo e CEP;
 3. confirmar número definitivo do WhatsApp Business;
 4. confirmar URL exata do Instagram pessoal;
-5. receber e selecionar novas fotos;
-6. receber resposta do item 14 sobre trajetória/forma de atuação, caso ela queira acrescentar algo.
+5. receber e selecionar novas fotos.
