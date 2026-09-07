@@ -9,13 +9,36 @@ Este projeto usa **100% GitHub + GitHub Pages**.
 - Repositório e versionamento: GitHub
 - Hospedagem: GitHub Pages
 - Publicação: branch `main`, diretório raiz `/`
-- Formulário de contato: fluxo em JavaScript para WhatsApp, sem Netlify Forms
 - `.nojekyll`: publicação estática direta
 - `robots.txt` e `sitemap.xml`: incluídos
 - `404.html`: página de erro própria
 - Domínio personalizado: será configurado por `CNAME` somente após definição do `.com.br` oficial
+- Netlify: não utilizado
 
-## Domínio .com.br
+## Status da finalização
+
+A evolução visual **Signature Motion** está em revisão no PR #3.
+
+Dados profissionais já incorporados na branch:
+- Cíntia Pereira Almeida Gomes;
+- OAB/SP 541.172;
+- Valinhos/SP e região de Campinas;
+- atendimento online em todo o Brasil;
+- possibilidade de atendimento noturno até 21h, conforme disponibilidade;
+- pós-graduação em Direito de Família, Direito Processual Civil e Direito Imobiliário;
+- foco em Família, Imobiliário, Civil, Contratos e Direito Condominial;
+- locações de imóveis e assessoria a síndicos e administradoras;
+- LinkedIn confirmado.
+
+Assinatura narrativa aprovada pela cliente:
+
+> Experiência prática para compreender. Estratégia jurídica para orientar. Proximidade para conduzir.
+
+Enquanto o WhatsApp Business profissional não estiver confirmado, o preview não aponta para o número antigo. O formulário usa temporariamente o e-mail profissional confirmado.
+
+Os dados detalhados estão em `docs/dados-confirmados-cintia.md`.
+
+## Domínio `.com.br`
 
 Quando o domínio definitivo for confirmado:
 
@@ -26,29 +49,14 @@ Quando o domínio definitivo for confirmado:
 5. atualizar `canonical`, `og:url`, imagens sociais, `robots.txt`, `sitemap.xml` e links absolutos da página 404;
 6. validar Search Console e Analytics.
 
-## Status da finalização
+## Pendências antes da publicação definitiva
 
-A evolução visual **Signature Motion** está em revisão no PR #3.
-
-Dados profissionais já confirmados pela cliente:
-- OAB/SP 541.172;
-- base em Valinhos/SP;
-- atendimento presencial em Valinhos, região de Campinas e cidades circunvizinhas;
-- atendimento online em todo o Brasil;
-- possibilidade de atendimento noturno até 21h, sem grade fixa publicada;
-- pós-graduação em Direito de Família, Direito Processual Civil e Direito Imobiliário;
-- ênfase em locações de imóveis, condomínio e assessoria a síndicos e administradoras;
-- LinkedIn confirmado para publicação.
-
-Os dados detalhados e pendências estão em `docs/dados-confirmados-cintia.md`.
-
-### Pendências antes da publicação definitiva
-- confirmar grafia exata do nome (Almeida x Allmeida);
+- confirmar grafia exata do nome (`Almeida` x `Allmeida`);
 - confirmar grafia do endereço e CEP;
 - confirmar WhatsApp Business definitivo;
 - confirmar URL exata do Instagram;
-- selecionar novas fotos enviadas pela cliente;
-- receber eventual complemento sobre trajetória/forma de atuação.
+- selecionar as novas fotos da cliente;
+- definir o domínio `.com.br`.
 
 ## Regra de publicação
 
