@@ -1,0 +1,32 @@
+name: Cintia Copy Final
+
+on:
+  push:
+    branches:
+      - cintia-copy-final
+    paths:
+      - 'scripts/cintia_copy_final.py'
+      - '.github/workflows/cintia-copy-final.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aplicar texto aprovado pela cliente
+        run: python scripts/cintia_copy_final.py
+      - name: Validar texto
+        run: |
+          grep -q '1. Foco no equilíbrio de direitos e deveres' index.html
+          grep -q 'direitos e obrigações de locadores e locatários' index.html
+          git diff --check
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "content: aplica texto final aprovado pela Cíntia"
+          git push
