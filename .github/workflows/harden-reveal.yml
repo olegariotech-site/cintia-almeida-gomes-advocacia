@@ -1,0 +1,42 @@
+name: Harden reveal fail-safe
+
+on:
+  push:
+    paths:
+      - '.github/workflows/harden-reveal.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  harden-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tornar reveal fail-safe
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          old_css = ".reveal{opacity:0;transform:translateY(27px);filter:blur(8px);transition:opacity .78s cubic-bezier(.2,.7,.2,1),transform .78s cubic-bezier(.2,.7,.2,1),filter .78s}.reveal.on{opacity:1;transform:none;filter:none}"
+          new_css = ".reveal{opacity:1;transform:none;filter:none}.motion-ready .reveal{opacity:0;transform:translateY(27px);filter:blur(8px);transition:opacity .78s cubic-bezier(.2,.7,.2,1),transform .78s cubic-bezier(.2,.7,.2,1),filter .78s}.motion-ready .reveal.on{opacity:1;transform:none;filter:none}"
+          if old_css not in s:
+              raise SystemExit('CSS de reveal esperado não encontrado')
+          s = s.replace(old_css, new_css, 1)
+
+          old_js = "const reveals=document.querySelectorAll('.reveal');if(reduce)reveals.forEach(e=>e.classList.add('on'));else{const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -8% 0px'});reveals.forEach(e=>io.observe(e))}"
+          new_js = "const reveals=document.querySelectorAll('.reveal');addEventListener('error',()=>root.classList.remove('motion-ready'));if(!reduce&&'IntersectionObserver'in window){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -8% 0px'});root.classList.add('motion-ready');reveals.forEach(e=>io.observe(e))}else reveals.forEach(e=>e.classList.add('on'))"
+          if old_js not in s:
+              raise SystemExit('JS de reveal esperado não encontrado')
+          s = s.replace(old_js, new_js, 1)
+
+          p.write_text(s, encoding='utf-8')
+      - name: Commit do hardening
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "fix: torna animações reveal fail-safe"
+          git push
