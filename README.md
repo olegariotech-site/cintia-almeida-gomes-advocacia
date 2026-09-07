@@ -2,39 +2,54 @@
 
 Site institucional premium desenvolvido pela **Olegario Tech**.
 
-## Arquitetura de publicação
+## Infraestrutura
 
-Este projeto usa o **GitHub como fonte única de verdade e o GitHub Pages como ambiente de publicação**.
+Este projeto usa **100% GitHub + GitHub Pages**.
 
-- Código e versionamento: GitHub
+- Repositório e versionamento: GitHub
 - Hospedagem: GitHub Pages
 - Publicação: branch `main`, diretório raiz `/`
-- Formulário de contato: JavaScript → WhatsApp
-- Domínio personalizado: GitHub Pages + DNS do domínio `.com.br`
+- Formulário de contato: fluxo em JavaScript para WhatsApp, sem Netlify Forms
+- `.nojekyll`: publicação estática direta
+- `robots.txt` e `sitemap.xml`: incluídos
+- `404.html`: página de erro própria
+- Domínio personalizado: será configurado por `CNAME` somente após definição do `.com.br` oficial
 
-## Estrutura de GitHub Pages
+## Domínio .com.br
 
-- `index.html` — aplicação/site principal
-- `.nojekyll` — publicação estática direta, sem processamento Jekyll
-- `robots.txt` — regras para mecanismos de busca
-- `sitemap.xml` — sitemap do endereço publicado
-- `404.html` — página de erro do GitHub Pages
-- assets de imagem, vídeo e WhatsApp na raiz do projeto
+Quando o domínio definitivo for confirmado:
 
-## Domínio personalizado
+1. criar arquivo `CNAME` com o domínio oficial;
+2. configurar DNS para GitHub Pages no provedor do domínio;
+3. configurar o domínio em Settings > Pages no GitHub;
+4. habilitar HTTPS;
+5. atualizar `canonical`, `og:url`, imagens sociais, `robots.txt`, `sitemap.xml` e links absolutos da página 404;
+6. validar Search Console e Analytics.
 
-O arquivo `CNAME` **não deve ser criado antes da definição e registro do domínio oficial**.
+## Status da finalização
 
-Quando o domínio `.com.br` estiver confirmado:
+A evolução visual **Signature Motion** está em revisão no PR #3.
 
-1. configurar o domínio personalizado no GitHub Pages;
-2. criar `CNAME` com o domínio definitivo;
-3. configurar DNS no registrador/provedor;
-4. ativar HTTPS no GitHub Pages;
-5. substituir as URLs provisórias `olegariotech-site.github.io/cintia-almeida-gomes-advocacia` em `index.html`, `robots.txt`, `sitemap.xml` e `404.html` pelo domínio oficial;
-6. revisar `canonical`, Open Graph e compartilhamento social;
-7. validar publicação, HTTPS, desktop e mobile.
+Dados profissionais já confirmados pela cliente:
+- OAB/SP 541.172;
+- base em Valinhos/SP;
+- atendimento presencial em Valinhos, região de Campinas e cidades circunvizinhas;
+- atendimento online em todo o Brasil;
+- possibilidade de atendimento noturno até 21h, sem grade fixa publicada;
+- pós-graduação em Direito de Família, Direito Processual Civil e Direito Imobiliário;
+- ênfase em locações de imóveis, condomínio e assessoria a síndicos e administradoras;
+- LinkedIn profissional/pessoal confirmado para publicação.
 
-## Regra OT
+Os dados detalhados e pendências estão em `docs/dados-confirmados-cintia.md`.
 
-A fonte de verdade e o ambiente de publicação deste site são o GitHub e o GitHub Pages. Mudanças de infraestrutura devem ser deliberadas e documentadas antes de qualquer alteração no projeto.
+### Pendências antes da publicação definitiva
+- confirmar grafia exata do nome (Almeida x Allmeida);
+- confirmar grafia do endereço e CEP;
+- confirmar WhatsApp Business definitivo;
+- confirmar URL exata do Instagram;
+- selecionar novas fotos enviadas pela cliente;
+- receber eventual complemento sobre trajetória/forma de atuação.
+
+## Regra de publicação
+
+Nenhum dado profissional, credencial, endereço, domínio ou contato deve ser inventado ou presumido. A `main` só deve receber a versão final após validação visual desktop/mobile e confirmação dos dados pendentes.
