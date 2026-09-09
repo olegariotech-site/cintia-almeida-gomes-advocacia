@@ -1,0 +1,103 @@
+name: Harden social preview
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/og-preview-fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Harden Open Graph metadata
+        shell: python
+        run: |
+          from pathlib import Path
+          import re, struct
+
+          html_path = Path('index.html')
+          image_path = Path('cintia-logo-hero-poster.jpg')
+          html = html_path.read_text(encoding='utf-8')
+
+          def jpeg_size(path):
+              data = path.read_bytes()
+              if data[:2] != b'\xff\xd8':
+                  raise RuntimeError('Poster is not JPEG')
+              i = 2
+              sof = {0xC0,0xC1,0xC2,0xC3,0xC5,0xC6,0xC7,0xC9,0xCA,0xCB,0xCD,0xCE,0xCF}
+              while i < len(data):
+                  if data[i] != 0xFF:
+                      i += 1
+                      continue
+                  while i < len(data) and data[i] == 0xFF:
+                      i += 1
+                  if i >= len(data):
+                      break
+                  marker = data[i]
+                  i += 1
+                  if marker in (0xD8, 0xD9):
+                      continue
+                  if i + 2 > len(data):
+                      break
+                  length = struct.unpack('>H', data[i:i+2])[0]
+                  if marker in sof:
+                      if i + 7 > len(data):
+                          break
+                      height = struct.unpack('>H', data[i+3:i+5])[0]
+                      width = struct.unpack('>H', data[i+5:i+7])[0]
+                      return width, height
+                  i += length
+              raise RuntimeError('JPEG dimensions not found')
+
+          width, height = jpeg_size(image_path)
+          base = 'https://olegariotech-site.github.io/cintia-almeida-gomes-advocacia/'
+          image = base + 'cintia-logo-hero-poster.jpg?v=20260909-status2'
+
+          # Remove optional social tags so the patch is idempotent.
+          for prop in ['og:site_name','og:locale','og:image:secure_url','og:image:url','og:image:type','og:image:width','og:image:height']:
+              html = re.sub(rf'\n?<meta property="{re.escape(prop)}" content="[^"]*">', '', html)
+          html = re.sub(r'\n?<link rel="image_src" href="[^"]*">', '', html)
+
+          html, n = re.subn(r'<meta property="og:image" content="[^"]*">', f'<meta property="og:image" content="{image}">', html, count=1)
+          assert n == 1, 'og:image not found'
+          html, n = re.subn(r'<meta property="og:image:alt" content="[^"]*">', '<meta property="og:image:alt" content="Cíntia Almeida Gomes Advocacia — advocacia estratégica e humanizada">', html, count=1)
+          assert n == 1, 'og:image:alt not found'
+          html, n = re.subn(r'<meta name="twitter:image" content="[^"]*">', f'<meta name="twitter:image" content="{image}">', html, count=1)
+          assert n == 1, 'twitter:image not found'
+
+          og_url = f'<meta property="og:url" content="{base}">'
+          assert og_url in html, 'og:url not found'
+          html = html.replace(og_url, og_url + '\n<meta property="og:site_name" content="Cíntia Almeida Gomes Advocacia">\n<meta property="og:locale" content="pt_BR">', 1)
+
+          og_image = f'<meta property="og:image" content="{image}">'
+          extra = (
+              f'\n<meta property="og:image:secure_url" content="{image}">'
+              f'\n<meta property="og:image:url" content="{image}">'
+              '\n<meta property="og:image:type" content="image/jpeg">'
+              f'\n<meta property="og:image:width" content="{width}">'
+              f'\n<meta property="og:image:height" content="{height}">'
+              f'\n<link rel="image_src" href="{image}">'
+          )
+          html = html.replace(og_image, og_image + extra, 1)
+          html_path.write_text(html, encoding='utf-8')
+          print(f'OG poster: {width}x{height}')
+      - name: Validate patch
+        run: |
+          grep -q 'og:image:width' index.html
+          grep -q 'og:image:height' index.html
+          grep -q '20260909-status2' index.html
+          git diff --check
+      - name: Commit social preview fix
+        run: |
+          git config user.name 'Olegario Tech'
+          git config user.email 'olegariotech.oficial@gmail.com'
+          git add index.html
+          git commit -m 'fix: reforça preview social do WhatsApp' || exit 0
+          git push
