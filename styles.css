@@ -474,6 +474,13 @@ footer p a { color: var(--gold2); text-decoration: underline; text-underline-off
   }
 }
 
+/* Phones: lift the signature so the handwritten name remains visible in the first viewport. */
+@media (max-width: 640px) {
+  .hero-signature {
+    top: -24px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .area,
   .faq-item,
