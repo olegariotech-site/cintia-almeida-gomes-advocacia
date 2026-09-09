@@ -121,60 +121,68 @@
 
   initialize('assinatura em vídeo', () => {
     const video = document.getElementById('signatureVideo');
-    const button = document.getElementById('videoToggle');
-    if (!video || !button) return;
-    let manuallyPaused = motion.matches;
-    let inView = true;
-    let complete = false;
+    const hero = document.getElementById('hero');
+    const signature = video?.closest('.hero-signature');
+    const source = video?.querySelector('source[data-src]');
+    if (!video || !hero || !signature || !source) return;
+    let inView = false;
+    let failed = false;
     let playPending = false;
-    function syncButton() {
-      button.textContent = video.paused ? (complete ? 'Rever assinatura' : 'Reproduzir assinatura') : 'Pausar assinatura';
+    let revision = 0;
+    const canPlay = () => !motion.matches && !document.hidden && inView && !failed;
+    function showPoster() { signature.classList.remove('is-playing'); }
+    function fail() {
+      failed = true;
+      video.autoplay = false;
+      video.pause();
+      showPoster();
     }
-    function stop() { video.pause(); syncButton(); }
-    async function play(explicit = false) {
-      if (playPending || (!explicit && (motion.matches || manuallyPaused || complete || !inView || document.hidden))) return;
+    async function play() {
+      if (playPending || !canPlay() || !video.paused) return;
       playPending = true;
+      const requestedAt = revision;
       try {
+        // No source is fetched without JS, or while reduced motion is requested.
+        if (!source.getAttribute('src')) {
+          source.src = source.dataset.src;
+          video.load();
+        }
         await video.play();
-        if (motion.matches || document.hidden || !inView || manuallyPaused) video.pause();
       } catch {
-        // Low power mode, data saver or an unsupported video leaves a usable static poster.
-        manuallyPaused = true;
-      } finally { playPending = false; syncButton(); }
+        // A lifecycle interruption is not an autoplay failure; retry on return.
+        if (requestedAt === revision && canPlay()) fail();
+      } finally {
+        playPending = false;
+        if (!canPlay()) { video.pause(); showPoster(); }
+        else if (requestedAt !== revision) play();
+      }
     }
-    button.addEventListener('click', () => {
-      if (video.paused) {
-        if (complete) { video.currentTime = 0; complete = false; }
-        manuallyPaused = false;
-        play(true);
-      } else { manuallyPaused = true; stop(); }
+    function sync() {
+      revision += 1;
+      video.autoplay = canPlay();
+      if (canPlay()) play();
+      else { video.pause(); showPoster(); }
+    }
+    video.addEventListener('playing', () => {
+      if (canPlay()) signature.classList.add('is-playing');
+      else { video.pause(); showPoster(); }
     });
-    video.addEventListener('play', syncButton);
-    video.addEventListener('pause', syncButton);
-    video.addEventListener('ended', () => { complete = true; syncButton(); });
-    video.addEventListener('error', () => {
-      stop();
-      button.hidden = true;
-      video.parentElement.classList.remove('video-controls');
-    });
-    motion.addEventListener('change', () => {
-      if (motion.matches) { manuallyPaused = true; stop(); }
-    });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); else play(); });
-    button.hidden = motion.matches;
-    video.parentElement.classList.toggle('video-controls', !motion.matches);
-    motion.addEventListener('change', () => {
-      button.hidden = motion.matches;
-      video.parentElement.classList.toggle('video-controls', !motion.matches);
-    });
-    syncButton();
+    video.addEventListener('pause', showPoster);
+    video.addEventListener('error', fail);
+    source.addEventListener('error', fail);
+    motion.addEventListener('change', sync);
+    document.addEventListener('visibilitychange', sync);
+    sync();
     if ('IntersectionObserver' in window) {
       const observer = new IntersectionObserver(entries => {
         inView = entries[0].isIntersecting;
-        if (inView) play(); else stop();
-      }, { threshold: .2 });
-      observer.observe(video);
-    } else { play(); }
+        sync();
+      }, { threshold: 0 });
+      observer.observe(hero);
+    } else {
+      inView = true;
+      sync();
+    }
   });
 
   initialize('leitura e movimento', () => {
