@@ -216,3 +216,51 @@
     if (impact) observer.observe(impact);
   });
 })();
+
+
+/* Privacy-first analytics: GTM loads only after explicit cookie acceptance. */
+(() => {
+  const GTM_ID = 'GTM-TGGPH6PH';
+  const STORAGE_KEY = 'cintia_cookie_consent_v1';
+  const banner = document.getElementById('cookieBanner');
+  const accept = document.getElementById('cookieAccept');
+  const reject = document.getElementById('cookieReject');
+  const settings = document.getElementById('cookieSettings');
+  if (!banner || !accept || !reject || !settings) return;
+
+  let gtmLoaded = false;
+  const readConsent = () => {
+    try { return localStorage.getItem(STORAGE_KEY); } catch { return null; }
+  };
+  const saveConsent = value => {
+    try { localStorage.setItem(STORAGE_KEY, value); } catch {}
+  };
+  const loadGTM = () => {
+    if (gtmLoaded || document.querySelector('script[data-ot-gtm]')) return;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+    const tag = document.createElement('script');
+    tag.async = true;
+    tag.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+    tag.dataset.otGtm = 'true';
+    document.head.appendChild(tag);
+    gtmLoaded = true;
+  };
+  const openBanner = () => { banner.hidden = false; };
+  const closeBanner = () => { banner.hidden = true; };
+
+  accept.addEventListener('click', () => {
+    saveConsent('accepted');
+    closeBanner();
+    loadGTM();
+  });
+  reject.addEventListener('click', () => {
+    saveConsent('rejected');
+    closeBanner();
+  });
+  settings.addEventListener('click', openBanner);
+
+  const current = readConsent();
+  if (current === 'accepted') loadGTM();
+  else if (current !== 'rejected') openBanner();
+})();
