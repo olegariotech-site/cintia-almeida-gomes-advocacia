@@ -22,19 +22,17 @@ jobs:
           s = p.read_text(encoding='utf-8')
           head_marker = '<head>\n'
           body_marker = '<body>\n'
-          gtm_head = """<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TGGPH6PH');</script>
-<!-- End Google Tag Manager -->
-"""
-          gtm_body = """<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGGPH6PH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-"""
+          gtm_head = ('<!-- Google Tag Manager -->\n'
+                      '<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({\'gtm.start\':\n'
+                      'new Date().getTime(),event:\'gtm.js\'});var f=d.getElementsByTagName(s)[0],\n'
+                      'j=d.createElement(s),dl=l!=\'dataLayer\'?\'&l=\'+l:\'\';j.async=true;j.src=\n'
+                      '\'https://www.googletagmanager.com/gtm.js?id=\'+i+dl;f.parentNode.insertBefore(j,f);\n'
+                      '})(window,document,\'script\',\'dataLayer\',\'GTM-TGGPH6PH\');</script>\n'
+                      '<!-- End Google Tag Manager -->\n')
+          gtm_body = ('<!-- Google Tag Manager (noscript) -->\n'
+                      '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGGPH6PH"\n'
+                      'height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\n'
+                      '<!-- End Google Tag Manager (noscript) -->\n')
           if 'GTM-TGGPH6PH' in s:
               raise SystemExit('GTM already present; refusing duplicate install')
           if head_marker not in s or body_marker not in s:
@@ -52,5 +50,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           git config user.name "Olegario Tech"
           git config user.email "olegariotech.oficial@gmail.com"
           git add index.html
-          git commit -m "feat: instala Google Tag Manager da Cintia" || exit 0
+          git commit -m "feat: instala Google Tag Manager da Cintia"
           git push
