@@ -1,0 +1,56 @@
+name: Install GTM temporary
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/install-gtm-temp.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Google Tag Manager
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          head_marker = '<head>\n'
+          body_marker = '<body>\n'
+          gtm_head = """<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGGPH6PH');</script>
+<!-- End Google Tag Manager -->
+"""
+          gtm_body = """<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGGPH6PH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+"""
+          if 'GTM-TGGPH6PH' in s:
+              raise SystemExit('GTM already present; refusing duplicate install')
+          if head_marker not in s or body_marker not in s:
+              raise SystemExit('Expected HTML markers not found')
+          s = s.replace(head_marker, head_marker + gtm_head, 1)
+          s = s.replace(body_marker, body_marker + gtm_body, 1)
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Validate install
+        run: |
+          grep -q "GTM-TGGPH6PH" index.html
+          test "$(grep -o 'GTM-TGGPH6PH' index.html | wc -l)" -eq 2
+      - name: Commit GTM install
+        run: |
+          git config user.name "Olegario Tech"
+          git config user.email "olegariotech.oficial@gmail.com"
+          git add index.html
+          git commit -m "feat: instala Google Tag Manager da Cintia" || exit 0
+          git push
