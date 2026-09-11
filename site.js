@@ -3,7 +3,7 @@
 (() => {
   const root = document.documentElement;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
-  const waBase = 'https://wa.me/5519998808725?text=';
+  const waBase = 'https://wa.me/5519996837596?text=';
 
   // Independent initializers: visual enhancement cannot disable the contact flow.
   function initialize(name, setup) {
