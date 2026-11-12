@@ -23,6 +23,6 @@ for (family,style),group in font_groups.items():
  name=f"{family.lower().replace(' ','-')}-{style}.woff2";target=ROOT/'assets/fonts'/name;target.write_bytes(raw)
  manifest['fonts'].append({'family':family,'style':style,'weights':group['weights'],'source':group['source'],'path':str(target.relative_to(ROOT)),'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'coverage':'Google Fonts Latin face, served verbatim locally; Portuguese accents included'})
 for family,folder in [('Cormorant Garamond','cormorantgaramond'),('Inter','inter')]:
- url=f'https://raw.githubusercontent.com/google/fonts/main/ofl/{folder}/OFL.txt';raw=urllib.request.urlopen(url,timeout=30).read();target=ROOT/f'assets/fonts/{folder}-OFL.txt';target.write_bytes(raw);manifest['licenses'].append({'family':family,'source':url,'path':str(target.relative_to(ROOT))})
+ url=f'https://raw.githubusercontent.com/google/fonts/main/ofl/{folder}/OFL.txt';raw=urllib.request.urlopen(url,timeout=30).read();target=ROOT/f'assets/fonts/{folder}-OFL.txt';target.write_text('\n'.join(x.rstrip() for x in raw.decode().splitlines())+'\n');manifest['licenses'].append({'family':family,'source':url,'path':str(target.relative_to(ROOT))})
 (ROOT/'docs/qa-v5/asset-provenance.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'photo_bytes':sum(x['bytes'] for x in manifest['photos']),'font_bytes':sum(x['bytes'] for x in manifest['fonts']),'photos':manifest['photos'],'fonts':[(x['path'],x['bytes']) for x in manifest['fonts']]},indent=2))
