@@ -94,8 +94,10 @@
     document.addEventListener('click', event => {
       if (!header.contains(event.target)) close();
     });
-    header.addEventListener('focusout', () => {
-      queueMicrotask(() => { if (!header.contains(document.activeElement)) close(); });
+    document.addEventListener('focusin', event => {
+      // Close after focus actually arrives outside. During pointer focus changes,
+      // focusout can briefly leave activeElement on body before the link's click.
+      if (!header.contains(event.target)) close();
     });
     compact.addEventListener('change', () => {
       const focused = document.activeElement;
@@ -246,8 +248,16 @@
     document.head.appendChild(tag);
     gtmLoaded = true;
   };
-  const openBanner = () => { banner.hidden = false; };
-  const closeBanner = () => { banner.hidden = true; };
+  const openBanner = () => {
+    banner.hidden = false;
+    // Preferences is non-modal, but keyboard users must reach its choices next.
+    reject.focus();
+  };
+  const closeBanner = () => {
+    const returnFocus = banner.contains(document.activeElement);
+    banner.hidden = true;
+    if (returnFocus) settings.focus();
+  };
 
   accept.addEventListener('click', () => {
     saveConsent('accepted');
@@ -257,10 +267,13 @@
   reject.addEventListener('click', () => {
     saveConsent('rejected');
     closeBanner();
+    // Removing a script node cannot stop tags/timers already executed by GTM.
+    // A fresh document applies the stored refusal before any optional tag loads.
+    if (gtmLoaded) window.location.reload();
   });
   settings.addEventListener('click', openBanner);
 
   const current = readConsent();
   if (current === 'accepted') loadGTM();
-  else if (current !== 'rejected') openBanner();
+  else if (current !== 'rejected') banner.hidden = false;
 })();

@@ -1,0 +1,115 @@
+name: Cintia V4 - smoke and browser QA
+
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'styles.css'
+      - 'site.js'
+      - '404.html'
+      - 'v4.css'
+      - 'tests/v4-*.mjs'
+      - '.github/workflows/cintia-v4-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  v4-qa:
+    name: Validate V4 responsive and contact
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+
+      - name: Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Static smoke
+        run: node tests/v4-smoke.mjs
+
+      - name: Browser dependency (isolated to QA runner)
+        run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.58.2 axe-core@4.14.0
+
+      - name: Install WebKit and system dependencies (QA only)
+        run: npx playwright install --with-deps webkit
+
+      - name: Confirm Chrome executable
+        run: |
+          which google-chrome
+          google-chrome --version
+
+      - name: Serve and test preview (localhost only)
+        env:
+          CHROME_BIN: /usr/bin/google-chrome
+          SITE_URL: http://127.0.0.1:4173
+          QA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/cintia-v4-http.log 2>&1 &
+          server_pid=$!
+          trap 'kill $server_pid 2>/dev/null || true' EXIT
+          sleep 2
+          node tests/v4-browser.mjs
+          timeout 420s node tests/v4-final.mjs
+
+      - name: QA evidence - screenshots and JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cintia-v4-qa-screenshots
+          path: artifacts/v4/
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Final QA evidence (including failing states)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cintia-v4-final-qa
+          path: artifacts/final/
+          retention-days: 90
+          if-no-files-found: warn
+
+  performance:
+    name: Compare V3 and V4 on the same runner
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          ref: 7ddeed2fe15651d9e8573a9847d6c390abf2b5f0
+          path: _baseline
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Lighthouse dependencies (QA only)
+        run: npm install --no-save --ignore-scripts --no-audit --no-fund lighthouse@13.6.0
+      - name: Compare three cold runs per version
+        env:
+          QA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+          QA_BASE: 7ddeed2fe15651d9e8573a9847d6c390abf2b5f0
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/v4-http.log 2>&1 &
+          v4_pid=$!
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory _baseline > /tmp/v3-http.log 2>&1 &
+          v3_pid=$!
+          trap 'kill $v4_pid $v3_pid 2>/dev/null || true' EXIT
+          sleep 2
+          node tests/v4-performance.mjs
+      - name: Lighthouse evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cintia-v3-v4-lighthouse
+          path: artifacts/performance/
+          retention-days: 90
+          if-no-files-found: warn
