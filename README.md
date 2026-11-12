@@ -28,7 +28,7 @@ Dados profissionais incorporados:
 - pós-graduação em Direito de Família, Direito Processual Civil e Direito Imobiliário;
 - foco em Família, Imobiliário, Civil, Contratos e Direito Condominial;
 - locações de imóveis e assessoria a síndicos e administradoras;
-- WhatsApp confirmado: (19) 99880-8725;
+- WhatsApp confirmado: (19) 97143-2465;
 - Instagram pessoal confirmado;
 - LinkedIn confirmado.
 
