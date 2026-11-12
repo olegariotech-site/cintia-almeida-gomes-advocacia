@@ -6,7 +6,7 @@
 
 - PR #16; branch exclusiva `hotfix/v4-hero-premium`.
 - Base publicada confirmada: `aade965e7f3cce532b70fc131bc41c6b3bb21dca`.
-- Aplicação final testada: `e78952c0807b1a4f6bbfcb8148691d7f0b806731`. O commit posterior de evidências/documentação não altera a aplicação nem os testes.
+- Aplicação final testada: `e78952c0807b1a4f6bbfcb8148691d7f0b806731`. Os commits posteriores de evidências/documentação não alteram a aplicação nem os testes.
 - Backup V3 preservado em `backup/v3-antes-da-publicacao-v4-2026-11-12`, apontando para `7ddeed2fe15651d9e8573a9847d6c390abf2b5f0`.
 - Nenhum merge, deploy, alteração de DNS, domínio, contatos, conteúdo jurídico, OAB, SEO ou configuração comercial.
 - [Conferência de integridade](qa-hero/integrity.json): texto aprovado, destinos dos links e todo o `<head>` idênticos à base; hashes dos assets originais preservados.
