@@ -66,7 +66,7 @@ for (const [engine, type] of [['webkit',webkit],['chromium',chromium]]) {
     await check(name+'-focus-targets',async()=>{
       const measurements=[];
       for(const selector of ['#cookieSettings','#top .brand','.hero-actions .btn.gold']){
-        await page.locator(selector).focus();await page.keyboard.press('Shift');await page.waitForTimeout(50);
+        await page.locator(selector).focus();await page.keyboard.press('ArrowDown');await page.waitForTimeout(50);
         measurements.push(await page.locator(selector).evaluate(e=>{
         function lum(c){const a=c.match(/[\d.]+/g).slice(0,3).map(Number).map(v=>v/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return a[0]*.2126+a[1]*.7152+a[2]*.0722;}
         const s=e.id==='cookieSettings'?'#cookieSettings':e.closest('#top')?'#top .brand':'.hero-actions .btn.gold';const c=getComputedStyle(e);let p=e.parentElement;while(p&&getComputedStyle(p).backgroundColor==='rgba(0, 0, 0, 0)')p=p.parentElement;

@@ -94,8 +94,10 @@
     document.addEventListener('click', event => {
       if (!header.contains(event.target)) close();
     });
-    header.addEventListener('focusout', () => {
-      queueMicrotask(() => { if (!header.contains(document.activeElement)) close(); });
+    document.addEventListener('focusin', event => {
+      // Close after focus actually arrives outside. During pointer focus changes,
+      // focusout can briefly leave activeElement on body before the link's click.
+      if (!header.contains(event.target)) close();
     });
     compact.addEventListener('change', () => {
       const focused = document.activeElement;
