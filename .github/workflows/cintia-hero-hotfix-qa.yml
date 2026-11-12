@@ -1,0 +1,84 @@
+name: Cintia HERO hotfix - before and after
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'v4.css'
+      - 'site.js'
+      - 'tests/hotfix-*.mjs'
+      - '.github/workflows/cintia-hero-hotfix-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  composition:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          ref: aade965e7f3cce532b70fc131bc41c6b3bb21dca
+          path: _before
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.58.2
+      - run: npx playwright install --with-deps webkit
+      - name: Original media fingerprints (metadata inspected locally with ffprobe)
+        run: sha256sum cintia-logo-hero-site.mp4 cintia-logo-hero-poster.jpg assetsdra-cintia-hero.png
+      - name: Compare render, fold and video states
+        env:
+          QA_BASE: aade965e7f3cce532b70fc131bc41c6b3bb21dca
+          QA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/after-http.log 2>&1 &
+          after_pid=$!
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory _before > /tmp/before-http.log 2>&1 &
+          before_pid=$!
+          trap 'kill $after_pid $before_pid 2>/dev/null || true' EXIT
+          sleep 2
+          timeout 600s node tests/hotfix-hero.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cintia-hero-before-after
+          path: artifacts/hero-hotfix/
+          retention-days: 90
+          if-no-files-found: warn
+  performance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          ref: aade965e7f3cce532b70fc131bc41c6b3bb21dca
+          path: _before
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --ignore-scripts --no-audit --no-fund lighthouse@13.6.0
+      - name: Compare V4 before and after, three cold runs each
+        env:
+          QA_BASE: aade965e7f3cce532b70fc131bc41c6b3bb21dca
+          QA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/after-http.log 2>&1 &
+          after_pid=$!
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory _before > /tmp/before-http.log 2>&1 &
+          before_pid=$!
+          trap 'kill $after_pid $before_pid 2>/dev/null || true' EXIT
+          sleep 2
+          node tests/hotfix-performance.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cintia-hero-lighthouse
+          path: artifacts/hero-performance/
+          retention-days: 90
+          if-no-files-found: warn

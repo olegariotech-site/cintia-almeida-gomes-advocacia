@@ -1,0 +1,7516 @@
+{
+  "base": "aade965e7f3cce532b70fc131bc41c6b3bb21dca",
+  "head": "e78952c0807b1a4f6bbfcb8148691d7f0b806731",
+  "checkedAt": "2026-11-12T17:49:21.695Z",
+  "physicalDevices": "not available; these are browser engine/viewport tests",
+  "results": [
+    {
+      "name": "chromium-1920x1080-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 76,
+          "bottom": 76,
+          "right": 1920
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1920,
+          "height": 940.3125,
+          "bottom": 1016.3125,
+          "right": 1920
+        },
+        "grid": {
+          "x": 330,
+          "y": 156,
+          "width": 1260,
+          "height": 780.3125,
+          "bottom": 936.3125,
+          "right": 1590
+        },
+        "badge": {
+          "x": 330,
+          "y": 250.328125,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 269.71875,
+          "right": 553.0625
+        },
+        "title": {
+          "x": 330,
+          "y": 311.71875,
+          "width": 632.875,
+          "height": 259.171875,
+          "bottom": 570.890625,
+          "right": 962.875
+        },
+        "statement": {
+          "x": 330,
+          "y": 606.890625,
+          "width": 632.875,
+          "height": 30.796875,
+          "bottom": 637.6875,
+          "right": 962.875
+        },
+        "lead": {
+          "x": 330,
+          "y": 655.6875,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 708.1875,
+          "right": 822.0625
+        },
+        "primary": {
+          "x": 330,
+          "y": 733.1875,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 781.1875,
+          "right": 548.484375
+        },
+        "secondary": {
+          "x": 561.484375,
+          "y": 733.1875,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 781.1875,
+          "right": 820.578125
+        },
+        "note": {
+          "x": 330,
+          "y": 807.1875,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 847.96875,
+          "right": 761.5
+        },
+        "photo": {
+          "x": 1050.875,
+          "y": 156,
+          "width": 539.125,
+          "height": 673.90625,
+          "bottom": 829.90625,
+          "right": 1590
+        },
+        "card": {
+          "x": 1050.875,
+          "y": 156,
+          "width": 539.125,
+          "height": 780.3125,
+          "bottom": 936.3125,
+          "right": 1590
+        },
+        "caption": {
+          "x": 1050.875,
+          "y": 829.90625,
+          "width": 539.125,
+          "height": 104.40625,
+          "bottom": 934.3125,
+          "right": 1590
+        },
+        "captionTitle": {
+          "x": 1072.875,
+          "y": 850.90625,
+          "width": 495.125,
+          "height": 36.71875,
+          "bottom": 887.625,
+          "right": 1568
+        },
+        "signature": {
+          "x": 192,
+          "y": 661.9375,
+          "width": 790,
+          "height": 444.375,
+          "bottom": 1106.3125,
+          "right": 982
+        }
+      },
+      "scrollWidth": 1920,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.49,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 74.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 226.29999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 255.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 299.8999999999942,
+            "currentTime": 0.0186
+          },
+          {
+            "name": "playing",
+            "time": 299.8999999999942,
+            "currentTime": 0.0186
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-1920x1080-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 76,
+          "bottom": 76,
+          "right": 1920
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1920,
+          "height": 675.1875,
+          "bottom": 751.1875,
+          "right": 1920
+        },
+        "grid": {
+          "x": 330,
+          "y": 124.59375,
+          "width": 1260,
+          "height": 578,
+          "bottom": 702.59375,
+          "right": 1590
+        },
+        "badge": {
+          "x": 330,
+          "y": 182.546875,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 201.9375,
+          "right": 553.0625
+        },
+        "title": {
+          "x": 330,
+          "y": 229.9375,
+          "width": 703.265625,
+          "height": 164.625,
+          "bottom": 394.5625,
+          "right": 1033.265625
+        },
+        "statement": {
+          "x": 330,
+          "y": 420.5625,
+          "width": 703.265625,
+          "height": 30.796875,
+          "bottom": 451.359375,
+          "right": 1033.265625
+        },
+        "lead": {
+          "x": 330,
+          "y": 467.359375,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 519.859375,
+          "right": 822.0625
+        },
+        "primary": {
+          "x": 330,
+          "y": 541.859375,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 589.859375,
+          "right": 548.484375
+        },
+        "secondary": {
+          "x": 561.484375,
+          "y": 541.859375,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 589.859375,
+          "right": 820.578125
+        },
+        "note": {
+          "x": 330,
+          "y": 609.859375,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 650.640625,
+          "right": 761.5
+        },
+        "photo": {
+          "x": 1109.984375,
+          "y": 124.59375,
+          "width": 480,
+          "height": 576,
+          "bottom": 700.59375,
+          "right": 1589.984375
+        },
+        "card": {
+          "x": 1109.984375,
+          "y": 124.59375,
+          "width": 480,
+          "height": 578,
+          "bottom": 702.59375,
+          "right": 1589.984375
+        },
+        "caption": {
+          "x": 1109.984375,
+          "y": 555.359375,
+          "width": 480,
+          "height": 145.234375,
+          "bottom": 700.59375,
+          "right": 1589.984375
+        },
+        "captionTitle": {
+          "x": 1133.984375,
+          "y": 619.359375,
+          "width": 432,
+          "height": 34.546875,
+          "bottom": 653.90625,
+          "right": 1565.984375
+        },
+        "signature": {
+          "x": 290,
+          "y": 199.84375,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 627.34375,
+          "right": 1050
+        }
+      },
+      "scrollWidth": 1920,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4905,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 196.5,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 236.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 280.3999999999942,
+            "currentTime": 0.0237
+          },
+          {
+            "name": "playing",
+            "time": 280.3999999999942,
+            "currentTime": 0.0238
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-1366x768-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1366,
+          "height": 76,
+          "bottom": 76,
+          "right": 1366
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1366,
+          "height": 918,
+          "bottom": 994,
+          "right": 1366
+        },
+        "grid": {
+          "x": 53,
+          "y": 144.296875,
+          "width": 1260,
+          "height": 781.40625,
+          "bottom": 925.703125,
+          "right": 1313
+        },
+        "badge": {
+          "x": 53,
+          "y": 294.296875,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 313.6875,
+          "right": 276.0625
+        },
+        "title": {
+          "x": 53,
+          "y": 354.65625,
+          "width": 643.515625,
+          "height": 149.96875,
+          "bottom": 504.625,
+          "right": 696.515625
+        },
+        "statement": {
+          "x": 53,
+          "y": 540.625,
+          "width": 643.515625,
+          "height": 30.796875,
+          "bottom": 571.421875,
+          "right": 696.515625
+        },
+        "lead": {
+          "x": 53,
+          "y": 589.421875,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 641.921875,
+          "right": 545.0625
+        },
+        "primary": {
+          "x": 53,
+          "y": 666.921875,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 714.921875,
+          "right": 271.484375
+        },
+        "secondary": {
+          "x": 284.484375,
+          "y": 666.921875,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 714.921875,
+          "right": 543.578125
+        },
+        "note": {
+          "x": 53,
+          "y": 740.921875,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 781.703125,
+          "right": 484.5
+        },
+        "photo": {
+          "x": 773,
+          "y": 144.296875,
+          "width": 540,
+          "height": 675,
+          "bottom": 819.296875,
+          "right": 1313
+        },
+        "card": {
+          "x": 773,
+          "y": 144.296875,
+          "width": 540,
+          "height": 781.40625,
+          "bottom": 925.703125,
+          "right": 1313
+        },
+        "caption": {
+          "x": 773,
+          "y": 819.296875,
+          "width": 540,
+          "height": 104.40625,
+          "bottom": 923.703125,
+          "right": 1313
+        },
+        "captionTitle": {
+          "x": 795,
+          "y": 840.296875,
+          "width": 496,
+          "height": 36.71875,
+          "bottom": 877.015625,
+          "right": 1291
+        },
+        "signature": {
+          "x": 136.59375,
+          "y": 639.625,
+          "width": 790,
+          "height": 444.375,
+          "bottom": 1084,
+          "right": 926.59375
+        }
+      },
+      "scrollWidth": 1366,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.6991,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 29.099999999976717,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 197.59999999997672,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 218.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 242.89999999999418,
+            "currentTime": 0.0024
+          },
+          {
+            "name": "playing",
+            "time": 242.89999999999418,
+            "currentTime": 0.0025
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-1366x768-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1366,
+          "height": 76,
+          "bottom": 76,
+          "right": 1366
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1366,
+          "height": 547.65625,
+          "bottom": 623.65625,
+          "right": 1366
+        },
+        "grid": {
+          "x": 53,
+          "y": 100,
+          "width": 1260,
+          "height": 499.65625,
+          "bottom": 599.65625,
+          "right": 1313
+        },
+        "badge": {
+          "x": 53,
+          "y": 155.59375,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 174.984375,
+          "right": 276.0625
+        },
+        "title": {
+          "x": 53,
+          "y": 194.984375,
+          "width": 707.125,
+          "height": 125.6875,
+          "bottom": 320.671875,
+          "right": 760.125
+        },
+        "statement": {
+          "x": 53,
+          "y": 336.671875,
+          "width": 707.125,
+          "height": 28,
+          "bottom": 364.671875,
+          "right": 760.125
+        },
+        "lead": {
+          "x": 53,
+          "y": 378.671875,
+          "width": 459.265625,
+          "height": 49,
+          "bottom": 427.671875,
+          "right": 512.265625
+        },
+        "primary": {
+          "x": 53,
+          "y": 447.671875,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 495.671875,
+          "right": 271.484375
+        },
+        "secondary": {
+          "x": 284.484375,
+          "y": 447.671875,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 495.671875,
+          "right": 543.578125
+        },
+        "note": {
+          "x": 53,
+          "y": 511.671875,
+          "width": 431.5,
+          "height": 38.375,
+          "bottom": 550.046875,
+          "right": 484.5
+        },
+        "photo": {
+          "x": 898.265625,
+          "y": 100,
+          "width": 414.71875,
+          "height": 497.65625,
+          "bottom": 597.65625,
+          "right": 1312.984375
+        },
+        "card": {
+          "x": 898.265625,
+          "y": 100,
+          "width": 414.71875,
+          "height": 499.65625,
+          "bottom": 599.65625,
+          "right": 1312.984375
+        },
+        "caption": {
+          "x": 898.265625,
+          "y": 419.125,
+          "width": 414.71875,
+          "height": 178.53125,
+          "bottom": 597.65625,
+          "right": 1312.984375
+        },
+        "captionTitle": {
+          "x": 922.265625,
+          "y": 483.125,
+          "width": 366.71875,
+          "height": 67.84375,
+          "bottom": 550.96875,
+          "right": 1288.984375
+        },
+        "signature": {
+          "x": 13,
+          "y": 136.078125,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 563.578125,
+          "right": 773
+        }
+      },
+      "scrollWidth": 1366,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.7001,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 206.20000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 222,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 285.79999999998836,
+            "currentTime": 0.0178
+          },
+          {
+            "name": "playing",
+            "time": 285.79999999998836,
+            "currentTime": 0.0178
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-1280x720-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 76,
+          "bottom": 76,
+          "right": 1280
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1280,
+          "height": 894.625,
+          "bottom": 970.625,
+          "right": 1280
+        },
+        "grid": {
+          "x": 32,
+          "y": 140,
+          "width": 1216,
+          "height": 766.625,
+          "bottom": 906.625,
+          "right": 1248
+        },
+        "badge": {
+          "x": 32,
+          "y": 288.78125,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 308.171875,
+          "right": 255.0625
+        },
+        "title": {
+          "x": 32,
+          "y": 346.5625,
+          "width": 622.078125,
+          "height": 140.53125,
+          "bottom": 487.09375,
+          "right": 654.078125
+        },
+        "statement": {
+          "x": 32,
+          "y": 523.09375,
+          "width": 622.078125,
+          "height": 30.46875,
+          "bottom": 553.5625,
+          "right": 654.078125
+        },
+        "lead": {
+          "x": 32,
+          "y": 571.5625,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 624.0625,
+          "right": 524.0625
+        },
+        "primary": {
+          "x": 32,
+          "y": 649.0625,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 697.0625,
+          "right": 250.484375
+        },
+        "secondary": {
+          "x": 263.484375,
+          "y": 649.0625,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 697.0625,
+          "right": 522.578125
+        },
+        "note": {
+          "x": 32,
+          "y": 723.0625,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 763.84375,
+          "right": 463.5
+        },
+        "photo": {
+          "x": 718.078125,
+          "y": 140,
+          "width": 529.921875,
+          "height": 662.390625,
+          "bottom": 802.390625,
+          "right": 1248
+        },
+        "card": {
+          "x": 718.078125,
+          "y": 140,
+          "width": 529.921875,
+          "height": 766.625,
+          "bottom": 906.625,
+          "right": 1248
+        },
+        "caption": {
+          "x": 718.078125,
+          "y": 802.390625,
+          "width": 529.921875,
+          "height": 102.234375,
+          "bottom": 904.625,
+          "right": 1248
+        },
+        "captionTitle": {
+          "x": 740.078125,
+          "y": 823.390625,
+          "width": 485.921875,
+          "height": 34.546875,
+          "bottom": 857.9375,
+          "right": 1226
+        },
+        "signature": {
+          "x": 128,
+          "y": 616.25,
+          "width": 790,
+          "height": 444.375,
+          "bottom": 1060.625,
+          "right": 918
+        }
+      },
+      "scrollWidth": 1280,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4845,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 26.199999999982538,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 190.69999999998254,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 224.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 268.6000000000058,
+            "currentTime": 0.0144
+          },
+          {
+            "name": "playing",
+            "time": 268.6000000000058,
+            "currentTime": 0.0144
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-1280x720-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 76,
+          "bottom": 76,
+          "right": 1280
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1280,
+          "height": 516.546875,
+          "bottom": 592.546875,
+          "right": 1280
+        },
+        "grid": {
+          "x": 32,
+          "y": 100,
+          "width": 1216,
+          "height": 468.546875,
+          "bottom": 568.546875,
+          "right": 1248
+        },
+        "badge": {
+          "x": 32,
+          "y": 144.015625,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 163.40625,
+          "right": 255.0625
+        },
+        "title": {
+          "x": 32,
+          "y": 183.40625,
+          "width": 683.453125,
+          "height": 117.75,
+          "bottom": 301.15625,
+          "right": 715.453125
+        },
+        "statement": {
+          "x": 32,
+          "y": 317.15625,
+          "width": 683.453125,
+          "height": 28,
+          "bottom": 345.15625,
+          "right": 715.453125
+        },
+        "lead": {
+          "x": 32,
+          "y": 359.15625,
+          "width": 459.265625,
+          "height": 49,
+          "bottom": 408.15625,
+          "right": 491.265625
+        },
+        "primary": {
+          "x": 32,
+          "y": 428.15625,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 476.15625,
+          "right": 250.484375
+        },
+        "secondary": {
+          "x": 263.484375,
+          "y": 428.15625,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 476.15625,
+          "right": 522.578125
+        },
+        "note": {
+          "x": 32,
+          "y": 492.15625,
+          "width": 431.5,
+          "height": 38.375,
+          "bottom": 530.53125,
+          "right": 463.5
+        },
+        "photo": {
+          "x": 859.1875,
+          "y": 100,
+          "width": 388.796875,
+          "height": 466.546875,
+          "bottom": 566.546875,
+          "right": 1247.984375
+        },
+        "card": {
+          "x": 859.1875,
+          "y": 100,
+          "width": 388.796875,
+          "height": 468.546875,
+          "bottom": 568.546875,
+          "right": 1247.984375
+        },
+        "caption": {
+          "x": 859.1875,
+          "y": 392.296875,
+          "width": 388.796875,
+          "height": 174.25,
+          "bottom": 566.546875,
+          "right": 1247.984375
+        },
+        "captionTitle": {
+          "x": 883.1875,
+          "y": 456.296875,
+          "width": 340.796875,
+          "height": 63.5625,
+          "bottom": 519.859375,
+          "right": 1223.984375
+        },
+        "signature": {
+          "x": 8,
+          "y": 120.515625,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 548.015625,
+          "right": 768
+        }
+      },
+      "scrollWidth": 1280,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4862,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 193.5,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 217.09999999997672,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 258.0999999999767,
+            "currentTime": 0.0198
+          },
+          {
+            "name": "playing",
+            "time": 258.0999999999767,
+            "currentTime": 0.0198
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-768x1024-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "bottom": 72,
+          "right": 768
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 768,
+          "height": 1148.109375,
+          "bottom": 1220.109375,
+          "right": 768
+        },
+        "grid": {
+          "x": 44,
+          "y": 126,
+          "width": 680,
+          "height": 1030.109375,
+          "bottom": 1156.109375,
+          "right": 724
+        },
+        "badge": {
+          "x": 44,
+          "y": 126,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 145.390625,
+          "right": 267.0625
+        },
+        "title": {
+          "x": 44,
+          "y": 171.390625,
+          "width": 680,
+          "height": 110.5625,
+          "bottom": 281.953125,
+          "right": 724
+        },
+        "statement": {
+          "x": 44,
+          "y": 303.953125,
+          "width": 680,
+          "height": 25.1875,
+          "bottom": 329.140625,
+          "right": 724
+        },
+        "lead": {
+          "x": 44,
+          "y": 345.140625,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 397.640625,
+          "right": 536.0625
+        },
+        "primary": {
+          "x": 44,
+          "y": 420.640625,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 468.640625,
+          "right": 262.484375
+        },
+        "secondary": {
+          "x": 275.484375,
+          "y": 420.640625,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 468.640625,
+          "right": 534.578125
+        },
+        "note": {
+          "x": 44,
+          "y": 488.640625,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 529.421875,
+          "right": 475.5
+        },
+        "photo": {
+          "x": 44,
+          "y": 559.421875,
+          "width": 680,
+          "height": 510,
+          "bottom": 1069.421875,
+          "right": 724
+        },
+        "card": {
+          "x": 44,
+          "y": 559.421875,
+          "width": 680,
+          "height": 596.6875,
+          "bottom": 1156.109375,
+          "right": 724
+        },
+        "caption": {
+          "x": 214.359375,
+          "y": 1069.421875,
+          "width": 339.28125,
+          "height": 84.6875,
+          "bottom": 1154.109375,
+          "right": 553.640625
+        },
+        "captionTitle": {
+          "x": 234.359375,
+          "y": 1086.421875,
+          "width": 299.28125,
+          "height": 27,
+          "bottom": 1113.421875,
+          "right": 533.640625
+        },
+        "signature": {
+          "x": -38.3984375,
+          "y": 209.765625,
+          "width": 844.796875,
+          "height": 475.1875,
+          "bottom": 684.953125,
+          "right": 806.3984375
+        }
+      },
+      "scrollWidth": 768,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4825,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 19.900000000023283,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 220.20000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 244.20000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 276.9000000000233,
+            "currentTime": 0.0103
+          },
+          {
+            "name": "playing",
+            "time": 276.9000000000233,
+            "currentTime": 0.0103
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-768x1024-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "bottom": 72,
+          "right": 768
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 768,
+          "height": 1049.265625,
+          "bottom": 1121.265625,
+          "right": 768
+        },
+        "grid": {
+          "x": 44,
+          "y": 112,
+          "width": 680,
+          "height": 969.265625,
+          "bottom": 1081.265625,
+          "right": 724
+        },
+        "badge": {
+          "x": 44,
+          "y": 112,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 131.390625,
+          "right": 267.0625
+        },
+        "title": {
+          "x": 44,
+          "y": 153.390625,
+          "width": 680,
+          "height": 120.40625,
+          "bottom": 273.796875,
+          "right": 724
+        },
+        "statement": {
+          "x": 44,
+          "y": 295.796875,
+          "width": 680,
+          "height": 25.1875,
+          "bottom": 320.984375,
+          "right": 724
+        },
+        "lead": {
+          "x": 44,
+          "y": 336.984375,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 389.484375,
+          "right": 536.0625
+        },
+        "primary": {
+          "x": 44,
+          "y": 412.484375,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 460.484375,
+          "right": 262.484375
+        },
+        "secondary": {
+          "x": 275.484375,
+          "y": 412.484375,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 460.484375,
+          "right": 534.578125
+        },
+        "note": {
+          "x": 44,
+          "y": 480.484375,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 521.265625,
+          "right": 475.5
+        },
+        "photo": {
+          "x": 164,
+          "y": 551.265625,
+          "width": 440,
+          "height": 528,
+          "bottom": 1079.265625,
+          "right": 604
+        },
+        "card": {
+          "x": 164,
+          "y": 551.265625,
+          "width": 440,
+          "height": 530,
+          "bottom": 1081.265625,
+          "right": 604
+        },
+        "caption": {
+          "x": 164,
+          "y": 943.578125,
+          "width": 440,
+          "height": 135.6875,
+          "bottom": 1079.265625,
+          "right": 604
+        },
+        "captionTitle": {
+          "x": 186,
+          "y": 1007.578125,
+          "width": 396,
+          "height": 27,
+          "bottom": 1034.578125,
+          "right": 582
+        },
+        "signature": {
+          "x": 4,
+          "y": 144,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 571.5,
+          "right": 764
+        }
+      },
+      "scrollWidth": 768,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4931,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 180.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 212.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 240.29999999998836,
+            "currentTime": 0.0083
+          },
+          {
+            "name": "playing",
+            "time": 240.29999999998836,
+            "currentTime": 0.0083
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-390x844-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 72,
+          "bottom": 72,
+          "right": 390
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 1170.5,
+          "bottom": 1242.5,
+          "right": 390
+        },
+        "grid": {
+          "x": 18,
+          "y": 114,
+          "width": 354,
+          "height": 1072.5,
+          "bottom": 1186.5,
+          "right": 372
+        },
+        "badge": {
+          "x": 18,
+          "y": 114,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 133.390625,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 159.390625,
+          "width": 354,
+          "height": 129.5625,
+          "bottom": 288.953125,
+          "right": 372
+        },
+        "statement": {
+          "x": 18,
+          "y": 310.953125,
+          "width": 354,
+          "height": 53.1875,
+          "bottom": 364.140625,
+          "right": 372
+        },
+        "lead": {
+          "x": 18,
+          "y": 380.140625,
+          "width": 354,
+          "height": 73.5,
+          "bottom": 453.640625,
+          "right": 372
+        },
+        "primary": {
+          "x": 18,
+          "y": 476.640625,
+          "width": 354,
+          "height": 48,
+          "bottom": 524.640625,
+          "right": 372
+        },
+        "secondary": {
+          "x": 18,
+          "y": 537.640625,
+          "width": 354,
+          "height": 48,
+          "bottom": 585.640625,
+          "right": 372
+        },
+        "note": {
+          "x": 18,
+          "y": 605.640625,
+          "width": 354,
+          "height": 61.171875,
+          "bottom": 666.8125,
+          "right": 372
+        },
+        "photo": {
+          "x": 18,
+          "y": 696.8125,
+          "width": 354,
+          "height": 371.6875,
+          "bottom": 1068.5,
+          "right": 372
+        },
+        "card": {
+          "x": 18,
+          "y": 696.8125,
+          "width": 354,
+          "height": 489.6875,
+          "bottom": 1186.5,
+          "right": 372
+        },
+        "caption": {
+          "x": 18,
+          "y": 1068.5,
+          "width": 354,
+          "height": 116,
+          "bottom": 1184.5,
+          "right": 372
+        },
+        "captionTitle": {
+          "x": 38,
+          "y": 1085.5,
+          "width": 314,
+          "height": 58.3125,
+          "bottom": 1143.8125,
+          "right": 352
+        },
+        "signature": {
+          "x": -19.5,
+          "y": 212.453125,
+          "width": 429,
+          "height": 241.3125,
+          "bottom": 453.765625,
+          "right": 409.5
+        }
+      },
+      "scrollWidth": 390,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.549,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 24.800000000017462,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 200.20000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 214.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 247.89999999999418,
+            "currentTime": 0.0182
+          },
+          {
+            "name": "playing",
+            "time": 248,
+            "currentTime": 0.0182
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-390x844-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 72,
+          "bottom": 72,
+          "right": 390
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 1011.390625,
+          "bottom": 1083.390625,
+          "right": 390
+        },
+        "grid": {
+          "x": 18,
+          "y": 104,
+          "width": 354,
+          "height": 943.390625,
+          "bottom": 1047.390625,
+          "right": 372
+        },
+        "badge": {
+          "x": 18,
+          "y": 104,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 123.390625,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 145.390625,
+          "width": 354,
+          "height": 82.5625,
+          "bottom": 227.953125,
+          "right": 372
+        },
+        "statement": {
+          "x": 18,
+          "y": 245.953125,
+          "width": 354,
+          "height": 53.1875,
+          "bottom": 299.140625,
+          "right": 372
+        },
+        "lead": {
+          "x": 18,
+          "y": 313.140625,
+          "width": 354,
+          "height": 69.28125,
+          "bottom": 382.421875,
+          "right": 372
+        },
+        "primary": {
+          "x": 18,
+          "y": 402.421875,
+          "width": 354,
+          "height": 48,
+          "bottom": 450.421875,
+          "right": 372
+        },
+        "secondary": {
+          "x": 18,
+          "y": 463.421875,
+          "width": 354,
+          "height": 48,
+          "bottom": 511.421875,
+          "right": 372
+        },
+        "note": {
+          "x": 18,
+          "y": 529.421875,
+          "width": 354,
+          "height": 61.171875,
+          "bottom": 590.59375,
+          "right": 372
+        },
+        "photo": {
+          "x": 18,
+          "y": 620.59375,
+          "width": 354,
+          "height": 424.796875,
+          "bottom": 1045.390625,
+          "right": 372
+        },
+        "card": {
+          "x": 18,
+          "y": 620.59375,
+          "width": 354,
+          "height": 426.796875,
+          "bottom": 1047.390625,
+          "right": 372
+        },
+        "caption": {
+          "x": 18,
+          "y": 878.390625,
+          "width": 354,
+          "height": 167,
+          "bottom": 1045.390625,
+          "right": 372
+        },
+        "captionTitle": {
+          "x": 40,
+          "y": 942.390625,
+          "width": 310,
+          "height": 58.3125,
+          "bottom": 1000.703125,
+          "right": 350
+        },
+        "signature": {
+          "x": 0,
+          "y": 148,
+          "width": 390,
+          "height": 219.375,
+          "bottom": 367.375,
+          "right": 390
+        }
+      },
+      "scrollWidth": 390,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.5381,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 206.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 215.69999999998254,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 253.69999999998254,
+            "currentTime": 0.0145
+          },
+          {
+            "name": "playing",
+            "time": 253.69999999998254,
+            "currentTime": 0.0146
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-375x812-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 72,
+          "bottom": 72,
+          "right": 375
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 375,
+          "height": 1104.375,
+          "bottom": 1176.375,
+          "right": 375
+        },
+        "grid": {
+          "x": 18,
+          "y": 114,
+          "width": 339,
+          "height": 1006.375,
+          "bottom": 1120.375,
+          "right": 357
+        },
+        "badge": {
+          "x": 18,
+          "y": 114,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 133.390625,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 159.390625,
+          "width": 339,
+          "height": 79.1875,
+          "bottom": 238.578125,
+          "right": 357
+        },
+        "statement": {
+          "x": 18,
+          "y": 260.578125,
+          "width": 339,
+          "height": 53.1875,
+          "bottom": 313.765625,
+          "right": 357
+        },
+        "lead": {
+          "x": 18,
+          "y": 329.765625,
+          "width": 339,
+          "height": 73.5,
+          "bottom": 403.265625,
+          "right": 357
+        },
+        "primary": {
+          "x": 18,
+          "y": 426.265625,
+          "width": 339,
+          "height": 48,
+          "bottom": 474.265625,
+          "right": 357
+        },
+        "secondary": {
+          "x": 18,
+          "y": 487.265625,
+          "width": 339,
+          "height": 48,
+          "bottom": 535.265625,
+          "right": 357
+        },
+        "note": {
+          "x": 18,
+          "y": 555.265625,
+          "width": 339,
+          "height": 61.171875,
+          "bottom": 616.4375,
+          "right": 357
+        },
+        "photo": {
+          "x": 18,
+          "y": 646.4375,
+          "width": 339,
+          "height": 355.9375,
+          "bottom": 1002.375,
+          "right": 357
+        },
+        "card": {
+          "x": 18,
+          "y": 646.4375,
+          "width": 339,
+          "height": 473.9375,
+          "bottom": 1120.375,
+          "right": 357
+        },
+        "caption": {
+          "x": 18,
+          "y": 1002.375,
+          "width": 339,
+          "height": 116,
+          "bottom": 1118.375,
+          "right": 357
+        },
+        "captionTitle": {
+          "x": 38,
+          "y": 1019.375,
+          "width": 299,
+          "height": 58.3125,
+          "bottom": 1077.6875,
+          "right": 337
+        },
+        "signature": {
+          "x": -18.75,
+          "y": 204.515625,
+          "width": 412.5,
+          "height": 232.03125,
+          "bottom": 436.546875,
+          "right": 393.75
+        }
+      },
+      "scrollWidth": 375,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4998,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 28,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 196.29999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 209.5,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 225.60000000000582,
+            "currentTime": 0.0016
+          },
+          {
+            "name": "playing",
+            "time": 225.60000000000582,
+            "currentTime": 0.0016
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-375x812-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 72,
+          "bottom": 72,
+          "right": 375
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 375,
+          "height": 989.203125,
+          "bottom": 1061.203125,
+          "right": 375
+        },
+        "grid": {
+          "x": 18,
+          "y": 104,
+          "width": 339,
+          "height": 921.203125,
+          "bottom": 1025.203125,
+          "right": 357
+        },
+        "badge": {
+          "x": 18,
+          "y": 104,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 123.390625,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 145.390625,
+          "width": 339,
+          "height": 78.375,
+          "bottom": 223.765625,
+          "right": 357
+        },
+        "statement": {
+          "x": 18,
+          "y": 241.765625,
+          "width": 339,
+          "height": 53.1875,
+          "bottom": 294.953125,
+          "right": 357
+        },
+        "lead": {
+          "x": 18,
+          "y": 308.953125,
+          "width": 339,
+          "height": 69.28125,
+          "bottom": 378.234375,
+          "right": 357
+        },
+        "primary": {
+          "x": 18,
+          "y": 398.234375,
+          "width": 339,
+          "height": 48,
+          "bottom": 446.234375,
+          "right": 357
+        },
+        "secondary": {
+          "x": 18,
+          "y": 459.234375,
+          "width": 339,
+          "height": 48,
+          "bottom": 507.234375,
+          "right": 357
+        },
+        "note": {
+          "x": 18,
+          "y": 525.234375,
+          "width": 339,
+          "height": 61.171875,
+          "bottom": 586.40625,
+          "right": 357
+        },
+        "photo": {
+          "x": 18,
+          "y": 616.40625,
+          "width": 339,
+          "height": 406.796875,
+          "bottom": 1023.203125,
+          "right": 357
+        },
+        "card": {
+          "x": 18,
+          "y": 616.40625,
+          "width": 339,
+          "height": 408.796875,
+          "bottom": 1025.203125,
+          "right": 357
+        },
+        "caption": {
+          "x": 18,
+          "y": 856.203125,
+          "width": 339,
+          "height": 167,
+          "bottom": 1023.203125,
+          "right": 357
+        },
+        "captionTitle": {
+          "x": 40,
+          "y": 920.203125,
+          "width": 295,
+          "height": 58.3125,
+          "bottom": 978.515625,
+          "right": 335
+        },
+        "signature": {
+          "x": 0,
+          "y": 148,
+          "width": 375,
+          "height": 210.9375,
+          "bottom": 358.9375,
+          "right": 375
+        }
+      },
+      "scrollWidth": 375,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4953,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 191.29999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 215.69999999998254,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 235,
+            "currentTime": 0.0019
+          },
+          {
+            "name": "playing",
+            "time": 235,
+            "currentTime": 0.0019
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-320x740-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 72,
+          "bottom": 72,
+          "right": 320
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 1106.609375,
+          "bottom": 1178.609375,
+          "right": 320
+        },
+        "grid": {
+          "x": 18,
+          "y": 114,
+          "width": 284,
+          "height": 1008.609375,
+          "bottom": 1122.609375,
+          "right": 302
+        },
+        "badge": {
+          "x": 18,
+          "y": 114,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 133.390625,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 159.390625,
+          "width": 284,
+          "height": 118.78125,
+          "bottom": 278.171875,
+          "right": 302
+        },
+        "statement": {
+          "x": 18,
+          "y": 300.171875,
+          "width": 284,
+          "height": 53.1875,
+          "bottom": 353.359375,
+          "right": 302
+        },
+        "lead": {
+          "x": 18,
+          "y": 369.359375,
+          "width": 284,
+          "height": 73.5,
+          "bottom": 442.859375,
+          "right": 302
+        },
+        "primary": {
+          "x": 18,
+          "y": 465.859375,
+          "width": 284,
+          "height": 48,
+          "bottom": 513.859375,
+          "right": 302
+        },
+        "secondary": {
+          "x": 18,
+          "y": 526.859375,
+          "width": 284,
+          "height": 48,
+          "bottom": 574.859375,
+          "right": 302
+        },
+        "note": {
+          "x": 18,
+          "y": 594.859375,
+          "width": 284,
+          "height": 81.5625,
+          "bottom": 676.421875,
+          "right": 302
+        },
+        "photo": {
+          "x": 18,
+          "y": 706.421875,
+          "width": 284,
+          "height": 298.1875,
+          "bottom": 1004.609375,
+          "right": 302
+        },
+        "card": {
+          "x": 18,
+          "y": 706.421875,
+          "width": 284,
+          "height": 416.1875,
+          "bottom": 1122.609375,
+          "right": 302
+        },
+        "caption": {
+          "x": 18,
+          "y": 1004.609375,
+          "width": 284,
+          "height": 116,
+          "bottom": 1120.609375,
+          "right": 302
+        },
+        "captionTitle": {
+          "x": 38,
+          "y": 1021.609375,
+          "width": 244,
+          "height": 58.3125,
+          "bottom": 1079.921875,
+          "right": 282
+        },
+        "signature": {
+          "x": -16,
+          "y": 204.78125,
+          "width": 352,
+          "height": 198,
+          "bottom": 402.78125,
+          "right": 336
+        }
+      },
+      "scrollWidth": 320,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4959,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 23.60000000000582,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 204.5,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 223.10000000000582,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 241,
+            "currentTime": 0.0005
+          },
+          {
+            "name": "playing",
+            "time": 241.10000000000582,
+            "currentTime": 0.0005
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-320x740-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 72,
+          "bottom": 72,
+          "right": 320
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 982.78125,
+          "bottom": 1054.78125,
+          "right": 320
+        },
+        "grid": {
+          "x": 18,
+          "y": 104,
+          "width": 284,
+          "height": 914.78125,
+          "bottom": 1018.78125,
+          "right": 302
+        },
+        "badge": {
+          "x": 18,
+          "y": 104,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 123.390625,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 145.390625,
+          "width": 284,
+          "height": 117.5625,
+          "bottom": 262.953125,
+          "right": 302
+        },
+        "statement": {
+          "x": 18,
+          "y": 280.953125,
+          "width": 284,
+          "height": 53.1875,
+          "bottom": 334.140625,
+          "right": 302
+        },
+        "lead": {
+          "x": 18,
+          "y": 348.140625,
+          "width": 284,
+          "height": 69.28125,
+          "bottom": 417.421875,
+          "right": 302
+        },
+        "primary": {
+          "x": 18,
+          "y": 437.421875,
+          "width": 284,
+          "height": 48,
+          "bottom": 485.421875,
+          "right": 302
+        },
+        "secondary": {
+          "x": 18,
+          "y": 498.421875,
+          "width": 284,
+          "height": 48,
+          "bottom": 546.421875,
+          "right": 302
+        },
+        "note": {
+          "x": 18,
+          "y": 564.421875,
+          "width": 284,
+          "height": 81.5625,
+          "bottom": 645.984375,
+          "right": 302
+        },
+        "photo": {
+          "x": 18,
+          "y": 675.984375,
+          "width": 284,
+          "height": 340.796875,
+          "bottom": 1016.78125,
+          "right": 302
+        },
+        "card": {
+          "x": 18,
+          "y": 675.984375,
+          "width": 284,
+          "height": 342.796875,
+          "bottom": 1018.78125,
+          "right": 302
+        },
+        "caption": {
+          "x": 18,
+          "y": 849.78125,
+          "width": 284,
+          "height": 167,
+          "bottom": 1016.78125,
+          "right": 302
+        },
+        "captionTitle": {
+          "x": 40,
+          "y": 913.78125,
+          "width": 240,
+          "height": 58.3125,
+          "bottom": 972.09375,
+          "right": 280
+        },
+        "signature": {
+          "x": 0,
+          "y": 148,
+          "width": 320,
+          "height": 180,
+          "bottom": 328,
+          "right": 320
+        }
+      },
+      "scrollWidth": 320,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4994,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 193.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 206.89999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 248,
+            "currentTime": 0.0171
+          },
+          {
+            "name": "playing",
+            "time": 248,
+            "currentTime": 0.0171
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-844x390-before",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 72,
+          "bottom": 72,
+          "right": 844
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 844,
+          "height": 1159.046875,
+          "bottom": 1231.046875,
+          "right": 844
+        },
+        "grid": {
+          "x": 82,
+          "y": 126,
+          "width": 680,
+          "height": 1041.046875,
+          "bottom": 1167.046875,
+          "right": 762
+        },
+        "badge": {
+          "x": 82,
+          "y": 126,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 145.390625,
+          "right": 305.0625
+        },
+        "title": {
+          "x": 82,
+          "y": 171.390625,
+          "width": 680,
+          "height": 121.5,
+          "bottom": 292.890625,
+          "right": 762
+        },
+        "statement": {
+          "x": 82,
+          "y": 314.890625,
+          "width": 680,
+          "height": 25.1875,
+          "bottom": 340.078125,
+          "right": 762
+        },
+        "lead": {
+          "x": 82,
+          "y": 356.078125,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 408.578125,
+          "right": 574.0625
+        },
+        "primary": {
+          "x": 82,
+          "y": 431.578125,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 479.578125,
+          "right": 300.484375
+        },
+        "secondary": {
+          "x": 313.484375,
+          "y": 431.578125,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 479.578125,
+          "right": 572.578125
+        },
+        "note": {
+          "x": 82,
+          "y": 499.578125,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 540.359375,
+          "right": 513.5
+        },
+        "photo": {
+          "x": 82,
+          "y": 570.359375,
+          "width": 680,
+          "height": 510,
+          "bottom": 1080.359375,
+          "right": 762
+        },
+        "card": {
+          "x": 82,
+          "y": 570.359375,
+          "width": 680,
+          "height": 596.6875,
+          "bottom": 1167.046875,
+          "right": 762
+        },
+        "caption": {
+          "x": 252.359375,
+          "y": 1080.359375,
+          "width": 339.28125,
+          "height": 84.6875,
+          "bottom": 1165.046875,
+          "right": 591.640625
+        },
+        "captionTitle": {
+          "x": 272.359375,
+          "y": 1097.359375,
+          "width": 299.28125,
+          "height": 27,
+          "bottom": 1124.359375,
+          "right": 571.640625
+        },
+        "signature": {
+          "x": -42.1953125,
+          "y": 211.078125,
+          "width": 928.390625,
+          "height": 522.21875,
+          "bottom": 733.296875,
+          "right": 886.1953125
+        }
+      },
+      "scrollWidth": 844,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.4702,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 22.70000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 182.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 214.29999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 264.3999999999942,
+            "currentTime": 0.0098
+          },
+          {
+            "name": "playing",
+            "time": 264.5,
+            "currentTime": 0.0098
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-844x390-after",
+      "status": "PASS",
+      "engineVersion": "156.0.8078.79",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 72,
+          "bottom": 72,
+          "right": 844
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 844,
+          "height": 1061.171875,
+          "bottom": 1133.171875,
+          "right": 844
+        },
+        "grid": {
+          "x": 82,
+          "y": 112,
+          "width": 680,
+          "height": 981.171875,
+          "bottom": 1093.171875,
+          "right": 762
+        },
+        "badge": {
+          "x": 82,
+          "y": 112,
+          "width": 223.0625,
+          "height": 19.390625,
+          "bottom": 131.390625,
+          "right": 305.0625
+        },
+        "title": {
+          "x": 82,
+          "y": 153.390625,
+          "width": 680,
+          "height": 132.3125,
+          "bottom": 285.703125,
+          "right": 762
+        },
+        "statement": {
+          "x": 82,
+          "y": 307.703125,
+          "width": 680,
+          "height": 25.1875,
+          "bottom": 332.890625,
+          "right": 762
+        },
+        "lead": {
+          "x": 82,
+          "y": 348.890625,
+          "width": 492.0625,
+          "height": 52.5,
+          "bottom": 401.390625,
+          "right": 574.0625
+        },
+        "primary": {
+          "x": 82,
+          "y": 424.390625,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 472.390625,
+          "right": 300.484375
+        },
+        "secondary": {
+          "x": 313.484375,
+          "y": 424.390625,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 472.390625,
+          "right": 572.578125
+        },
+        "note": {
+          "x": 82,
+          "y": 492.390625,
+          "width": 431.5,
+          "height": 40.78125,
+          "bottom": 533.171875,
+          "right": 513.5
+        },
+        "photo": {
+          "x": 202,
+          "y": 563.171875,
+          "width": 440,
+          "height": 528,
+          "bottom": 1091.171875,
+          "right": 642
+        },
+        "card": {
+          "x": 202,
+          "y": 563.171875,
+          "width": 440,
+          "height": 530,
+          "bottom": 1093.171875,
+          "right": 642
+        },
+        "caption": {
+          "x": 202,
+          "y": 955.484375,
+          "width": 440,
+          "height": 135.6875,
+          "bottom": 1091.171875,
+          "right": 642
+        },
+        "captionTitle": {
+          "x": 224,
+          "y": 1019.484375,
+          "width": 396,
+          "height": 27,
+          "bottom": 1046.484375,
+          "right": 620
+        },
+        "signature": {
+          "x": 42,
+          "y": 144,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 571.5,
+          "right": 802
+        }
+      },
+      "scrollWidth": 844,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.465,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 204.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 230.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 252,
+            "currentTime": 0.0059
+          },
+          {
+            "name": "playing",
+            "time": 252,
+            "currentTime": 0.0059
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "chromium-reduced-motion",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")"
+      }
+    },
+    {
+      "name": "chromium-autoplay-denied",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")"
+      }
+    },
+    {
+      "name": "webkit-1920x1080-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 76,
+          "bottom": 76,
+          "right": 1920
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1920,
+          "height": 938.90625,
+          "bottom": 1014.90625,
+          "right": 1920
+        },
+        "grid": {
+          "x": 330,
+          "y": 156,
+          "width": 1260,
+          "height": 778.90625,
+          "bottom": 934.90625,
+          "right": 1590
+        },
+        "badge": {
+          "x": 330,
+          "y": 251.453125,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 270.453125,
+          "right": 553.0625
+        },
+        "title": {
+          "x": 330,
+          "y": 312.453125,
+          "width": 632.875,
+          "height": 258,
+          "bottom": 570.453125,
+          "right": 962.875
+        },
+        "statement": {
+          "x": 330,
+          "y": 606.453125,
+          "width": 632.875,
+          "height": 30,
+          "bottom": 636.453125,
+          "right": 962.875
+        },
+        "lead": {
+          "x": 330,
+          "y": 654.453125,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 706.453125,
+          "right": 822.0625
+        },
+        "primary": {
+          "x": 330,
+          "y": 731.453125,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 779.453125,
+          "right": 548.484375
+        },
+        "secondary": {
+          "x": 561.484375,
+          "y": 731.453125,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 779.453125,
+          "right": 820.578125
+        },
+        "note": {
+          "x": 330,
+          "y": 805.453125,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 845.453125,
+          "right": 761.5
+        },
+        "photo": {
+          "x": 1050.875,
+          "y": 156,
+          "width": 539.125,
+          "height": 673.90625,
+          "bottom": 829.90625,
+          "right": 1590
+        },
+        "card": {
+          "x": 1050.875,
+          "y": 156,
+          "width": 539.125,
+          "height": 778.90625,
+          "bottom": 934.90625,
+          "right": 1590
+        },
+        "caption": {
+          "x": 1050.875,
+          "y": 829.90625,
+          "width": 539.125,
+          "height": 103,
+          "bottom": 932.90625,
+          "right": 1590
+        },
+        "captionTitle": {
+          "x": 1072.875,
+          "y": 850.90625,
+          "width": 495.125,
+          "height": 36,
+          "bottom": 886.90625,
+          "right": 1568
+        },
+        "signature": {
+          "x": 192,
+          "y": 660.53125,
+          "width": 790,
+          "height": 444.375,
+          "bottom": 1104.90625,
+          "right": 982
+        }
+      },
+      "scrollWidth": 1920,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 9.000000000000002,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 109182
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-1920x1080-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 76,
+          "bottom": 76,
+          "right": 1920
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1920,
+          "height": 675.1875,
+          "bottom": 751.1875,
+          "right": 1920
+        },
+        "grid": {
+          "x": 330,
+          "y": 124.59375,
+          "width": 1260,
+          "height": 578,
+          "bottom": 702.59375,
+          "right": 1590
+        },
+        "badge": {
+          "x": 330,
+          "y": 184.09375,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 203.09375,
+          "right": 553.0625
+        },
+        "title": {
+          "x": 330,
+          "y": 231.09375,
+          "width": 703.265625,
+          "height": 164,
+          "bottom": 395.09375,
+          "right": 1033.265625
+        },
+        "statement": {
+          "x": 330,
+          "y": 421.09375,
+          "width": 703.265625,
+          "height": 30,
+          "bottom": 451.09375,
+          "right": 1033.265625
+        },
+        "lead": {
+          "x": 330,
+          "y": 467.09375,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 519.09375,
+          "right": 822.0625
+        },
+        "primary": {
+          "x": 330,
+          "y": 541.09375,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 589.09375,
+          "right": 548.484375
+        },
+        "secondary": {
+          "x": 561.484375,
+          "y": 541.09375,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 589.09375,
+          "right": 820.578125
+        },
+        "note": {
+          "x": 330,
+          "y": 609.09375,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 649.09375,
+          "right": 761.5
+        },
+        "photo": {
+          "x": 1109.984375,
+          "y": 124.59375,
+          "width": 480,
+          "height": 576,
+          "bottom": 700.59375,
+          "right": 1589.984375
+        },
+        "card": {
+          "x": 1109.984375,
+          "y": 124.59375,
+          "width": 480,
+          "height": 578,
+          "bottom": 702.59375,
+          "right": 1589.984375
+        },
+        "caption": {
+          "x": 1109.984375,
+          "y": 556.59375,
+          "width": 480,
+          "height": 144,
+          "bottom": 700.59375,
+          "right": 1589.984375
+        },
+        "captionTitle": {
+          "x": 1133.984375,
+          "y": 620.59375,
+          "width": 432,
+          "height": 34,
+          "bottom": 654.59375,
+          "right": 1565.984375
+        },
+        "signature": {
+          "x": 290,
+          "y": 199.59375,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 627.09375,
+          "right": 1050
+        }
+      },
+      "scrollWidth": 1920,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.339784778,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 399,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 533,
+            "currentTime": 0.000631412
+          },
+          {
+            "name": "canplay",
+            "time": 533,
+            "currentTime": 0.000631412
+          },
+          {
+            "name": "playing",
+            "time": 533,
+            "currentTime": 0.000631412
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-1366x768-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1366,
+          "height": 76,
+          "bottom": 76,
+          "right": 1366
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1366,
+          "height": 916.59375,
+          "bottom": 992.59375,
+          "right": 1366
+        },
+        "grid": {
+          "x": 53,
+          "y": 144.296875,
+          "width": 1260,
+          "height": 780,
+          "bottom": 924.296875,
+          "right": 1313
+        },
+        "badge": {
+          "x": 53,
+          "y": 295.8125,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 314.8125,
+          "right": 276.0625
+        },
+        "title": {
+          "x": 53,
+          "y": 355.78125,
+          "width": 643.515625,
+          "height": 148,
+          "bottom": 503.78125,
+          "right": 696.515625
+        },
+        "statement": {
+          "x": 53,
+          "y": 539.78125,
+          "width": 643.515625,
+          "height": 30,
+          "bottom": 569.78125,
+          "right": 696.515625
+        },
+        "lead": {
+          "x": 53,
+          "y": 587.78125,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 639.78125,
+          "right": 545.0625
+        },
+        "primary": {
+          "x": 53,
+          "y": 664.78125,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 712.78125,
+          "right": 271.484375
+        },
+        "secondary": {
+          "x": 284.484375,
+          "y": 664.78125,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 712.78125,
+          "right": 543.578125
+        },
+        "note": {
+          "x": 53,
+          "y": 738.78125,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 778.78125,
+          "right": 484.5
+        },
+        "photo": {
+          "x": 773,
+          "y": 144.296875,
+          "width": 540,
+          "height": 675,
+          "bottom": 819.296875,
+          "right": 1313
+        },
+        "card": {
+          "x": 773,
+          "y": 144.296875,
+          "width": 540,
+          "height": 780,
+          "bottom": 924.296875,
+          "right": 1313
+        },
+        "caption": {
+          "x": 773,
+          "y": 819.296875,
+          "width": 540,
+          "height": 103,
+          "bottom": 922.296875,
+          "right": 1313
+        },
+        "captionTitle": {
+          "x": 795,
+          "y": 840.296875,
+          "width": 496,
+          "height": 36,
+          "bottom": 876.296875,
+          "right": 1291
+        },
+        "signature": {
+          "x": 136.59375,
+          "y": 638.21875,
+          "width": 790,
+          "height": 444.375,
+          "bottom": 1082.59375,
+          "right": 926.59375
+        }
+      },
+      "scrollWidth": 1366,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 10,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 76,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 77,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 78,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 78,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 78,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 89161
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-1366x768-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1366,
+          "height": 76,
+          "bottom": 76,
+          "right": 1366
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1366,
+          "height": 547.65625,
+          "bottom": 623.65625,
+          "right": 1366
+        },
+        "grid": {
+          "x": 53,
+          "y": 100,
+          "width": 1260,
+          "height": 499.65625,
+          "bottom": 599.65625,
+          "right": 1313
+        },
+        "badge": {
+          "x": 53,
+          "y": 157.328125,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 176.328125,
+          "right": 276.0625
+        },
+        "title": {
+          "x": 53,
+          "y": 196.328125,
+          "width": 707.125,
+          "height": 124,
+          "bottom": 320.328125,
+          "right": 760.125
+        },
+        "statement": {
+          "x": 53,
+          "y": 336.328125,
+          "width": 707.125,
+          "height": 28,
+          "bottom": 364.328125,
+          "right": 760.125
+        },
+        "lead": {
+          "x": 53,
+          "y": 378.328125,
+          "width": 459.265625,
+          "height": 48,
+          "bottom": 426.328125,
+          "right": 512.265625
+        },
+        "primary": {
+          "x": 53,
+          "y": 446.328125,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 494.328125,
+          "right": 271.484375
+        },
+        "secondary": {
+          "x": 284.484375,
+          "y": 446.328125,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 494.328125,
+          "right": 543.578125
+        },
+        "note": {
+          "x": 53,
+          "y": 510.328125,
+          "width": 431.5,
+          "height": 38,
+          "bottom": 548.328125,
+          "right": 484.5
+        },
+        "photo": {
+          "x": 898.28125,
+          "y": 100,
+          "width": 414.71875,
+          "height": 497.65625,
+          "bottom": 597.65625,
+          "right": 1313
+        },
+        "card": {
+          "x": 898.28125,
+          "y": 100,
+          "width": 414.71875,
+          "height": 499.65625,
+          "bottom": 599.65625,
+          "right": 1313
+        },
+        "caption": {
+          "x": 898.28125,
+          "y": 421.65625,
+          "width": 414.71875,
+          "height": 176,
+          "bottom": 597.65625,
+          "right": 1313
+        },
+        "captionTitle": {
+          "x": 922.28125,
+          "y": 485.65625,
+          "width": 366.71875,
+          "height": 66,
+          "bottom": 551.65625,
+          "right": 1289
+        },
+        "signature": {
+          "x": 13,
+          "y": 135.828125,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 563.328125,
+          "right": 773
+        }
+      },
+      "scrollWidth": 1366,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.689211848,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 352,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 435,
+            "currentTime": 0.000631782
+          },
+          {
+            "name": "canplay",
+            "time": 435,
+            "currentTime": 0.000631782
+          },
+          {
+            "name": "playing",
+            "time": 435,
+            "currentTime": 0.000631782
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-1280x720-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 76,
+          "bottom": 76,
+          "right": 1280
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1280,
+          "height": 893.390625,
+          "bottom": 969.390625,
+          "right": 1280
+        },
+        "grid": {
+          "x": 32,
+          "y": 140,
+          "width": 1216,
+          "height": 765.390625,
+          "bottom": 905.390625,
+          "right": 1248
+        },
+        "badge": {
+          "x": 32,
+          "y": 289.5,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 308.5,
+          "right": 255.0625
+        },
+        "title": {
+          "x": 32,
+          "y": 346.890625,
+          "width": 622.078125,
+          "height": 140,
+          "bottom": 486.890625,
+          "right": 654.078125
+        },
+        "statement": {
+          "x": 32,
+          "y": 522.890625,
+          "width": 622.078125,
+          "height": 30,
+          "bottom": 552.890625,
+          "right": 654.078125
+        },
+        "lead": {
+          "x": 32,
+          "y": 570.890625,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 622.890625,
+          "right": 524.0625
+        },
+        "primary": {
+          "x": 32,
+          "y": 647.890625,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 695.890625,
+          "right": 250.484375
+        },
+        "secondary": {
+          "x": 263.484375,
+          "y": 647.890625,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 695.890625,
+          "right": 522.578125
+        },
+        "note": {
+          "x": 32,
+          "y": 721.890625,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 761.890625,
+          "right": 463.5
+        },
+        "photo": {
+          "x": 718.078125,
+          "y": 140,
+          "width": 529.921875,
+          "height": 662.390625,
+          "bottom": 802.390625,
+          "right": 1248
+        },
+        "card": {
+          "x": 718.078125,
+          "y": 140,
+          "width": 529.921875,
+          "height": 765.390625,
+          "bottom": 905.390625,
+          "right": 1248
+        },
+        "caption": {
+          "x": 718.078125,
+          "y": 802.390625,
+          "width": 529.921875,
+          "height": 101,
+          "bottom": 903.390625,
+          "right": 1248
+        },
+        "captionTitle": {
+          "x": 740.078125,
+          "y": 823.390625,
+          "width": 485.921875,
+          "height": 34,
+          "bottom": 857.390625,
+          "right": 1226
+        },
+        "signature": {
+          "x": 128,
+          "y": 615.015625,
+          "width": 790,
+          "height": 444.375,
+          "bottom": 1059.390625,
+          "right": 918
+        }
+      },
+      "scrollWidth": 1280,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 14,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 75,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 93405
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-1280x720-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 76,
+          "bottom": 76,
+          "right": 1280
+        },
+        "hero": {
+          "x": 0,
+          "y": 76,
+          "width": 1280,
+          "height": 516.546875,
+          "bottom": 592.546875,
+          "right": 1280
+        },
+        "grid": {
+          "x": 32,
+          "y": 100,
+          "width": 1216,
+          "height": 468.546875,
+          "bottom": 568.546875,
+          "right": 1248
+        },
+        "badge": {
+          "x": 32,
+          "y": 145.765625,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 164.765625,
+          "right": 255.0625
+        },
+        "title": {
+          "x": 32,
+          "y": 184.765625,
+          "width": 683.453125,
+          "height": 116,
+          "bottom": 300.765625,
+          "right": 715.453125
+        },
+        "statement": {
+          "x": 32,
+          "y": 316.765625,
+          "width": 683.453125,
+          "height": 28,
+          "bottom": 344.765625,
+          "right": 715.453125
+        },
+        "lead": {
+          "x": 32,
+          "y": 358.765625,
+          "width": 459.265625,
+          "height": 48,
+          "bottom": 406.765625,
+          "right": 491.265625
+        },
+        "primary": {
+          "x": 32,
+          "y": 426.765625,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 474.765625,
+          "right": 250.484375
+        },
+        "secondary": {
+          "x": 263.484375,
+          "y": 426.765625,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 474.765625,
+          "right": 522.578125
+        },
+        "note": {
+          "x": 32,
+          "y": 490.765625,
+          "width": 431.5,
+          "height": 38,
+          "bottom": 528.765625,
+          "right": 463.5
+        },
+        "photo": {
+          "x": 859.1875,
+          "y": 100,
+          "width": 388.796875,
+          "height": 466.546875,
+          "bottom": 566.546875,
+          "right": 1247.984375
+        },
+        "card": {
+          "x": 859.1875,
+          "y": 100,
+          "width": 388.796875,
+          "height": 468.546875,
+          "bottom": 568.546875,
+          "right": 1247.984375
+        },
+        "caption": {
+          "x": 859.1875,
+          "y": 394.546875,
+          "width": 388.796875,
+          "height": 172,
+          "bottom": 566.546875,
+          "right": 1247.984375
+        },
+        "captionTitle": {
+          "x": 883.1875,
+          "y": 458.546875,
+          "width": 340.796875,
+          "height": 62,
+          "bottom": 520.546875,
+          "right": 1223.984375
+        },
+        "signature": {
+          "x": 8,
+          "y": 120.265625,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 547.765625,
+          "right": 768
+        }
+      },
+      "scrollWidth": 1280,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.370950822,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 364,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 463,
+            "currentTime": 0.000596118
+          },
+          {
+            "name": "canplay",
+            "time": 463,
+            "currentTime": 0.000596118
+          },
+          {
+            "name": "playing",
+            "time": 463,
+            "currentTime": 0.000596118
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-768x1024-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "bottom": 72,
+          "right": 768
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 768,
+          "height": 1145,
+          "bottom": 1217,
+          "right": 768
+        },
+        "grid": {
+          "x": 44,
+          "y": 126,
+          "width": 680,
+          "height": 1027,
+          "bottom": 1153,
+          "right": 724
+        },
+        "badge": {
+          "x": 44,
+          "y": 126,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 145,
+          "right": 267.0625
+        },
+        "title": {
+          "x": 44,
+          "y": 171,
+          "width": 680,
+          "height": 110,
+          "bottom": 281,
+          "right": 724
+        },
+        "statement": {
+          "x": 44,
+          "y": 303,
+          "width": 680,
+          "height": 25,
+          "bottom": 328,
+          "right": 724
+        },
+        "lead": {
+          "x": 44,
+          "y": 344,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 396,
+          "right": 536.0625
+        },
+        "primary": {
+          "x": 44,
+          "y": 419,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 467,
+          "right": 262.484375
+        },
+        "secondary": {
+          "x": 275.484375,
+          "y": 419,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 467,
+          "right": 534.578125
+        },
+        "note": {
+          "x": 44,
+          "y": 487,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 527,
+          "right": 475.5
+        },
+        "photo": {
+          "x": 44,
+          "y": 557,
+          "width": 680,
+          "height": 510,
+          "bottom": 1067,
+          "right": 724
+        },
+        "card": {
+          "x": 44,
+          "y": 557,
+          "width": 680,
+          "height": 596,
+          "bottom": 1153,
+          "right": 724
+        },
+        "caption": {
+          "x": 214.359375,
+          "y": 1067,
+          "width": 339.28125,
+          "height": 84,
+          "bottom": 1151,
+          "right": 553.640625
+        },
+        "captionTitle": {
+          "x": 234.359375,
+          "y": 1084,
+          "width": 299.28125,
+          "height": 27,
+          "bottom": 1111,
+          "right": 533.640625
+        },
+        "signature": {
+          "x": -38.5,
+          "y": 209.390625,
+          "width": 844.796875,
+          "height": 475.1875,
+          "bottom": 684.578125,
+          "right": 806.296875
+        }
+      },
+      "scrollWidth": 768,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 62,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 63,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 92249
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-768x1024-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "bottom": 72,
+          "right": 768
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 768,
+          "height": 1047,
+          "bottom": 1119,
+          "right": 768
+        },
+        "grid": {
+          "x": 44,
+          "y": 112,
+          "width": 680,
+          "height": 967,
+          "bottom": 1079,
+          "right": 724
+        },
+        "badge": {
+          "x": 44,
+          "y": 112,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 131,
+          "right": 267.0625
+        },
+        "title": {
+          "x": 44,
+          "y": 153,
+          "width": 680,
+          "height": 120,
+          "bottom": 273,
+          "right": 724
+        },
+        "statement": {
+          "x": 44,
+          "y": 295,
+          "width": 680,
+          "height": 25,
+          "bottom": 320,
+          "right": 724
+        },
+        "lead": {
+          "x": 44,
+          "y": 336,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 388,
+          "right": 536.0625
+        },
+        "primary": {
+          "x": 44,
+          "y": 411,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 459,
+          "right": 262.484375
+        },
+        "secondary": {
+          "x": 275.484375,
+          "y": 411,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 459,
+          "right": 534.578125
+        },
+        "note": {
+          "x": 44,
+          "y": 479,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 519,
+          "right": 475.5
+        },
+        "photo": {
+          "x": 164,
+          "y": 549,
+          "width": 440,
+          "height": 528,
+          "bottom": 1077,
+          "right": 604
+        },
+        "card": {
+          "x": 164,
+          "y": 549,
+          "width": 440,
+          "height": 530,
+          "bottom": 1079,
+          "right": 604
+        },
+        "caption": {
+          "x": 164,
+          "y": 942,
+          "width": 440,
+          "height": 135,
+          "bottom": 1077,
+          "right": 604
+        },
+        "captionTitle": {
+          "x": 186,
+          "y": 1006,
+          "width": 396,
+          "height": 27,
+          "bottom": 1033,
+          "right": 582
+        },
+        "signature": {
+          "x": 4,
+          "y": 144,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 571.5,
+          "right": 764
+        }
+      },
+      "scrollWidth": 768,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.363615179,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 339,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 458,
+            "currentTime": 0.000607856
+          },
+          {
+            "name": "canplay",
+            "time": 458,
+            "currentTime": 0.000607856
+          },
+          {
+            "name": "playing",
+            "time": 458,
+            "currentTime": 0.000607856
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-390x844-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 72,
+          "bottom": 72,
+          "right": 390
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 1164.6875,
+          "bottom": 1236.6875,
+          "right": 390
+        },
+        "grid": {
+          "x": 18,
+          "y": 114,
+          "width": 354,
+          "height": 1066.6875,
+          "bottom": 1180.6875,
+          "right": 372
+        },
+        "badge": {
+          "x": 18,
+          "y": 114,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 133,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 159,
+          "width": 354,
+          "height": 129,
+          "bottom": 288,
+          "right": 372
+        },
+        "statement": {
+          "x": 18,
+          "y": 310,
+          "width": 354,
+          "height": 52,
+          "bottom": 362,
+          "right": 372
+        },
+        "lead": {
+          "x": 18,
+          "y": 378,
+          "width": 354,
+          "height": 72,
+          "bottom": 450,
+          "right": 372
+        },
+        "primary": {
+          "x": 18,
+          "y": 473,
+          "width": 354,
+          "height": 48,
+          "bottom": 521,
+          "right": 372
+        },
+        "secondary": {
+          "x": 18,
+          "y": 534,
+          "width": 354,
+          "height": 48,
+          "bottom": 582,
+          "right": 372
+        },
+        "note": {
+          "x": 18,
+          "y": 602,
+          "width": 354,
+          "height": 60,
+          "bottom": 662,
+          "right": 372
+        },
+        "photo": {
+          "x": 18,
+          "y": 692,
+          "width": 354,
+          "height": 371.6875,
+          "bottom": 1063.6875,
+          "right": 372
+        },
+        "card": {
+          "x": 18,
+          "y": 692,
+          "width": 354,
+          "height": 488.6875,
+          "bottom": 1180.6875,
+          "right": 372
+        },
+        "caption": {
+          "x": 18,
+          "y": 1063.6875,
+          "width": 354,
+          "height": 115,
+          "bottom": 1178.6875,
+          "right": 372
+        },
+        "captionTitle": {
+          "x": 38,
+          "y": 1080.6875,
+          "width": 314,
+          "height": 58,
+          "bottom": 1138.6875,
+          "right": 352
+        },
+        "signature": {
+          "x": -19.5,
+          "y": 211.75,
+          "width": 429,
+          "height": 241.3125,
+          "bottom": 453.0625,
+          "right": 409.5
+        }
+      },
+      "scrollWidth": 390,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 80,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 81,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 93734
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-390x844-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 72,
+          "bottom": 72,
+          "right": 390
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 390,
+          "height": 1007.796875,
+          "bottom": 1079.796875,
+          "right": 390
+        },
+        "grid": {
+          "x": 18,
+          "y": 104,
+          "width": 354,
+          "height": 939.796875,
+          "bottom": 1043.796875,
+          "right": 372
+        },
+        "badge": {
+          "x": 18,
+          "y": 104,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 123,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 145,
+          "width": 354,
+          "height": 82,
+          "bottom": 227,
+          "right": 372
+        },
+        "statement": {
+          "x": 18,
+          "y": 245,
+          "width": 354,
+          "height": 52,
+          "bottom": 297,
+          "right": 372
+        },
+        "lead": {
+          "x": 18,
+          "y": 311,
+          "width": 354,
+          "height": 69,
+          "bottom": 380,
+          "right": 372
+        },
+        "primary": {
+          "x": 18,
+          "y": 400,
+          "width": 354,
+          "height": 48,
+          "bottom": 448,
+          "right": 372
+        },
+        "secondary": {
+          "x": 18,
+          "y": 461,
+          "width": 354,
+          "height": 48,
+          "bottom": 509,
+          "right": 372
+        },
+        "note": {
+          "x": 18,
+          "y": 527,
+          "width": 354,
+          "height": 60,
+          "bottom": 587,
+          "right": 372
+        },
+        "photo": {
+          "x": 18,
+          "y": 617,
+          "width": 354,
+          "height": 424.796875,
+          "bottom": 1041.796875,
+          "right": 372
+        },
+        "card": {
+          "x": 18,
+          "y": 617,
+          "width": 354,
+          "height": 426.796875,
+          "bottom": 1043.796875,
+          "right": 372
+        },
+        "caption": {
+          "x": 18,
+          "y": 875.796875,
+          "width": 354,
+          "height": 166,
+          "bottom": 1041.796875,
+          "right": 372
+        },
+        "captionTitle": {
+          "x": 40,
+          "y": 939.796875,
+          "width": 310,
+          "height": 58,
+          "bottom": 997.796875,
+          "right": 350
+        },
+        "signature": {
+          "x": 0,
+          "y": 148,
+          "width": 390,
+          "height": 219.375,
+          "bottom": 367.375,
+          "right": 390
+        }
+      },
+      "scrollWidth": 390,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.465829195,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 335,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 431,
+            "currentTime": 0.000685473
+          },
+          {
+            "name": "canplay",
+            "time": 431,
+            "currentTime": 0.000685473
+          },
+          {
+            "name": "playing",
+            "time": 431,
+            "currentTime": 0.000685473
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-375x812-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 72,
+          "bottom": 72,
+          "right": 375
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 375,
+          "height": 1097.9375,
+          "bottom": 1169.9375,
+          "right": 375
+        },
+        "grid": {
+          "x": 18,
+          "y": 114,
+          "width": 339,
+          "height": 999.9375,
+          "bottom": 1113.9375,
+          "right": 357
+        },
+        "badge": {
+          "x": 18,
+          "y": 114,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 133,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 159,
+          "width": 339,
+          "height": 78,
+          "bottom": 237,
+          "right": 357
+        },
+        "statement": {
+          "x": 18,
+          "y": 259,
+          "width": 339,
+          "height": 52,
+          "bottom": 311,
+          "right": 357
+        },
+        "lead": {
+          "x": 18,
+          "y": 327,
+          "width": 339,
+          "height": 72,
+          "bottom": 399,
+          "right": 357
+        },
+        "primary": {
+          "x": 18,
+          "y": 422,
+          "width": 339,
+          "height": 48,
+          "bottom": 470,
+          "right": 357
+        },
+        "secondary": {
+          "x": 18,
+          "y": 483,
+          "width": 339,
+          "height": 48,
+          "bottom": 531,
+          "right": 357
+        },
+        "note": {
+          "x": 18,
+          "y": 551,
+          "width": 339,
+          "height": 60,
+          "bottom": 611,
+          "right": 357
+        },
+        "photo": {
+          "x": 18,
+          "y": 641,
+          "width": 339,
+          "height": 355.9375,
+          "bottom": 996.9375,
+          "right": 357
+        },
+        "card": {
+          "x": 18,
+          "y": 641,
+          "width": 339,
+          "height": 472.9375,
+          "bottom": 1113.9375,
+          "right": 357
+        },
+        "caption": {
+          "x": 18,
+          "y": 996.9375,
+          "width": 339,
+          "height": 115,
+          "bottom": 1111.9375,
+          "right": 357
+        },
+        "captionTitle": {
+          "x": 38,
+          "y": 1013.9375,
+          "width": 299,
+          "height": 58,
+          "bottom": 1071.9375,
+          "right": 337
+        },
+        "signature": {
+          "x": -19,
+          "y": 203.75,
+          "width": 412.5,
+          "height": 232.03125,
+          "bottom": 435.78125,
+          "right": 393.5
+        }
+      },
+      "scrollWidth": 375,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 73,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 74,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 93998
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-375x812-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 72,
+          "bottom": 72,
+          "right": 375
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 375,
+          "height": 985.796875,
+          "bottom": 1057.796875,
+          "right": 375
+        },
+        "grid": {
+          "x": 18,
+          "y": 104,
+          "width": 339,
+          "height": 917.796875,
+          "bottom": 1021.796875,
+          "right": 357
+        },
+        "badge": {
+          "x": 18,
+          "y": 104,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 123,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 145,
+          "width": 339,
+          "height": 78,
+          "bottom": 223,
+          "right": 357
+        },
+        "statement": {
+          "x": 18,
+          "y": 241,
+          "width": 339,
+          "height": 52,
+          "bottom": 293,
+          "right": 357
+        },
+        "lead": {
+          "x": 18,
+          "y": 307,
+          "width": 339,
+          "height": 69,
+          "bottom": 376,
+          "right": 357
+        },
+        "primary": {
+          "x": 18,
+          "y": 396,
+          "width": 339,
+          "height": 48,
+          "bottom": 444,
+          "right": 357
+        },
+        "secondary": {
+          "x": 18,
+          "y": 457,
+          "width": 339,
+          "height": 48,
+          "bottom": 505,
+          "right": 357
+        },
+        "note": {
+          "x": 18,
+          "y": 523,
+          "width": 339,
+          "height": 60,
+          "bottom": 583,
+          "right": 357
+        },
+        "photo": {
+          "x": 18,
+          "y": 613,
+          "width": 339,
+          "height": 406.796875,
+          "bottom": 1019.796875,
+          "right": 357
+        },
+        "card": {
+          "x": 18,
+          "y": 613,
+          "width": 339,
+          "height": 408.796875,
+          "bottom": 1021.796875,
+          "right": 357
+        },
+        "caption": {
+          "x": 18,
+          "y": 853.796875,
+          "width": 339,
+          "height": 166,
+          "bottom": 1019.796875,
+          "right": 357
+        },
+        "captionTitle": {
+          "x": 40,
+          "y": 917.796875,
+          "width": 295,
+          "height": 58,
+          "bottom": 975.796875,
+          "right": 335
+        },
+        "signature": {
+          "x": 0,
+          "y": 148,
+          "width": 375,
+          "height": 210.9375,
+          "bottom": 358.9375,
+          "right": 375
+        }
+      },
+      "scrollWidth": 375,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.394036229,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 322,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 404,
+            "currentTime": 0.000719674
+          },
+          {
+            "name": "canplay",
+            "time": 404,
+            "currentTime": 0.000719674
+          },
+          {
+            "name": "playing",
+            "time": 404,
+            "currentTime": 0.000719674
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-320x740-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 72,
+          "bottom": 72,
+          "right": 320
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 1099.1875,
+          "bottom": 1171.1875,
+          "right": 320
+        },
+        "grid": {
+          "x": 18,
+          "y": 114,
+          "width": 284,
+          "height": 1001.1875,
+          "bottom": 1115.1875,
+          "right": 302
+        },
+        "badge": {
+          "x": 18,
+          "y": 114,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 133,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 159,
+          "width": 284,
+          "height": 117,
+          "bottom": 276,
+          "right": 302
+        },
+        "statement": {
+          "x": 18,
+          "y": 298,
+          "width": 284,
+          "height": 52,
+          "bottom": 350,
+          "right": 302
+        },
+        "lead": {
+          "x": 18,
+          "y": 366,
+          "width": 284,
+          "height": 72,
+          "bottom": 438,
+          "right": 302
+        },
+        "primary": {
+          "x": 18,
+          "y": 461,
+          "width": 284,
+          "height": 48,
+          "bottom": 509,
+          "right": 302
+        },
+        "secondary": {
+          "x": 18,
+          "y": 522,
+          "width": 284,
+          "height": 48,
+          "bottom": 570,
+          "right": 302
+        },
+        "note": {
+          "x": 18,
+          "y": 590,
+          "width": 284,
+          "height": 80,
+          "bottom": 670,
+          "right": 302
+        },
+        "photo": {
+          "x": 18,
+          "y": 700,
+          "width": 284,
+          "height": 298.1875,
+          "bottom": 998.1875,
+          "right": 302
+        },
+        "card": {
+          "x": 18,
+          "y": 700,
+          "width": 284,
+          "height": 415.1875,
+          "bottom": 1115.1875,
+          "right": 302
+        },
+        "caption": {
+          "x": 18,
+          "y": 998.1875,
+          "width": 284,
+          "height": 115,
+          "bottom": 1113.1875,
+          "right": 302
+        },
+        "captionTitle": {
+          "x": 38,
+          "y": 1015.1875,
+          "width": 244,
+          "height": 58,
+          "bottom": 1073.1875,
+          "right": 282
+        },
+        "signature": {
+          "x": -16,
+          "y": 203.890625,
+          "width": 352,
+          "height": 198,
+          "bottom": 401.890625,
+          "right": 336
+        }
+      },
+      "scrollWidth": 320,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 14,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 97120
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-320x740-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 72,
+          "bottom": 72,
+          "right": 320
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 320,
+          "height": 978.796875,
+          "bottom": 1050.796875,
+          "right": 320
+        },
+        "grid": {
+          "x": 18,
+          "y": 104,
+          "width": 284,
+          "height": 910.796875,
+          "bottom": 1014.796875,
+          "right": 302
+        },
+        "badge": {
+          "x": 18,
+          "y": 104,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 123,
+          "right": 241.0625
+        },
+        "title": {
+          "x": 18,
+          "y": 145,
+          "width": 284,
+          "height": 117,
+          "bottom": 262,
+          "right": 302
+        },
+        "statement": {
+          "x": 18,
+          "y": 280,
+          "width": 284,
+          "height": 52,
+          "bottom": 332,
+          "right": 302
+        },
+        "lead": {
+          "x": 18,
+          "y": 346,
+          "width": 284,
+          "height": 69,
+          "bottom": 415,
+          "right": 302
+        },
+        "primary": {
+          "x": 18,
+          "y": 435,
+          "width": 284,
+          "height": 48,
+          "bottom": 483,
+          "right": 302
+        },
+        "secondary": {
+          "x": 18,
+          "y": 496,
+          "width": 284,
+          "height": 48,
+          "bottom": 544,
+          "right": 302
+        },
+        "note": {
+          "x": 18,
+          "y": 562,
+          "width": 284,
+          "height": 80,
+          "bottom": 642,
+          "right": 302
+        },
+        "photo": {
+          "x": 18,
+          "y": 672,
+          "width": 284,
+          "height": 340.796875,
+          "bottom": 1012.796875,
+          "right": 302
+        },
+        "card": {
+          "x": 18,
+          "y": 672,
+          "width": 284,
+          "height": 342.796875,
+          "bottom": 1014.796875,
+          "right": 302
+        },
+        "caption": {
+          "x": 18,
+          "y": 846.796875,
+          "width": 284,
+          "height": 166,
+          "bottom": 1012.796875,
+          "right": 302
+        },
+        "captionTitle": {
+          "x": 40,
+          "y": 910.796875,
+          "width": 240,
+          "height": 58,
+          "bottom": 968.796875,
+          "right": 280
+        },
+        "signature": {
+          "x": 0,
+          "y": 148,
+          "width": 320,
+          "height": 180,
+          "bottom": 328,
+          "right": 320
+        }
+      },
+      "scrollWidth": 320,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.390182738,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 308,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 395,
+            "currentTime": 0.003871455
+          },
+          {
+            "name": "canplay",
+            "time": 395,
+            "currentTime": 0.003871455
+          },
+          {
+            "name": "playing",
+            "time": 395,
+            "currentTime": 0.003871455
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-844x390-before",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 72,
+          "bottom": 72,
+          "right": 844
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 844,
+          "height": 1155,
+          "bottom": 1227,
+          "right": 844
+        },
+        "grid": {
+          "x": 82,
+          "y": 126,
+          "width": 680,
+          "height": 1037,
+          "bottom": 1163,
+          "right": 762
+        },
+        "badge": {
+          "x": 82,
+          "y": 126,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 145,
+          "right": 305.0625
+        },
+        "title": {
+          "x": 82,
+          "y": 171,
+          "width": 680,
+          "height": 120,
+          "bottom": 291,
+          "right": 762
+        },
+        "statement": {
+          "x": 82,
+          "y": 313,
+          "width": 680,
+          "height": 25,
+          "bottom": 338,
+          "right": 762
+        },
+        "lead": {
+          "x": 82,
+          "y": 354,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 406,
+          "right": 574.0625
+        },
+        "primary": {
+          "x": 82,
+          "y": 429,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 477,
+          "right": 300.484375
+        },
+        "secondary": {
+          "x": 313.484375,
+          "y": 429,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 477,
+          "right": 572.578125
+        },
+        "note": {
+          "x": 82,
+          "y": 497,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 537,
+          "right": 513.5
+        },
+        "photo": {
+          "x": 82,
+          "y": 567,
+          "width": 680,
+          "height": 510,
+          "bottom": 1077,
+          "right": 762
+        },
+        "card": {
+          "x": 82,
+          "y": 567,
+          "width": 680,
+          "height": 596,
+          "bottom": 1163,
+          "right": 762
+        },
+        "caption": {
+          "x": 252.359375,
+          "y": 1077,
+          "width": 339.28125,
+          "height": 84,
+          "bottom": 1161,
+          "right": 591.640625
+        },
+        "captionTitle": {
+          "x": 272.359375,
+          "y": 1094,
+          "width": 299.28125,
+          "height": 27,
+          "bottom": 1121,
+          "right": 571.640625
+        },
+        "signature": {
+          "x": -42,
+          "y": 210.59375,
+          "width": 928.390625,
+          "height": 522.21875,
+          "bottom": 732.8125,
+          "right": 886.390625
+        }
+      },
+      "scrollWidth": 844,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "static",
+        "border": "1px"
+      },
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 15,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 66,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 67,
+            "currentTime": 0
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 99412
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-844x390-after",
+      "status": "PASS",
+      "engineVersion": "26.0",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 72,
+          "bottom": 72,
+          "right": 844
+        },
+        "hero": {
+          "x": 0,
+          "y": 72,
+          "width": 844,
+          "height": 1059,
+          "bottom": 1131,
+          "right": 844
+        },
+        "grid": {
+          "x": 82,
+          "y": 112,
+          "width": 680,
+          "height": 979,
+          "bottom": 1091,
+          "right": 762
+        },
+        "badge": {
+          "x": 82,
+          "y": 112,
+          "width": 223.0625,
+          "height": 19,
+          "bottom": 131,
+          "right": 305.0625
+        },
+        "title": {
+          "x": 82,
+          "y": 153,
+          "width": 680,
+          "height": 132,
+          "bottom": 285,
+          "right": 762
+        },
+        "statement": {
+          "x": 82,
+          "y": 307,
+          "width": 680,
+          "height": 25,
+          "bottom": 332,
+          "right": 762
+        },
+        "lead": {
+          "x": 82,
+          "y": 348,
+          "width": 492.0625,
+          "height": 52,
+          "bottom": 400,
+          "right": 574.0625
+        },
+        "primary": {
+          "x": 82,
+          "y": 423,
+          "width": 218.484375,
+          "height": 48,
+          "bottom": 471,
+          "right": 300.484375
+        },
+        "secondary": {
+          "x": 313.484375,
+          "y": 423,
+          "width": 259.09375,
+          "height": 48,
+          "bottom": 471,
+          "right": 572.578125
+        },
+        "note": {
+          "x": 82,
+          "y": 491,
+          "width": 431.5,
+          "height": 40,
+          "bottom": 531,
+          "right": 513.5
+        },
+        "photo": {
+          "x": 202,
+          "y": 561,
+          "width": 440,
+          "height": 528,
+          "bottom": 1089,
+          "right": 642
+        },
+        "card": {
+          "x": 202,
+          "y": 561,
+          "width": 440,
+          "height": 530,
+          "bottom": 1091,
+          "right": 642
+        },
+        "caption": {
+          "x": 202,
+          "y": 954,
+          "width": 440,
+          "height": 135,
+          "bottom": 1089,
+          "right": 642
+        },
+        "captionTitle": {
+          "x": 224,
+          "y": 1018,
+          "width": 396,
+          "height": 27,
+          "bottom": 1045,
+          "right": 620
+        },
+        "signature": {
+          "x": 42,
+          "y": 144,
+          "width": 760,
+          "height": 427.5,
+          "bottom": 571.5,
+          "right": 802
+        }
+      },
+      "scrollWidth": 844,
+      "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+      "fonts": "loaded",
+      "fontErrors": [],
+      "photo": {
+        "naturalWidth": 1086,
+        "naturalHeight": 1448,
+        "fit": "cover"
+      },
+      "caption": {
+        "position": "absolute",
+        "border": "0px"
+      },
+      "video": {
+        "paused": false,
+        "currentTime": 1.354181167,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "events": [
+          {
+            "name": "loadstart",
+            "time": 292,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 441,
+            "currentTime": 0.000845764
+          },
+          {
+            "name": "canplay",
+            "time": 441,
+            "currentTime": 0.000845764
+          },
+          {
+            "name": "playing",
+            "time": 442,
+            "currentTime": 0.000845764
+          }
+        ],
+        "eventCounts": {
+          "loadstart": 1,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        }
+      },
+      "networkErrors": [],
+      "consoleMessages": []
+    },
+    {
+      "name": "webkit-reduced-motion",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")"
+      }
+    },
+    {
+      "name": "webkit-autoplay-denied",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")"
+      }
+    }
+  ]
+}

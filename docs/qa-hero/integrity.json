@@ -1,0 +1,51 @@
+{
+  "base": "aade965e7f3cce532b70fc131bc41c6b3bb21dca",
+  "applicationCandidate": "e78952c0807b1a4f6bbfcb8148691d7f0b806731",
+  "approvedTextIdentical": true,
+  "headMetadataIdentical": true,
+  "anchorDestinationsIdentical": true,
+  "originalAssets": [
+    {
+      "path": "assetsdra-cintia-hero.png",
+      "unchanged": true,
+      "sha256": "c5c52e3fb745c85ada521039a8e2a31003424c6b1e6c38f600d8f4955b6bd649"
+    },
+    {
+      "path": "cintia-logo-hero-site.mp4",
+      "unchanged": true,
+      "sha256": "bba81d196eb06c3ebb594f493ebe2b2840e458c2531ec960603f49a43c81b7e2"
+    },
+    {
+      "path": "cintia-logo-hero-poster.jpg",
+      "unchanged": true,
+      "sha256": "a95390ea2496d7070d0a4d258dc3345b34c0750031e5a54f12191c11f8151a31"
+    },
+    {
+      "path": "assetslogo-cintia-oficial.png",
+      "unchanged": true,
+      "sha256": "a75c4528a6e87e1072a184c354e7c2ce255f0a1ae3bce02be54e4ec22f73f5c7"
+    },
+    {
+      "path": "assetsdra-cintia-sobre.jpeg",
+      "unchanged": true,
+      "sha256": "c49c02175d116f58e580d2b82dee71269b3b39dc526e83ed1ded07cdf2d74430"
+    },
+    {
+      "path": "CNAME",
+      "unchanged": true,
+      "sha256": "62082fd472e7efefbdf357b99354a61e5c3a918c6464fa5ba05eed951a3a5295"
+    },
+    {
+      "path": "robots.txt",
+      "unchanged": true,
+      "sha256": "484c94d7b286a99cb1799945adbbda4baae76efb5900001ae1b8f2e8de547270"
+    },
+    {
+      "path": "sitemap.xml",
+      "unchanged": true,
+      "sha256": "4a6037ef38d83c5377fd29ed6441be524cc1936c45f10f14f9afe456f63f7464"
+    }
+  ],
+  "photoRGBAIdentical": true,
+  "backupV3": "7ddeed2fe15651d9e8573a9847d6c390abf2b5f0"
+}
