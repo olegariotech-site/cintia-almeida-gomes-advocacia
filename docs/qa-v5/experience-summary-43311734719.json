@@ -1,0 +1,1702 @@
+{
+  "base": "8ff0e64088696e6c7b815c10282d3fc1b8b41cd1",
+  "head": "faf3e35fdebc9984b427b4504a21bfff33dbc678",
+  "checkedAt": "2026-11-12T21:39:07.716Z",
+  "browserPlugin": "not available; Playwright in GitHub Actions because local socket() is blocked",
+  "physicalDevices": "not tested",
+  "results": [
+    {
+      "name": "chromium-1920x1080-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scrollWidth": 1920,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 6.0137,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1920x1080-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scrollWidth": 1920,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3412,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1366x768-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "scrollWidth": 1366,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.6079,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1366x768-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "scrollWidth": 1366,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.5699,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1280x720-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scrollWidth": 1280,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3414,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1280x720-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scrollWidth": 1280,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3177,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1024x768-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "scrollWidth": 1024,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3382,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-1024x768-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "scrollWidth": 1024,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3364,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-768x1024-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3325,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-768x1024-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 440,
+          "height": 586,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3387,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-390x844-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.4006,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-390x844-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 354,
+          "height": 472,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3917,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-375x812-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 375,
+          "height": 812
+        },
+        "scrollWidth": 375,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3525,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-375x812-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 375,
+          "height": 812
+        },
+        "scrollWidth": 375,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 339,
+          "height": 452,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3037,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-320x740-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3478,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-320x740-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 284,
+          "height": 378,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3087,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-844x390-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3599,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-844x390-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "156.0.8078.79",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 440,
+          "height": 586,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.3279,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "chromium-area-to-contact",
+      "status": "PASS",
+      "detail": {
+        "areas": 4,
+        "noAutomaticOpen": true,
+        "existingFieldsPreserved": true,
+        "destination": "https://wa.me/5519971432465"
+      }
+    },
+    {
+      "name": "chromium-native-no-js-form",
+      "status": "PASS",
+      "detail": {
+        "nativeSubmission": true,
+        "destination": "https://wa.me/5519971432465",
+        "intercepted": true,
+        "pillars": [
+          {
+            "text": "Experiência prática para compreender.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Estratégia jurídica para orientar.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Proximidade para conduzir.",
+            "opacity": "1",
+            "visibility": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-reduced-motion",
+      "status": "PASS",
+      "detail": {
+        "mediaRequests": 0,
+        "animations": [],
+        "pillars": [
+          {
+            "text": "Experiência prática para compreender.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Estratégia jurídica para orientar.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Proximidade para conduzir.",
+            "opacity": "1",
+            "visibility": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-200-percent-reflow",
+      "status": "PASS",
+      "detail": {
+        "cssViewport": "683x384",
+        "deviceScaleFactor": 2,
+        "physicalZoom": false
+      }
+    },
+    {
+      "name": "webkit-1920x1080-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scrollWidth": 1920,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 2.024812866,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1920x1080-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        },
+        "scrollWidth": 1920,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.243924688,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1366x768-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "scrollWidth": 1366,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.614793726,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1366x768-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1366,
+          "height": 768
+        },
+        "scrollWidth": 1366,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.608345436,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1280x720-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scrollWidth": 1280,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.207877946,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1280x720-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        },
+        "scrollWidth": 1280,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.200692435,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1024x768-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "scrollWidth": 1024,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.2055807,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-1024x768-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "scrollWidth": 1024,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 480,
+          "height": 640,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.237879209,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-768x1024-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.210328345,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-768x1024-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "scrollWidth": 768,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 440,
+          "height": 586,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.205637473,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-390x844-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.353585414,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-390x844-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 354,
+          "height": 472,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.317471358,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-375x812-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 375,
+          "height": 812
+        },
+        "scrollWidth": 375,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.214162529,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-375x812-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 375,
+          "height": 812
+        },
+        "scrollWidth": 375,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 339,
+          "height": 452,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.202705651,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-320x740-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.218994627,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-320x740-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 284,
+          "height": 378,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.199522174,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-844x390-v4",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4174/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4174/assetsdra-cintia-hero-lossless.webp",
+          "width": 1086,
+          "height": 1448,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.205465145,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-844x390-v5",
+      "status": "PASS",
+      "detail": {
+        "engine": "26.0",
+        "url": "http://127.0.0.1:4173/",
+        "title": "Cíntia Almeida Gomes Advocacia | Valinhos e região de Campinas",
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "scrollWidth": 844,
+        "consoleMessages": [],
+        "badResponses": [],
+        "photo": {
+          "src": "http://127.0.0.1:4173/assets/media/cintia-hero-540.webp",
+          "width": 440,
+          "height": 586,
+          "fit": "cover"
+        },
+        "video": {
+          "time": 1.205687133,
+          "ready": 4,
+          "paused": false,
+          "muted": true,
+          "inline": true,
+          "events": {
+            "loadstart": 1,
+            "playing": 1
+          }
+        },
+        "nativeTimeline": true
+      }
+    },
+    {
+      "name": "webkit-area-to-contact",
+      "status": "PASS",
+      "detail": {
+        "areas": 4,
+        "noAutomaticOpen": true,
+        "existingFieldsPreserved": true,
+        "destination": "https://wa.me/5519971432465"
+      }
+    },
+    {
+      "name": "webkit-native-no-js-form",
+      "status": "PASS",
+      "detail": {
+        "nativeSubmission": true,
+        "destination": "https://wa.me/5519971432465",
+        "intercepted": true,
+        "pillars": [
+          {
+            "text": "Experiência prática para compreender.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Estratégia jurídica para orientar.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Proximidade para conduzir.",
+            "opacity": "1",
+            "visibility": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-reduced-motion",
+      "status": "PASS",
+      "detail": {
+        "mediaRequests": 0,
+        "animations": [],
+        "pillars": [
+          {
+            "text": "Experiência prática para compreender.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Estratégia jurídica para orientar.",
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "text": "Proximidade para conduzir.",
+            "opacity": "1",
+            "visibility": "visible"
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-200-percent-reflow",
+      "status": "PASS",
+      "detail": {
+        "cssViewport": "683x384",
+        "deviceScaleFactor": 2,
+        "physicalZoom": false
+      }
+    },
+    {
+      "name": "immediate-content-with-slow-media",
+      "status": "PASS",
+      "detail": {
+        "firstObservation": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "width": 1366,
+            "height": 76,
+            "bottom": 76,
+            "right": 1366
+          },
+          "hero": {
+            "x": 0,
+            "y": 76,
+            "width": 1366,
+            "height": 547.65625,
+            "bottom": 623.65625,
+            "right": 1366
+          },
+          "title": {
+            "x": 53,
+            "y": 185.390625,
+            "width": 707.125,
+            "height": 125.6875,
+            "bottom": 311.078125,
+            "right": 760.125
+          },
+          "statement": {
+            "x": 53,
+            "y": 327.078125,
+            "width": 707.125,
+            "height": 28,
+            "bottom": 355.078125,
+            "right": 760.125
+          },
+          "lead": {
+            "x": 53,
+            "y": 369.078125,
+            "width": 463.171875,
+            "height": 49,
+            "bottom": 418.078125,
+            "right": 516.171875
+          },
+          "primary": {
+            "x": 53,
+            "y": 438.078125,
+            "width": 219.25,
+            "height": 48,
+            "bottom": 486.078125,
+            "right": 272.25
+          },
+          "photo": {
+            "x": 898.265625,
+            "y": 100,
+            "width": 414.71875,
+            "height": 497.65625,
+            "bottom": 597.65625,
+            "right": 1312.984375
+          },
+          "caption": {
+            "x": 898.265625,
+            "y": 419.125,
+            "width": 414.71875,
+            "height": 178.53125,
+            "bottom": 597.65625,
+            "right": 1312.984375
+          },
+          "card": {
+            "x": 898.265625,
+            "y": 100,
+            "width": 414.71875,
+            "height": 499.65625,
+            "bottom": 599.65625,
+            "right": 1312.984375
+          },
+          "signature": {
+            "x": 13,
+            "y": 136.078125,
+            "width": 760,
+            "height": 427.5,
+            "bottom": 563.578125,
+            "right": 773
+          }
+        },
+        "fontsAtObservation": "loading"
+      }
+    },
+    {
+      "name": "recorded-motion-desktop",
+      "status": "PASS",
+      "detail": {
+        "events": [
+          {
+            "name": "disclosure-in",
+            "target": "area-open",
+            "pseudo": "",
+            "time": 192.19999999998254
+          },
+          {
+            "name": "v5-edge",
+            "target": "hero-card-in",
+            "pseudo": "::after",
+            "time": 308
+          },
+          {
+            "name": "v5-portrait",
+            "target": "",
+            "pseudo": "",
+            "time": 308.1000000000058
+          },
+          {
+            "name": "v5-reading",
+            "target": "photo reveal enter",
+            "pseudo": "",
+            "time": 2961.1999999999825
+          },
+          {
+            "name": "v5-reading",
+            "target": "reveal enter",
+            "pseudo": "",
+            "time": 2961.1999999999825
+          },
+          {
+            "name": "v5-pillar",
+            "target": "",
+            "pseudo": "",
+            "time": 4014
+          },
+          {
+            "name": "v5-pillar",
+            "target": "",
+            "pseudo": "",
+            "time": 4077.899999999994
+          },
+          {
+            "name": "v5-pillar",
+            "target": "",
+            "pseudo": "",
+            "time": 4161.299999999988
+          },
+          {
+            "name": "section-in",
+            "target": "areas-intro reveal enter",
+            "pseudo": "",
+            "time": 5294.600000000006
+          },
+          {
+            "name": "v5-rule",
+            "target": "area reveal enter",
+            "pseudo": "::before",
+            "time": 5294.600000000006
+          },
+          {
+            "name": "v5-rule",
+            "target": "area reveal enter",
+            "pseudo": "::before",
+            "time": 5294.600000000006
+          },
+          {
+            "name": "v5-progress",
+            "target": "steps",
+            "pseudo": "::after",
+            "time": 6228.399999999994
+          }
+        ],
+        "steps": 4,
+        "progress": {
+          "native": true,
+          "timeline": "--process-reading"
+        },
+        "quiet": [
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          }
+        ]
+      }
+    },
+    {
+      "name": "recorded-motion-mobile",
+      "status": "PASS",
+      "detail": {
+        "events": [
+          {
+            "name": "disclosure-in",
+            "target": "area-open",
+            "pseudo": "",
+            "time": 169.19999999998254
+          },
+          {
+            "name": "v5-edge",
+            "target": "hero-card-in",
+            "pseudo": "::after",
+            "time": 242.59999999997672
+          },
+          {
+            "name": "v5-portrait-mobile",
+            "target": "",
+            "pseudo": "",
+            "time": 242.59999999997672
+          },
+          {
+            "name": "v5-reading",
+            "target": "photo reveal enter",
+            "pseudo": "",
+            "time": 2904.399999999994
+          },
+          {
+            "name": "v5-reading",
+            "target": "reveal enter",
+            "pseudo": "",
+            "time": 2904.399999999994
+          },
+          {
+            "name": "v5-pillar",
+            "target": "",
+            "pseudo": "",
+            "time": 3904.5999999999767
+          },
+          {
+            "name": "section-in",
+            "target": "areas-intro reveal enter",
+            "pseudo": "",
+            "time": 3904.5999999999767
+          },
+          {
+            "name": "v5-pillar",
+            "target": "",
+            "pseudo": "",
+            "time": 3937.2999999999884
+          },
+          {
+            "name": "v5-pillar",
+            "target": "",
+            "pseudo": "",
+            "time": 3970.6999999999825
+          },
+          {
+            "name": "v5-rule",
+            "target": "area reveal enter",
+            "pseudo": "::before",
+            "time": 5154
+          },
+          {
+            "name": "v5-reading",
+            "target": "principle reveal enter",
+            "pseudo": "",
+            "time": 6104.299999999988
+          }
+        ],
+        "steps": 4,
+        "progress": {
+          "native": true,
+          "timeline": "auto"
+        },
+        "quiet": [
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          },
+          {
+            "animation": "none",
+            "opacity": "1"
+          }
+        ]
+      }
+    }
+  ]
+}

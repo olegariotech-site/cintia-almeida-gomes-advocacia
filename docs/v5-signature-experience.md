@@ -30,7 +30,7 @@ Fluxo: abrir → ler HERO imediatamente → consultar área → acionar explicit
 
 Movimento reduzido mantém conteúdo/contato e poster estáticos, sem buscar o MP4. Sem suporte a view timeline, as quatro etapas e sua linha continuam presentes. Um observer já existente é compartilhado pelas entradas finitas; o controlador do vídeo não foi reescrito. As animações de entrada dos blocos de leitura partem de opacidade legível e não atrasam informações essenciais.
 
-## Validação em execução
+## Validação e cobertura
 
 - Chromium/WebKit: 1920×1080, 1366×768, 1280×720, 1024×768, 768×1024, 390×844, 375×812, 320×740 e 844×390.
 - Primeira dobra, imagens/legenda, assinatura, erros de runtime/rede, fontes e ausência de overflow.
@@ -39,4 +39,4 @@ Movimento reduzido mantém conteúdo/contato e poster estáticos, sem buscar o M
 - Suítes anteriores de menu, formulário, foco, vídeo/fallback, cookies, 404 e axe, preservadas.
 - Lighthouse: V4 publicada × V5 no mesmo runner, três medições frias alternadas por versão, mesmo throttling, LCP/CLS/TBT/FCP/transferência. Sem garantia de atingir 2,5 s e sem medição de campo.
 
-Ambiente local com Chromium bloqueado por `socket() failed: Operation not permitted`; Browser plugin indisponível. A validação renderizada usa GitHub Actions/Playwright, com capturas inspecionadas antes do parecer. Aparelhos físicos e leitores de tela reais não estão disponíveis nesta sessão. Resultados, evidências, decisão do recorte e parecer GO/NO-GO serão registrados após o CI.
+Ambiente local com Chromium bloqueado por `socket() failed: Operation not permitted`; Browser plugin indisponível. A validação renderizada usa GitHub Actions/Playwright, com capturas inspecionadas antes do parecer. Aparelhos físicos e leitores de tela reais não estão disponíveis nesta sessão. Resultados, evidências, decisão do recorte e parecer GO/NO-GO estão no [parecer final da V5](v5-parecer-final.md). Os 47 cenários V5 e os quatro gates de desempenho passaram, inclusive na confirmação #43311734719. GO técnico com ressalva de LCP; NO-GO para publicação até homologação física e autorização expressa OT. A borda reta foi mantida após comparar o ensaio oblíquo.
