@@ -22,6 +22,7 @@ body.v5 .hero.media-enter .hero-card-in::after { animation:v5-edge var(--v5-entr
 @keyframes v5-portrait { from { transform:translateX(6px) scale(1.018); } to { transform:none; } }
 @keyframes v5-edge { from { transform:scaleY(.06); opacity:.35; } to { transform:scaleY(1); opacity:.8; } }
 
+body.v5 .photo > picture { display:block; }
 body.v5 .about .enter, body.v5 .principles .enter, body.v5 .insights .enter { animation:v5-reading 420ms var(--v5-ease) both; }
 @keyframes v5-reading { from { opacity:.85; transform:translateY(6px); } to { opacity:1; transform:none; } }
 body.v5 .impact.is-animated blockquote span { animation:v5-pillar 440ms var(--v5-ease) both; }
