@@ -1,0 +1,9 @@
+{
+  "gates": {
+    "LCP": true,
+    "CLS": true,
+    "TBT": true,
+    "transfer": true
+  },
+  "note": "Laboratory variability is documented; a failed gate requires investigation, not a claimed production result."
+}

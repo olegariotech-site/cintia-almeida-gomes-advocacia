@@ -54,8 +54,22 @@
       fallback.querySelector('a').textContent = 'solicitar atendimento diretamente pelo WhatsApp';
       status.textContent = '';
     });
-    // Enable only after submit is intercepted. Without JS, only the direct contact link is available.
+    // Enable structured fields only after interception. A native noscript field
+    // and the direct link keep contact available without JavaScript.
     fields.disabled = false;
+
+    // Opening an area only reads content. Selection requires an explicit link.
+    document.querySelectorAll('a[data-area]').forEach(link => {
+      link.addEventListener('click', () => {
+        const select = form.querySelector('#area');
+        if (![...select.options].some(option => option.value === link.dataset.area)) return;
+        select.value = link.dataset.area;
+        select.dispatchEvent(new Event('input', { bubbles: true }));
+        const destination = document.getElementById('contato');
+        destination.setAttribute('tabindex', '-1');
+        destination.focus({ preventScroll: true });
+      });
+    });
   });
 
   initialize('menu', () => {
@@ -220,14 +234,29 @@
       entries.forEach(entry => {
         if (!entry.isIntersecting) return;
         if (!motion.matches) entry.target.classList.add(entry.target === impact ? 'is-animated' : 'enter');
+        if (entry.target.matches('.step')) entry.target.classList.add('is-read');
         observer.unobserve(entry.target);
       });
     }, { threshold: .15 });
     // Avoid stacking a parent reveal over the three-line signature animation.
-    document.querySelectorAll('.reveal').forEach(element => {
+    // Reading and conversion stay quiet. The observer is shared with the
+    // existing finite reveals; there is no scroll listener per component.
+    document.querySelectorAll('.about .reveal, .areas .reveal, .principles .reveal, .insights .reveal, .step').forEach(element => {
       if (!element.closest('.impact')) observer.observe(element);
     });
     if (impact) observer.observe(impact);
+  });
+
+  initialize('apresentação fotográfica', () => {
+    const hero = document.getElementById('hero');
+    const portrait = hero?.querySelector('.portrait');
+    if (!portrait || motion.matches) return;
+    const present = () => {
+      if (!motion.matches && portrait.naturalWidth) hero.classList.add('media-enter');
+    };
+    // Text and CTA never wait for the photo. The image itself is always visible;
+    // this finite transform only settles the framing and draws the gold edge.
+    portrait.decode().then(present).catch(() => {});
   });
 })();
 

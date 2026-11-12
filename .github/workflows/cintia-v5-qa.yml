@@ -1,0 +1,84 @@
+name: Cintia V5 - Signature Experience QA
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'site.js'
+      - 'v5.css'
+      - 'assets/**'
+      - 'tests/v5-*.mjs'
+      - 'tools/verify-v5-integrity.py'
+      - '.github/workflows/cintia-v5-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  experience:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          ref: 8ff0e64088696e6c7b815c10282d3fc1b8b41cd1
+          path: _before
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python3 tools/verify-v5-integrity.py --baseline _before
+      - run: node tests/v4-smoke.mjs
+      - run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.58.2
+      - run: npx playwright install --with-deps webkit
+      - name: Responsive comparison, explicit contact selection and actual motion recording
+        env:
+          QA_BASE: 8ff0e64088696e6c7b815c10282d3fc1b8b41cd1
+          QA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/v5-after-http.log 2>&1 &
+          candidate_pid=$!
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory _before > /tmp/v5-before-http.log 2>&1 &
+          baseline_pid=$!
+          trap 'kill $candidate_pid $baseline_pid 2>/dev/null || true' EXIT
+          sleep 2
+          timeout 900s node tests/v5-experience.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cintia-v5-experience-evidence
+          path: artifacts/v5/
+          retention-days: 90
+  performance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - uses: actions/checkout@v4
+        with:
+          ref: 8ff0e64088696e6c7b815c10282d3fc1b8b41cd1
+          path: _before
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --ignore-scripts --no-audit --no-fund lighthouse@13.6.0
+      - name: Three alternating cold measurements per version
+        env:
+          QA_BASE: 8ff0e64088696e6c7b815c10282d3fc1b8b41cd1
+          QA_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 > /tmp/v5-perf-http.log 2>&1 &
+          candidate_pid=$!
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory _before > /tmp/v4-perf-http.log 2>&1 &
+          baseline_pid=$!
+          trap 'kill $candidate_pid $baseline_pid 2>/dev/null || true' EXIT
+          sleep 2
+          node tests/v5-performance.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cintia-v5-performance
+          path: artifacts/v5-performance/
+          retention-days: 90

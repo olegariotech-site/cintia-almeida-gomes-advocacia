@@ -14,7 +14,7 @@ const mayNotContain = (text, expression, label) => {
   assert.doesNotMatch(text, expression, label);
 };
 assert.match(html, /<html lang="pt-BR">/);
-assert.match(html, /<body class="v4">/);
+assert.match(html, /<body class="v4(?: v5)?">/);
 assert.match(html, /href="v4\.css"/);
 assert.match(html, /id="hero-title"/);
 assert.match(html, /class="hero-statement"/);
