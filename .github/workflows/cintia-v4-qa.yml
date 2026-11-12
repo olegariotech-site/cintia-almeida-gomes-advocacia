@@ -56,7 +56,7 @@ jobs:
           trap 'kill $server_pid 2>/dev/null || true' EXIT
           sleep 2
           node tests/v4-browser.mjs
-          node tests/v4-final.mjs
+          timeout 420s node tests/v4-final.mjs
 
       - name: QA evidence - screenshots and JSON
         if: always()

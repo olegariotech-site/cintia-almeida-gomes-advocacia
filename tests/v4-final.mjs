@@ -9,6 +9,7 @@ const origin = process.env.SITE_URL || 'http://127.0.0.1:4173';
 const key = 'cintia_cookie_consent_v1';
 const results = [];
 const browsers = {};
+const launched = [];
 const axe = readFileSync('node_modules/axe-core/axe.min.js', 'utf8');
 async function check(name, fn, page) {
   try { const detail = await fn(); results.push({ name, status: 'PASS', detail }); console.log('PASS', name); }
@@ -24,6 +25,7 @@ async function instrument(context) {
 try {
 for (const [engine, type] of [['webkit',webkit],['chromium',chromium]]) {
   const browser = await type.launch({ headless:true, ...(engine==='chromium'?{executablePath:process.env.CHROME_BIN||'/usr/bin/google-chrome',args:['--no-sandbox','--disable-dev-shm-usage']}: {}) });
+  launched.push(browser);
   browsers[engine] = browser.version();
   for (const [width,height] of [[1440,900],[390,844],[375,812],[320,740],[844,390],[768,1024]]) {
     const name=`${engine}-${width}x${height}`;
@@ -119,6 +121,7 @@ for (const [engine, type] of [['webkit',webkit],['chromium',chromium]]) {
   await browser.close();
 }
 } catch(error) {results.push({name:'environment',status:'BLOCKED',error:error.stack});console.error(error);}
+finally { await Promise.allSettled(launched.map(browser=>browser.close())); }
 writeFileSync(`${dir}/qa-report.json`,JSON.stringify({checkedAt:new Date().toISOString(),commit:process.env.QA_COMMIT,origin,browsers,physicalDevices:'NOT AVAILABLE — required release gate',browserPlugin:'Browser plugin not available; executed Playwright in GitHub Actions (local launch blocked)',results},null,2));
 console.log(`FINAL QA: ${results.filter(r=>r.status==='PASS').length} PASS; ${results.filter(r=>r.status!=='PASS').length} FAIL/BLOCKED`);
 if(results.some(r=>r.status!=='PASS'))process.exitCode=1;
