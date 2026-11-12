@@ -32,7 +32,7 @@ body.v4 .wrap {
   width: min(var(--v4-max), calc(100% - 64px));
 }
 body.v4 :where(a,button,input,select,textarea,summary):focus-visible {
-  outline: 2px solid var(--v4-gold-dark);
+  outline: 2px solid var(--focus, var(--v4-gold-dark));
   outline-offset: 4px;
 }
 body.v4 a, body.v4 button { touch-action: manipulation; }
@@ -527,9 +527,10 @@ body.v4 footer p a { color: var(--v4-gold-light); }
 body.v4 .ot { border-color: rgba(231,215,170,.25); }
 body.v4 .float { box-shadow: none; border: 2px solid var(--v4-cream); width: 58px; height: 58px; }
 body.v4 .float:hover { box-shadow: 0 0 0 3px rgba(198,166,106,.28); }
-body.v4 .cookie-banner { background: var(--v4-espresso); border: 1px solid rgba(231,215,170,.45); border-radius: 6px; box-shadow: 0 12px 34px rgba(0,0,0,.22); }
+body.v4 .cookie-banner { --focus: var(--v4-gold-light); background: var(--v4-espresso); border: 1px solid rgba(231,215,170,.45); border-radius: 6px; box-shadow: 0 12px 34px rgba(0,0,0,.22); }
 body.v4 .cookie-banner__copy strong { color: var(--v4-cream); }
-body.v4 .cookie-settings { border-radius: 2px; background: var(--v4-espresso); color: var(--v4-gold-light); box-shadow: none; }
+body.v4 .cookie-settings { --focus: var(--v4-gold-light); min-height: 44px; border-radius: 2px; background: var(--v4-espresso); color: var(--v4-gold-light); box-shadow: none; }
+body.v4 .cookie-settings:focus-visible { box-shadow: 0 0 0 6px var(--v4-espresso); }
 
 /* Non-interactive cards do not impersonate clickable controls. */
 @media (hover:hover) and (pointer:fine) {

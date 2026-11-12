@@ -246,8 +246,16 @@
     document.head.appendChild(tag);
     gtmLoaded = true;
   };
-  const openBanner = () => { banner.hidden = false; };
-  const closeBanner = () => { banner.hidden = true; };
+  const openBanner = () => {
+    banner.hidden = false;
+    // Preferences is non-modal, but keyboard users must reach its choices next.
+    reject.focus();
+  };
+  const closeBanner = () => {
+    const returnFocus = banner.contains(document.activeElement);
+    banner.hidden = true;
+    if (returnFocus) settings.focus();
+  };
 
   accept.addEventListener('click', () => {
     saveConsent('accepted');
@@ -257,10 +265,13 @@
   reject.addEventListener('click', () => {
     saveConsent('rejected');
     closeBanner();
+    // Removing a script node cannot stop tags/timers already executed by GTM.
+    // A fresh document applies the stored refusal before any optional tag loads.
+    if (gtmLoaded) window.location.reload();
   });
   settings.addEventListener('click', openBanner);
 
   const current = readConsent();
   if (current === 'accepted') loadGTM();
-  else if (current !== 'rejected') openBanner();
+  else if (current !== 'rejected') banner.hidden = false;
 })();
