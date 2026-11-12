@@ -71,7 +71,7 @@ Direção de texto aprovada para o site:
 A frase foi aprovada pela Cíntia e foi implementada no `index.html` como assinatura narrativa do Signature Motion.
 
 ## Contatos confirmados
-- WhatsApp: (19) 99880-8725
+- WhatsApp: (19) 97143-2465
 - E-mail: cintiapalmeida@adv.oabsp.org.br
 - Instagram: https://www.instagram.com/cintiap.almeida?utm_source=qr&igsh=bW0zMzU2emk2azdz
 - LinkedIn: https://www.linkedin.com/in/cintia-almeida-gomes-768b401a3
