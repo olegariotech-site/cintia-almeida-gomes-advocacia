@@ -12,12 +12,17 @@
 - A comparação de integridade V4/V5 permite exclusivamente quatro alterações de texto com marcação exata, sem relaxar as verificações restantes.
 - Política descreve o comportamento atual de formulário somente no navegador, WhatsApp, hospedagem por GitHub Pages e armazenamento local da escolha de cookies.
 
+## Confirmações recebidas da direção OT — 12/11/2026
+
+- **Nome profissional:** Cíntia Pereira Almeida Gomes, com um único L em Almeida. Confirmado.
+- **Canal LGPD:** `cintiapalmeida@adv.oabsp.org.br` é o e-mail oficial e está autorizado para solicitações relacionadas à LGPD. Confirmado.
+- **Canais de atendimento e histórico de conversas:** WhatsApp e e-mail; não foi informado uso de CRM, sistema jurídico ou outro repositório dedicado para guardar conversas. Confirmado pela direção OT. **Não equivale à confirmação de backups automáticos nem da política de retenção de cada conta.**
+- **Texto correspondente ajustado** na seção 4 da política, com ressalva explícita sobre configurações de backup.
+
 ## Pontos que exigem confirmação profissional antes da publicação
 
-1. **Nome da controladora:** conferir se a denominação civil/profissional da advogada está correta: «Cíntia Pereira Almeida Gomes» × anotação antiga «Cintia Pereira Allmeida Gomes». Confirmar grafia conforme OAB e documentos oficiais. Não inserir CNPJ se não houver confirmação.
-2. **Canal de direitos LGPD:** confirmar que o e-mail `cintiapalmeida@adv.oabsp.org.br` recebe e responde solicitações de privacidade.
-3. **Retenção:** confirmar prática interna de armazenamento/exclusão de mensagens WhatsApp, e-mails, atendimentos e documentos, para evitar promessas incorretas.
-4. **Fornecedores:** verificar se existem softwares/CRM, ferramentas de agenda, backup, e-mail e prestadores externos relevantes ao atendimento.
+1. **Retenção e backups:** confirmar prática interna de conservação/exclusão das mensagens nos canais WhatsApp/e-mail e se há backups automáticos. Não presumir prazos, exclusão definitiva nem ausência de backups.
+2. **Fornecedores de infraestrutura:** identificar prestadores do e-mail e eventuais backups habilitados. Não há CRM ou sistema jurídico adicional informado para histórico de conversas.
 5. **Medição:** inspecionar o contêiner `GTM-TGGPH6PH` e identificar se GA4 e/ou Meta Pixel foram de fato publicados; inventariar categorias de cookies, duração e fornecedores. **Não afirmar Pixel/GA4 ativos sem evidência.**
 6. **Bases legais e transferências:** validar hipóteses aplicáveis a cada operação e eventual transferência internacional conforme contratos dos serviços.
 7. **Contato sensível:** validar orientação ao visitante para evitar o envio de documentos completos e dados sensíveis no formulário de primeiro contato.
