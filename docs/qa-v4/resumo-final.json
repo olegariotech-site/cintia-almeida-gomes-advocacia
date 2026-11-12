@@ -1,0 +1,262 @@
+{
+  "checkedAt": "2026-11-12T16:15:46.110Z",
+  "commit": "4eab3d09e2ffca03a145b112859fd8f7613e91e4",
+  "origin": "http://127.0.0.1:4173",
+  "browsers": {
+    "webkit": "26.0",
+    "chromium": "156.0.8078.79"
+  },
+  "physicalDevices": "NOT AVAILABLE — required release gate",
+  "browserPlugin": "Browser plugin not available; executed Playwright in GitHub Actions (local launch blocked)",
+  "decision": "NO-GO para publicação; dispositivos físicos pendentes e desempenho móvel com ressalva",
+  "results": [
+    {
+      "name": "webkit-1440x900-render",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-1440x900-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-1440x900-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-1440x900-axe",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-390x844-render",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-390x844-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-390x844-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-390x844-axe",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-390x844-video",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-375x812-render",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-375x812-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-375x812-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-320x740-render",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-320x740-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-320x740-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-844x390-render",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-844x390-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-844x390-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-768x1024-render",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-768x1024-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-768x1024-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-no-js",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-reduced-motion",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-autoplay-blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-media-error",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-storage-denied",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-privacy-first-reject",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-privacy-preferences-keyboard",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-privacy-accept-revoke",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-404-return-home",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-1440x900-render",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-1440x900-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-1440x900-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-1440x900-axe",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-390x844-render",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-390x844-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-390x844-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-390x844-axe",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-390x844-video",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-375x812-render",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-375x812-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-375x812-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-320x740-render",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-320x740-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-320x740-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-844x390-render",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-844x390-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-844x390-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-768x1024-render",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-768x1024-contact-menu-disclosures",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-768x1024-focus-targets",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-no-js",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-reduced-motion",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-autoplay-blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-media-error",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-storage-denied",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-privacy-first-reject",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-privacy-preferences-keyboard",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-privacy-accept-revoke",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-404-return-home",
+      "status": "PASS"
+    }
+  ],
+  "run": "https://github.com/olegariotech-site/cintia-almeida-gomes-advocacia/actions/runs/43256129708",
+  "runtimeFileHashes": {
+    "index.html": "dad4f935fa6ff6c58a83c64eeb5ebfd971bc424c668b66bd6b4696a863bec4f7",
+    "site.js": "14f868659bee8f116ea700e3e3b509a096cef5d6e2e0dac3c7f6372d8026de20",
+    "styles.css": "f4dc9e38e159ea0428d3da93369b1e54b9b6a1ecf639f75c93dd69b5aced09a0",
+    "v4.css": "1a6cbd1d431417dfbf5d72ab5079c3be20815499900b16438b9722965f3d52bb",
+    "404.html": "6846932747799477d25335272b9f1aa0d60d5a5b430a1eb4d32f626b6a93d404"
+  }
+}
