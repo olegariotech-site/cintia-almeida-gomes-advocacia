@@ -1,0 +1,267 @@
+{
+  "origin": "http://127.0.0.1:4173",
+  "checkedAt": "2026-11-12T17:47:15.514Z",
+  "results": [
+    {
+      "name": "desktop-1440",
+      "status": "PASS",
+      "viewportWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440,
+      "heroHeight": 659,
+      "h1Size": "73.44px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "notebook-1366",
+      "status": "PASS",
+      "viewportWidth": 1366,
+      "scrollWidth": 1366,
+      "bodyWidth": 1366,
+      "heroHeight": 547.65625,
+      "h1Size": "62.836px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "compact-1024",
+      "status": "PASS",
+      "viewportWidth": 1024,
+      "scrollWidth": 1024,
+      "bodyWidth": 1024,
+      "heroHeight": 547.65625,
+      "h1Size": "52px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "tablet-768",
+      "status": "PASS",
+      "viewportWidth": 768,
+      "scrollWidth": 768,
+      "bodyWidth": 768,
+      "heroHeight": 1049.265625,
+      "h1Size": "61.44px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "android-390",
+      "status": "PASS",
+      "viewportWidth": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "heroHeight": 1011.390625,
+      "h1Size": "42.12px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "iphone-width-375",
+      "status": "PASS",
+      "viewportWidth": 375,
+      "scrollWidth": 375,
+      "bodyWidth": 375,
+      "heroHeight": 989.203125,
+      "h1Size": "40px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "narrow-320",
+      "status": "PASS",
+      "viewportWidth": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "heroHeight": 982.78125,
+      "h1Size": "40px",
+      "cssV4Present": true,
+      "images": [
+        {
+          "source": "assetslogo-cintia-oficial.png",
+          "loaded": true,
+          "naturalWidth": 562,
+          "naturalHeight": 585
+        },
+        {
+          "source": "assetsdra-cintia-hero.png?v=20260908a",
+          "loaded": true,
+          "naturalWidth": 1086,
+          "naturalHeight": 1448
+        },
+        {
+          "source": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+          "loaded": true,
+          "naturalWidth": 1122,
+          "naturalHeight": 1402
+        },
+        {
+          "source": "whatsapp.svg",
+          "loaded": true,
+          "naturalWidth": 150,
+          "naturalHeight": 150
+        }
+      ]
+    },
+    {
+      "name": "no-javascript",
+      "status": "PASS"
+    },
+    {
+      "name": "reduced-motion",
+      "status": "PASS"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,4879 @@
+{
+  "checkedAt": "2026-11-12T17:49:03.260Z",
+  "commit": "e78952c0807b1a4f6bbfcb8148691d7f0b806731",
+  "origin": "http://127.0.0.1:4173",
+  "browsers": {
+    "webkit": "26.0",
+    "chromium": "157.0.8103.50"
+  },
+  "physicalDevices": "NOT AVAILABLE — required release gate",
+  "browserPlugin": "Browser plugin not available; executed Playwright in GitHub Actions (local launch blocked)",
+  "results": [
+    {
+      "name": "webkit-1440x900-render",
+      "status": "PASS",
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "loaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "webkit-1440x900-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "webkit-1440x900-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 52,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "webkit-1440x900-axe",
+      "status": "PASS",
+      "detail": {
+        "passes": 25,
+        "incomplete": 1
+      }
+    },
+    {
+      "name": "webkit-390x844-render",
+      "status": "PASS",
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "loaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "webkit-390x844-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "webkit-390x844-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "webkit-390x844-axe",
+      "status": "PASS",
+      "detail": {
+        "passes": 25,
+        "incomplete": 1
+      }
+    },
+    {
+      "name": "webkit-390x844-video",
+      "status": "PASS",
+      "detail": {
+        "paused": false,
+        "readyState": 4,
+        "time": 0.687410334,
+        "muted": true,
+        "inline": true,
+        "opacity": "1",
+        "poster": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")"
+      }
+    },
+    {
+      "name": "webkit-375x812-render",
+      "status": "PASS",
+      "detail": {
+        "width": 375,
+        "scrollWidth": 375,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "loaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "webkit-375x812-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "webkit-375x812-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "webkit-320x740-render",
+      "status": "PASS",
+      "detail": {
+        "width": 320,
+        "scrollWidth": 320,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "loaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "webkit-320x740-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "webkit-320x740-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "webkit-844x390-render",
+      "status": "PASS",
+      "detail": {
+        "width": 844,
+        "scrollWidth": 844,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "loaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "webkit-844x390-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "webkit-844x390-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "webkit-768x1024-render",
+      "status": "PASS",
+      "detail": {
+        "width": 768,
+        "scrollWidth": 768,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "loaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "webkit-768x1024-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "webkit-768x1024-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "webkit-no-js",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "webkit-reduced-motion",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "webkit-autoplay-blocked",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "webkit-media-error",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "webkit-storage-denied",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "webkit-privacy-first-reject",
+      "status": "PASS",
+      "detail": {
+        "gtmRequests": 0
+      }
+    },
+    {
+      "name": "webkit-privacy-preferences-keyboard",
+      "status": "PASS"
+    },
+    {
+      "name": "webkit-privacy-accept-revoke",
+      "status": "PASS",
+      "detail": {
+        "gtmRequests": 2,
+        "optionalRequestsBeforeRevocation": 8
+      }
+    },
+    {
+      "name": "webkit-404-return-home",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-1440x900-render",
+      "status": "PASS",
+      "detail": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "chromium-1440x900-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "chromium-1440x900-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 52.1875,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "chromium-1440x900-axe",
+      "status": "PASS",
+      "detail": {
+        "passes": 25,
+        "incomplete": 1
+      }
+    },
+    {
+      "name": "chromium-390x844-render",
+      "status": "PASS",
+      "detail": {
+        "width": 390,
+        "scrollWidth": 390,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "chromium-390x844-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "chromium-390x844-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "chromium-390x844-axe",
+      "status": "PASS",
+      "detail": {
+        "passes": 25,
+        "incomplete": 1
+      }
+    },
+    {
+      "name": "chromium-390x844-video",
+      "status": "PASS",
+      "detail": {
+        "paused": false,
+        "readyState": 4,
+        "time": 3.1865,
+        "muted": true,
+        "inline": true,
+        "opacity": "1",
+        "poster": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")"
+      }
+    },
+    {
+      "name": "chromium-375x812-render",
+      "status": "PASS",
+      "detail": {
+        "width": 375,
+        "scrollWidth": 375,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "chromium-375x812-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "chromium-375x812-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "chromium-320x740-render",
+      "status": "PASS",
+      "detail": {
+        "width": 320,
+        "scrollWidth": 320,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "chromium-320x740-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "chromium-320x740-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "chromium-844x390-render",
+      "status": "PASS",
+      "detail": {
+        "width": 844,
+        "scrollWidth": 844,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "chromium-844x390-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "chromium-844x390-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "chromium-768x1024-render",
+      "status": "PASS",
+      "detail": {
+        "width": 768,
+        "scrollWidth": 768,
+        "images": [
+          {
+            "src": "assetslogo-cintia-oficial.png",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-hero.png?v=20260908a",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "assetsdra-cintia-sobre.jpeg?v=20260909c",
+            "alt": true,
+            "loaded": true
+          },
+          {
+            "src": "whatsapp.svg",
+            "alt": true,
+            "loaded": true
+          }
+        ],
+        "fonts": "loaded",
+        "fontFaces": [
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "600",
+            "status": "loaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          },
+          {
+            "family": "Inter",
+            "weight": "700",
+            "status": "unloaded"
+          }
+        ],
+        "headings": [
+          {
+            "level": "H1",
+            "text": "Advocacia estratégica e humanizada."
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Cíntia Pereira Almeida Gomes"
+          },
+          {
+            "level": "H2",
+            "text": "Clareza jurídica para decisões que não admitem respostas genéricas"
+          },
+          {
+            "level": "H3",
+            "text": "Direito de Família"
+          },
+          {
+            "level": "H3",
+            "text": "Imobiliário, Locações e Condomínios"
+          },
+          {
+            "level": "H3",
+            "text": "Direito Civil e Contratos"
+          },
+          {
+            "level": "H3",
+            "text": "Direito do Consumidor"
+          },
+          {
+            "level": "H2",
+            "text": "Técnica, escuta e clareza em cada etapa"
+          },
+          {
+            "level": "H2",
+            "text": "Organização, eficiência e acolhimento em cada etapa"
+          },
+          {
+            "level": "H3",
+            "text": "Primeiro contato"
+          },
+          {
+            "level": "H3",
+            "text": "Análise inicial"
+          },
+          {
+            "level": "H3",
+            "text": "Orientação sobre próximos passos"
+          },
+          {
+            "level": "H3",
+            "text": "Formalização do atendimento"
+          },
+          {
+            "level": "H2",
+            "text": "Informação jurídica para decisões mais conscientes"
+          },
+          {
+            "level": "H3",
+            "text": "Guarda e convivência familiar: o que organizar antes do contato?"
+          },
+          {
+            "level": "H3",
+            "text": "Quando um conflito de locação pode exigir análise jurídica?"
+          },
+          {
+            "level": "H3",
+            "text": "Síndicos e administradoras: quando a prevenção jurídica pode ajudar?"
+          },
+          {
+            "level": "H2",
+            "text": "Algumas dúvidas antes do primeiro contato"
+          },
+          {
+            "level": "H2",
+            "text": "Dê o primeiro passo com clareza"
+          },
+          {
+            "level": "H3",
+            "text": "Canais oficiais"
+          },
+          {
+            "level": "H3",
+            "text": "Solicitar atendimento"
+          },
+          {
+            "level": "H3",
+            "text": "Cíntia Almeida Gomes Advocacia"
+          }
+        ],
+        "brokenAnchors": []
+      }
+    },
+    {
+      "name": "chromium-768x1024-contact-menu-disclosures",
+      "status": "PASS",
+      "detail": {
+        "popupBlocked": true,
+        "destination": "https://wa.me/5519971432465",
+        "noMessageSent": true
+      }
+    },
+    {
+      "name": "chromium-768x1024-focus-targets",
+      "status": "PASS",
+      "detail": [
+        {
+          "selector": "#cookieSettings",
+          "focused": true,
+          "focusVisible": true,
+          "height": 44,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "rgb(20, 11, 0) 0px 0px 0px 6px",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": "#top .brand",
+          "focused": true,
+          "focusVisible": true,
+          "height": 49,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(20, 11, 0)",
+          "halo": "none",
+          "ratio": 13.6397869343265
+        },
+        {
+          "selector": ".hero-actions .btn.gold",
+          "focused": true,
+          "focusVisible": true,
+          "height": 48,
+          "outline": "solid",
+          "color": "rgb(231, 215, 170)",
+          "background": "rgb(57, 36, 25)",
+          "halo": "none",
+          "ratio": 10.204686779468753
+        }
+      ]
+    },
+    {
+      "name": "chromium-no-js",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "chromium-reduced-motion",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "chromium-autoplay-blocked",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "chromium-media-error",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "chromium-storage-denied",
+      "status": "PASS",
+      "detail": {
+        "optionalTagsRequested": []
+      }
+    },
+    {
+      "name": "chromium-privacy-first-reject",
+      "status": "PASS",
+      "detail": {
+        "gtmRequests": 0
+      }
+    },
+    {
+      "name": "chromium-privacy-preferences-keyboard",
+      "status": "PASS"
+    },
+    {
+      "name": "chromium-privacy-accept-revoke",
+      "status": "PASS",
+      "detail": {
+        "gtmRequests": 2,
+        "optionalRequestsBeforeRevocation": 7
+      }
+    },
+    {
+      "name": "chromium-404-return-home",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,36 +1,112 @@
-# Cíntia V4 — hotfix do HERO
+# Cíntia V4 — hotfix premium do HERO · parecer final
 
-Base publicada: `aade965e7f3cce532b70fc131bc41c6b3bb21dca` (12/11/2026). Branch exclusiva: `hotfix/v4-hero-premium`. Sem autorização de merge/publicação. Backup V3 preservado.
+**GO para revisão técnica e visual. NO-GO para merge/publicação nesta entrega.** O hotfix resolveu os defeitos P1 nos ambientes emulados, com inspeção das capturas. A direção OT ainda precisa autorizar qualquer publicação; Safari/iPhone, Android e Edge/Windows físicos não foram homologados nesta sessão. O LCP móvel permanece elevado, embora menor no comparativo final.
 
-## Direção e contrato
+## Versão, escopo e proteção
 
-O alvo é a própria V4 aprovada. Público: visitante buscando atendimento jurídico; ação principal: solicitar atendimento. Padrões aplicados: HERO comercial (P01), confiança editorial (P10) e atmosfera estritamente secundária (P14).
+- PR #16; branch exclusiva `hotfix/v4-hero-premium`.
+- Base publicada confirmada: `aade965e7f3cce532b70fc131bc41c6b3bb21dca`.
+- Aplicação final testada: `e78952c0807b1a4f6bbfcb8148691d7f0b806731`. O commit posterior de evidências/documentação não altera a aplicação nem os testes.
+- Backup V3 preservado em `backup/v3-antes-da-publicacao-v4-2026-11-12`, apontando para `7ddeed2fe15651d9e8573a9847d6c390abf2b5f0`.
+- Nenhum merge, deploy, alteração de DNS, domínio, contatos, conteúdo jurídico, OAB, SEO ou configuração comercial.
+- [Conferência de integridade](qa-hero/integrity.json): texto aprovado, destinos dos links e todo o `<head>` idênticos à base; hashes dos assets originais preservados.
 
-| Decisão | Origem | Papel / motivo |
+## Mudança visível e decisão de composição
+
+Público: visitante buscando atendimento jurídico. Ação dominante: solicitar atendimento. A V4 aprovada continua sendo a referência vinculante: espresso, marfim, dourado, Cormorant Garamond, Inter, foto e logotipo reais. Foram usados os padrões de clareza do HERO (P01), confiança editorial (P10) e atmosfera secundária (P14), sem importar identidade ou assets de outras marcas.
+
+| Defeito / evidência anterior | Correção | Resultado inspecionado |
 |---|---|---|
-| Espresso, marfim, dourado, Cormorant Garamond e Inter | Direção OT e V4 aprovada | Preservar identidade e hierarquia |
-| Texto e CTA na primeira dobra de 1366×768 e 1280×720 | Critério explícito da missão | Reduzir escala e espaços com viewport compacto, sem cortar conteúdo |
-| Retrato proporcional, sem height:100% ou min-height obrigatório | Defeito observado + regras de mídia responsiva | A altura da foto não deve esticar o HERO |
-| Legenda com fundo em degradê sobre a própria fotografia | Acabamento editorial solicitado | Eliminar a emenda e manter contraste, preservando rosto e foto real |
-| Assinatura centralizada dentro do HERO | Missão de enquadramento | Substituir deslocamento inferior negativo por posição proporcional |
-| Vídeo e poster originais; movimento reduzido respeitado | Missão e comportamento existente | Sem reprodução forçada nem geração de novas imagens |
+| HERO de aproximadamente 918 px em 1366×768; foto esticada por `height:100%`, `min-height` e crescimento flex | Espaçamento e escala ajustados por largura/altura disponível; foto proporcional e card sem esticamento | HERO de 547,7 px; CTA primário termina em y=495,7 px; título, apoio, áreas e CTA visíveis sem rolagem |
+| Assinatura com `bottom:-90px`, parcialmente fora da seção | Posição proporcional dentro do HERO, escala e opacidade discretas | Enquadrada em todos os oito viewports testados |
+| Legenda em bloco separado, prolongando o card | Legenda sobre a própria foto com degradê de contraste e filete editorial | Rosto preservado, sem emenda ou cauda vazia no card |
+| Retrato PNG de 2.438.940 bytes | Alternativa WebP sem perdas de 1.633.694 bytes, dimensões intrínsecas e fallback PNG via `picture` | Pixels RGBA integralmente idênticos; redução de 33,0% no arquivo servido, sem recorte ou retoque do original |
 
-Não foram adotados outros estilos, novas fontes, sombras decorativas ou uma nova arquitetura de página. A pesquisa externa suplementar estava indisponível; a referência vinculante é a V4 existente e a direção explícita da OT, complementadas por critérios de proporção, imagem responsiva e acessibilidade.
+Não foram adotados novos efeitos, sombras, fontes, arquitetura de página ou gráficos. Em mobile, a mensagem e os CTAs precedem a foto; em paisagem curta, a rolagem vertical é preservada para evitar comprimir ou cortar conteúdo. A inspeção visual das capturas confirmou hierarquia, legibilidade, enquadramento do rosto e fechamento da seção, além das asserções automáticas.
 
-## Diagnóstico de mídia e integridade
+## Diagnóstico comprovado da assinatura
 
-- MP4 original: H.264 High, yuv420p, 1280×720, 24 fps, 8 s, 703.384 bytes. Frames extraídos em 1 s e 4 s confirmam movimento do símbolo/pena.
-- CSS anterior: assinatura com bottom:-90px e opacidade 0,15; retrato com height:100%, min-height:480px e flex de crescimento. São condições de composição, não prova de bloqueio do autoplay em qualquer navegador físico.
-- Autoplay, muted, playsinline, observer e tratamento de fallback serão avaliados com eventos/readyState/currentTime nos dois motores. Não atribuir falta de movimento a uma causa não reproduzida.
-- A fotografia recebe width/height intrínsecos (1086×1448) e uma alternativa WebP **sem perdas**, com o PNG original como fallback nativo via picture. Os pixels RGBA decodificados foram comparados integralmente: idênticos. O derivado tem 1.633.694 bytes contra 2.438.940 bytes do PNG (−33,0%). Nenhum asset original foi alterado; sem recorte, redimensionamento ou retoque da fotografia.
-- Sem mudanças de contatos, conteúdo jurídico, OAB, SEO, DNS ou configurações comerciais.
+O arquivo original foi inspecionado com ffprobe e quadros em 1 s e 4 s: MP4 H.264, yuv420p, 1280×720, 24 fps, 8 s, 703.384 bytes. O símbolo/pena realmente se move. Vídeo e poster conservaram seus hashes.
 
-## Validação
+O enquadramento CSS era um defeito confirmado. Separadamente, os eventos do navegador revelaram um ciclo de seleção de mídia no WebKit do runner: mais de 100 mil `loadstart` em poucos segundos, `readyState=0` e tempo parado. Um poster visível não era prova suficiente de um fallback saudável. [Diagnóstico anterior resumido](qa-hero/video-diagnostic-before-fix.json); a execução intermediária [reprovou o candidato](https://github.com/olegariotech-site/cintia-almeida-gomes-advocacia/actions/runs/43271921396) quando a nova asserção passou a detectar o ciclo.
 
-Os testes `hotfix-hero.mjs` comparam o snapshot publicado e a branch nas resoluções exigidas, incluindo paisagem. Registram medidas dos elementos, primeira visita com cookies, screenshots, eventos de mídia, enquadramento, overflow e fallback. A suíte V4 existente revalida contato, teclado, acessibilidade e privacidade.
+O controlador agora atribui o MP4 diretamente a `video.src` apenas quando movimento/visibilidade permitem, com `muted` e `playsinline`. `play()` é o único responsável pela reprodução; não há autoplay nativo concorrente nem `<source>` sem `src` aguardando seleção. Falha de mídia/bloqueio libera a fonte e mantém o poster original. Uma proteção encerra reinícios anormais de carregamento. Nenhuma tentativa é feita com movimento reduzido ativo.
 
-`hotfix-performance.mjs` compara V4 antes/depois, três execuções frias alternadas, no mesmo runner e throttling. Mede LCP/CLS/TBT e registra o candidato LCP e recursos bloqueantes. Não mede INP de campo.
+| Evidência final em 1366×768 | Chromium 157.0.8103.50 | WebKit 26.0 |
+|---|---:|---:|
+| `loadstart` observado antes das interações | 1 | 1 |
+| `readyState` | 4 | 4 |
+| Tempo inicial → posterior | 1,700 → 3,787 s | 1,689 → 3,999 s |
+| Pausa fora do HERO / retomada ao voltar | PASS | PASS |
+| Ativar movimento reduzido durante reprodução / reativar movimento | PASS | PASS |
+| Autoplay negado e erro de mídia | Poster, sem comprometer contato | Poster, sem comprometer contato |
 
-O ambiente local impede inicializar Chromium (`socket() failed: Operation not permitted`); a validação renderizada ocorre em GitHub Actions, com Playwright/Chromium/WebKit. Aparelhos físicos indisponíveis nesta sessão; emulação e motor WebKit não equivalem a Safari físico.
+[Timeline Chromium](qa-hero/chromium-video-timeline.json) · [Timeline WebKit](qa-hero/webkit-video-timeline.json). A causa não foi atribuída genericamente à política de autoplay, nem comprovada no Edge físico usado pela direção: são observações e correções verificadas nos motores do runner.
 
-Parecer final e evidências serão registrados após execução e inspeção visual real das capturas.
+## Homologação responsiva e funcional
+
+Ambiente: GitHub Actions, Ubuntu 24.04, Node 22, Playwright 1.58.2, Chromium 157.0.8103.50 e WebKit 26.0. Browser plugin indisponível; Chromium local bloqueado por `socket() failed: Operation not permitted`. Foram usados snapshots servidos em localhost no CI. WebKit em Linux não equivale a Safari instalado em iPhone; nenhum aparelho físico foi usado.
+
+Fluxo validado: abrir página → ler HERO → abrir/fechar menu → navegar a seções → operar áreas/FAQ por teclado → preencher formulário fictício → compor destino WhatsApp e fallback. O envio de mensagens foi interceptado; os testes de consentimento usam container simulado, sem enviar Analytics real.
+
+| Viewport em ambos os motores | Layout / enquadramento / overflow | CTA primário: limite inferior em Chromium |
+|---|---|---:|
+| Desktop 1920×1080 | PASS | 589,9 px |
+| Notebook 1366×768 | PASS | 495,7 px |
+| Notebook compacto 1280×720 | PASS | 476,2 px |
+| Tablet 768×1024 | PASS | 460,5 px |
+| Android emulado 390×844 | PASS | 450,4 px |
+| Largura iPhone / WebKit 375×812 | PASS | 446,2 px |
+| Mobile estreito 320×740 | PASS | 485,4 px |
+| Paisagem 844×390 | PASS; rolagem vertical necessária | 472,4 px |
+
+| Verificação | Evidência final |
+|---|---|
+| Identidade, página não vazia, H1 e conteúdo | PASS |
+| Console no comparativo final | Zero erros/avisos nos 16 carregamentos do hotfix; zero falhas de rede registradas |
+| Título, apoio, áreas e CTA primário na dobra exigida | PASS em 1366×768 e 1280×720, nos dois motores |
+| Imagem, legenda, assinatura, ausência de sobreposição/overflow | PASS automático + inspeção visual das capturas |
+| Menu, Escape, destino e retorno de foco | PASS |
+| Áreas e FAQ com Enter/Espaço | PASS |
+| Formulário, validação, acentos/símbolos, link de retry e invalidação de mensagem antiga | PASS, com dados fictícios e sem envio |
+| Foco visível, alvos de toque, movimento reduzido e ausência de JS | PASS |
+| Axe WCAG A/AA em desktop/mobile, ambos os motores | Zero violações automáticas nos estados auditados |
+| Cookies: recusa, aceite, preferências e revogação | PASS com container determinístico de teste |
+| Reprodução, fallback e ciclo de visibilidade/preferências | PASS |
+
+[Execução comparativa final](https://github.com/olegariotech-site/cintia-almeida-gomes-advocacia/actions/runs/43272868550): **36/36 cenários comparativos e de fallback**. [Execução funcional final](https://github.com/olegariotech-site/cintia-almeida-gomes-advocacia/actions/runs/43272868545): **60/60 verificações finais + 9/9 cenários da suíte de navegador + smoke Node**. Não são ensaios com VoiceOver/TalkBack ou aparelhos físicos.
+
+Relatórios preservados: [layout/mídia](qa-hero/layout-media-report.json), [funcional/acessibilidade](qa-hero/functional-accessibility-report.json), [suíte adicional](qa-hero/browser-report.json).
+
+## Desempenho antes/depois
+
+Lighthouse 13.6.0; três execuções frias alternadas por versão, no mesmo runner, 390×844, DPR 1, simulação móvel, RTT 150 ms, throughput 1638,4 Kbps e CPU 4×. Base e candidato são os SHAs registrados acima. Os relatórios completos registram os demais parâmetros. Não foram medidos hospedagem pública, INP de campo ou aparelhos reais.
+
+| Mediana (intervalo) | V4 publicada | Hotfix final |
+|---|---:|---:|
+| Performance | 75 (45–75) | 75 (75–75) |
+| LCP | 15,757 s (15,756–15,758) | 11,706 s (11,705–11,707) |
+| CLS | 0,00023 (0,00023–0,12746) | 0 (0–0) |
+| TBT | 0 ms (0–1295) | 0 ms (0–0) |
+| Transferência | 3.763.895 bytes | 2.960.133 bytes |
+
+A mediana do LCP ficou 25,7% menor e a transferência caiu 803.762 bytes. Nenhuma das métricas comparadas piorou no candidato final. Isso é evidência do laboratório, não garantia de ganho equivalente em produção. Rodadas anteriores apresentaram CLS de 0,127 também no hotfix; não se atribui causalmente o CLS zero final a uma única alteração nem se declara o problema global resolvido.
+
+O candidato a LCP identificado no hotfix foi `.hero-signature` (poster/fundo); na base também apareceu o próprio vídeo. Os relatórios mostram CSS e a folha externa de fontes no caminho bloqueante. A foto grande disputa transferência no carregamento inicial; sua versão sem perdas foi uma otimização justificada e verificada. O LCP de 11,7 s continua alto. Redimensionamento adicional de imagens, estratégia das fontes e poster/vídeo exigem medição própria antes de ampliar este hotfix. Não foram trocados assets originais para mascarar o resultado.
+
+[Comparação detalhada](qa-hero/performance-comparison.json) · [Lighthouse JSON/HTML completo](https://github.com/olegariotech-site/cintia-almeida-gomes-advocacia/actions/runs/43272868550/artifacts/13968028796).
+
+## Capturas e revisão visual
+
+As imagens abaixo são screenshots originais do CI, sem retoque. Capturas de página inteira, primeira visita com cookies, demais resoluções e estados de fallback estão no [artefato completo](https://github.com/olegariotech-site/cintia-almeida-gomes-advocacia/actions/runs/43272868550/artifacts/13968388816), com retenção de 90 dias. Os comparativos selecionados e os JSON desta pasta ficam versionados no repositório.
+
+| Ambiente | Antes | Depois |
+|---|---|---|
+| Desktop | [1920×1080](qa-hero/before-1920x1080.png) | [1920×1080](qa-hero/after-1920x1080.png) |
+| Notebook | [1366×768](qa-hero/before-1366x768.png) | [1366×768](qa-hero/after-1366x768.png) |
+| Mobile | [390×844](qa-hero/before-390x844.png) | [390×844](qa-hero/after-390x844.png) |
+| WebKit | — | [375×812](qa-hero/webkit-375x812.png) |
+
+## Próximo gate
+
+A revisão do PR está pronta. Antes da publicação, registrar a decisão expressa da direção OT e a homologação em iPhone/Safari e Android reais: modelo, sistema, navegador, commit, retrato/paisagem, vídeo/poster, menu, teclado virtual, formulário sem envio e movimento reduzido. Conferir também no Edge/Windows usado para a avaliação original. O LCP elevado deve permanecer uma ressalva explícita de liberação ou receber uma intervenção de desempenho medida separadamente. Este parecer não autoriza merge ou deploy.

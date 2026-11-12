@@ -1,0 +1,1853 @@
+{
+  "head": "e059120b5b14ac256501c663b006f7dc04267712",
+  "base": "aade965e7f3cce532b70fc131bc41c6b3bb21dca",
+  "sourceRun": 43270430418,
+  "note": "Superseded candidate. Complete event log remains in the Actions artifact; this summary preserves counts without storing repeated events.",
+  "results": [
+    {
+      "name": "chromium-1920x1080-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 584.2000000000044,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1920x1080-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4583,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 29.700000000004366,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 223.90000000000146,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 279.70000000000437,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 334.8000000000029,
+            "currentTime": 0.0001
+          },
+          {
+            "name": "playing",
+            "time": 334.90000000000146,
+            "currentTime": 0.0002
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1366x768-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.6292,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 24.80000000000291,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 167.3000000000029,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 177.20000000000437,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 192.70000000000437,
+            "currentTime": 0.0007
+          },
+          {
+            "name": "playing",
+            "time": 192.8000000000029,
+            "currentTime": 0.0007
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1366x768-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.6519,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 14.30000000000291,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 158.3000000000029,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 172.60000000000582,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 235.20000000001164,
+            "currentTime": 0.0268
+          },
+          {
+            "name": "playing",
+            "time": 235.3000000000029,
+            "currentTime": 0.0269
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1280x720-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4706,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 23.80000000000291,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 131.60000000000582,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 222.3000000000029,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 228.8000000000029,
+            "currentTime": 0.0002
+          },
+          {
+            "name": "playing",
+            "time": 228.8000000000029,
+            "currentTime": 0.0002
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-1280x720-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4745,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 24.70000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 134,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 169.60000000000582,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 212.60000000000582,
+            "currentTime": 0.0152
+          },
+          {
+            "name": "playing",
+            "time": 212.70000000001164,
+            "currentTime": 0.0152
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-768x1024-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4878,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 31,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 139.5,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 167.09999999999127,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 186.5,
+            "currentTime": 0.0003
+          },
+          {
+            "name": "playing",
+            "time": 186.59999999999127,
+            "currentTime": 0.0003
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-768x1024-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4864,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 21.30000000000291,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 149.8000000000029,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 186.40000000000873,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 201.3000000000029,
+            "currentTime": 0.0001
+          },
+          {
+            "name": "playing",
+            "time": 201.3000000000029,
+            "currentTime": 0.0002
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-390x844-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.5383,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 25.89999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 131.29999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 158.6999999999971,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 180.6999999999971,
+            "currentTime": 0.0001
+          },
+          {
+            "name": "playing",
+            "time": 180.6999999999971,
+            "currentTime": 0.0002
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-390x844-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.5336,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 19.89999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 136,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 159.6999999999971,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 176.5,
+            "currentTime": 0.0004
+          },
+          {
+            "name": "playing",
+            "time": 176.60000000000582,
+            "currentTime": 0.0004
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-375x812-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4821,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 19.20000000001164,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 167.8000000000029,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 169.40000000000873,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 183.5,
+            "currentTime": 0.0002
+          },
+          {
+            "name": "playing",
+            "time": 183.5,
+            "currentTime": 0.0002
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-375x812-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4979,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 20,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 139.59999999999127,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 163.5,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 182.3000000000029,
+            "currentTime": 0.001
+          },
+          {
+            "name": "playing",
+            "time": 182.3000000000029,
+            "currentTime": 0.001
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-320x740-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4954,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 23.69999999999709,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 144.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 155.6999999999971,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 186.59999999999127,
+            "currentTime": 0.0063
+          },
+          {
+            "name": "playing",
+            "time": 186.59999999999127,
+            "currentTime": 0.0063
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-320x740-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4743,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 23.69999999999709,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 176.5,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 182,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 215.39999999999418,
+            "currentTime": 0.0003
+          },
+          {
+            "name": "playing",
+            "time": 215.39999999999418,
+            "currentTime": 0.0003
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-844x390-before",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.4797,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4174/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 18.30000000000291,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 139.60000000000582,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 171.39999999999418,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 189.89999999999418,
+            "currentTime": 0.0004
+          },
+          {
+            "name": "playing",
+            "time": 189.89999999999418,
+            "currentTime": 0.0004
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-844x390-after",
+      "status": "PASS",
+      "video": {
+        "paused": false,
+        "currentTime": 1.486,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": true,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "1",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 2,
+          "loadedmetadata": 1,
+          "canplay": 1,
+          "playing": 1
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 27.79999999998836,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 165.5,
+            "currentTime": 0
+          },
+          {
+            "name": "loadedmetadata",
+            "time": 170.1999999999971,
+            "currentTime": 0
+          },
+          {
+            "name": "canplay",
+            "time": 195.79999999998836,
+            "currentTime": 0.0027
+          },
+          {
+            "name": "playing",
+            "time": 195.79999999998836,
+            "currentTime": 0.0027
+          }
+        ]
+      }
+    },
+    {
+      "name": "chromium-reduced-motion",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {},
+        "eventSample": []
+      }
+    },
+    {
+      "name": "chromium-autoplay-denied",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "http://127.0.0.1:4173/cintia-logo-hero-site.mp4",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {},
+        "eventSample": []
+      }
+    },
+    {
+      "name": "webkit-1920x1080-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 132598
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 37,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 92,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 92,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 92,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 92,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 93,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 93,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 93,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1920x1080-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 107177
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 13.000000000000002,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1366x768-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 108904
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 10,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 46,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1366x768-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 114689
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 10,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1280x720-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 117237
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-1280x720-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 116449
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 9.000000000000002,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-768x1024-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 113210
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 10,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 52.00000000000001,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-768x1024-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 120468
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 53,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-390x844-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 115503
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 8,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 54,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-390x844-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 114568
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-375x812-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 116600
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 12,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 57,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 58,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-375x812-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 119461
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 50,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 51.00000000000001,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-320x740-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 117526
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 16,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 59.00000000000001,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 60,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 60,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 60,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 60,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 60,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 60,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-320x740-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 117043
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 11,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 55,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-844x390-before",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4174/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 115444
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 10,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 69,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 70,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-844x390-after",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {
+          "loadstart": 117834
+        },
+        "eventSample": [
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          },
+          {
+            "name": "loadstart",
+            "time": 56,
+            "currentTime": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "webkit-reduced-motion",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {},
+        "eventSample": []
+      }
+    },
+    {
+      "name": "webkit-autoplay-denied",
+      "status": "PASS",
+      "video": {
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "muted": true,
+        "inline": true,
+        "autoplay": false,
+        "currentSrc": "",
+        "error": null,
+        "canPlayType": "probably",
+        "opacity": "0",
+        "background": "url(\"http://127.0.0.1:4173/cintia-logo-hero-poster.jpg\")",
+        "eventCounts": {},
+        "eventSample": []
+      }
+    }
+  ]
+}
