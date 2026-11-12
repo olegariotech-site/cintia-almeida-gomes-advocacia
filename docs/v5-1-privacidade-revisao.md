@@ -16,17 +16,18 @@
 
 - **Nome profissional:** Cíntia Pereira Almeida Gomes, com um único L em Almeida. Confirmado.
 - **Canal LGPD:** `cintiapalmeida@adv.oabsp.org.br` é o e-mail oficial e está autorizado para solicitações relacionadas à LGPD. Confirmado.
-- **Canais de atendimento e histórico de conversas:** WhatsApp e e-mail; não foi informado uso de CRM, sistema jurídico ou outro repositório dedicado para guardar conversas. Confirmado pela direção OT. **Não equivale à confirmação de backups automáticos nem da política de retenção de cada conta.**
-- **Texto correspondente ajustado** na seção 4 da política, com ressalva explícita sobre configurações de backup.
+- **Canais de atendimento e histórico de conversas:** WhatsApp e e-mail; não foi informado uso de CRM, sistema jurídico ou outro repositório dedicado para guardar conversas. Confirmado pela direção OT. **Não equivale à confirmação da política de retenção de cada conta.**
+- **Backup automático do WhatsApp:** ativado, conforme resposta afirmativa da direção OT. **Não foi identificado se a cópia usa Google Drive ou iCloud**, nem confirmadas a criptografia e a retenção.
+- **Texto correspondente ajustado** na seção 4 da política, incluindo o backup automático confirmado sem pressupor o fornecedor.
 
 ## Pontos que exigem confirmação profissional antes da publicação
 
-1. **Retenção e backups:** confirmar prática interna de conservação/exclusão das mensagens nos canais WhatsApp/e-mail e se há backups automáticos. Não presumir prazos, exclusão definitiva nem ausência de backups.
-2. **Fornecedores de infraestrutura:** identificar prestadores do e-mail e eventuais backups habilitados. Não há CRM ou sistema jurídico adicional informado para histórico de conversas.
-5. **Medição:** inspecionar o contêiner `GTM-TGGPH6PH` e identificar se GA4 e/ou Meta Pixel foram de fato publicados; inventariar categorias de cookies, duração e fornecedores. **Não afirmar Pixel/GA4 ativos sem evidência.**
-6. **Bases legais e transferências:** validar hipóteses aplicáveis a cada operação e eventual transferência internacional conforme contratos dos serviços.
-7. **Contato sensível:** validar orientação ao visitante para evitar o envio de documentos completos e dados sensíveis no formulário de primeiro contato.
-8. **Aprovação jurídica:** a Cíntia deve revisar e aprovar o conteúdo da página e a data antes do merge.
+1. **Retenção:** confirmar a prática interna de conservação/exclusão das mensagens no WhatsApp/e-mail e por quanto tempo as cópias automáticas são mantidas. Não presumir prazos nem exclusão definitiva.
+2. **Fornecedores de infraestrutura:** identificar prestador do e-mail e onde está configurado o backup automático do WhatsApp (Google Drive ou iCloud), inclusive eventual proteção por criptografia. Não há CRM ou sistema jurídico adicional informado para histórico de conversas.
+3. **Medição:** inspecionar o contêiner `GTM-TGGPH6PH` e identificar se GA4 e/ou Meta Pixel foram de fato publicados; inventariar categorias de cookies, duração e fornecedores. **Não afirmar Pixel/GA4 ativos sem evidência.**
+4. **Bases legais e transferências:** validar hipóteses aplicáveis a cada operação e eventual transferência internacional conforme contratos dos serviços.
+5. **Contato sensível:** validar orientação ao visitante para evitar o envio de documentos completos e dados sensíveis no formulário de primeiro contato.
+6. **Aprovação jurídica:** a Cíntia deve revisar e aprovar o conteúdo da página e a data antes do merge.
 
 ## Checklist QA
 
