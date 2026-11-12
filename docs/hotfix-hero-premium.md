@@ -22,7 +22,7 @@ Não foram adotados outros estilos, novas fontes, sombras decorativas ou uma nov
 - MP4 original: H.264 High, yuv420p, 1280×720, 24 fps, 8 s, 703.384 bytes. Frames extraídos em 1 s e 4 s confirmam movimento do símbolo/pena.
 - CSS anterior: assinatura com bottom:-90px e opacidade 0,15; retrato com height:100%, min-height:480px e flex de crescimento. São condições de composição, não prova de bloqueio do autoplay em qualquer navegador físico.
 - Autoplay, muted, playsinline, observer e tratamento de fallback serão avaliados com eventos/readyState/currentTime nos dois motores. Não atribuir falta de movimento a uma causa não reproduzida.
-- A fotografia original recebe apenas width/height intrínsecos (1086×1448). Nenhum asset original foi alterado.
+- A fotografia recebe width/height intrínsecos (1086×1448) e uma alternativa WebP **sem perdas**, com o PNG original como fallback nativo via picture. Os pixels RGBA decodificados foram comparados integralmente: idênticos. O derivado tem 1.633.694 bytes contra 2.438.940 bytes do PNG (−33,0%). Nenhum asset original foi alterado; sem recorte, redimensionamento ou retoque da fotografia.
 - Sem mudanças de contatos, conteúdo jurídico, OAB, SEO, DNS ou configurações comerciais.
 
 ## Validação

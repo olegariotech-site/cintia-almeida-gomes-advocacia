@@ -27,8 +27,8 @@ jobs:
           node-version: '22'
       - run: npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.58.2
       - run: npx playwright install --with-deps webkit
-      - name: Media metadata
-        run: ffprobe -v error -show_entries format=duration,size:stream=codec_name,profile,pix_fmt,width,height,r_frame_rate -of json cintia-logo-hero-site.mp4
+      - name: Original media fingerprints (metadata inspected locally with ffprobe)
+        run: sha256sum cintia-logo-hero-site.mp4 cintia-logo-hero-poster.jpg assetsdra-cintia-hero.png
       - name: Compare render, fold and video states
         env:
           QA_BASE: aade965e7f3cce532b70fc131bc41c6b3bb21dca
