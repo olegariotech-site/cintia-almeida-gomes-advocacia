@@ -25,8 +25,9 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
   for(const [width,height] of sizes)for(const [version,url] of Object.entries(versions)){
     const name=`${engine}-${width}x${height}-${version}`;
     const context=await browser.newContext({viewport:{width,height},deviceScaleFactor:1,hasTouch:width<=844,isMobile:width<=844});context.setDefaultTimeout(10000);
-    const page=await context.newPage(); const errors=[],networkErrors=[];
+    const page=await context.newPage(); const errors=[],networkErrors=[],consoleMessages=[];
     page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>networkErrors.push({url:r.url(),failure:r.failure()}));
+    page.on('console',m=>{if(['warning','error'].includes(m.type()))consoleMessages.push({type:m.type(),text:m.text()});});
     await page.addInitScript(()=>{
       window.__heroMediaEvents=[];
       window.__heroMediaCounts={};
@@ -44,6 +45,7 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
       await page.screenshot({path:`${dir}/${name}.png`});
       if([1920,1366,390].includes(width))await page.screenshot({path:`${dir}/${name}-full.png`,fullPage:true});
       assert.ok(data.title.includes('Cíntia Almeida Gomes'));assert.equal(await page.locator('h1').count(),1);assert.equal(data.fontErrors.length,0);assert.deepEqual(errors,[]);
+      assert.deepEqual(consoleMessages.filter(m=>/Falha ao iniciar|Uncaught/.test(m.text)),[]);
       if(version==='after'){
         assert.ok((data.video.eventCounts.loadstart||0)<10,'media resource-selection loop: '+JSON.stringify(data.video.eventCounts));
         assert.ok(data.scrollWidth<=width+1,'horizontal overflow');
@@ -63,7 +65,7 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
         assert.ok(b.signature.y>=b.hero.y-1 && b.signature.bottom<=b.hero.bottom+1,'signature outside HERO');
         if(width>=1280)assert.ok(b.hero.bottom-b.card.bottom<=96,'excess space below portrait');
       }
-      results.push({name,status:'PASS',engineVersion:browser.version(),...data,networkErrors});
+      results.push({name,status:'PASS',engineVersion:browser.version(),...data,networkErrors,consoleMessages});
       console.log('PASS',name,JSON.stringify({heroHeight:data.boxes.hero.height,primaryBottom:data.boxes.primary.bottom,signatureTop:data.boxes.signature.y,video:data.video.readyState}));
       if(version==='after'&&width===1366){
         const t=data.video.currentTime;await page.waitForTimeout(1200);const next=await measure(page);

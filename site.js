@@ -125,18 +125,24 @@
     const video = document.getElementById('signatureVideo');
     const hero = document.getElementById('hero');
     const signature = video?.closest('.hero-signature');
-    const source = video?.querySelector('source[data-src]');
-    if (!video || !hero || !signature || !source) return;
+    const mediaURL = video?.dataset.src;
+    if (!video || !hero || !signature || !mediaURL) return;
     let inView = false;
     let failed = false;
     let playPending = false;
     let revision = 0;
+    let loadStarts = 0;
     const canPlay = () => !motion.matches && !document.hidden && inView && !failed;
     function showPoster() { signature.classList.remove('is-playing'); }
     function fail() {
+      if (failed) return;
       failed = true;
       video.pause();
       showPoster();
+      // Release a failed decoder/network request instead of leaving it running
+      // behind the poster. The data URL remains available only for a new visit.
+      video.removeAttribute('src');
+      video.load();
     }
     async function play() {
       if (playPending || !canPlay() || !video.paused) return;
@@ -144,9 +150,11 @@
       const requestedAt = revision;
       try {
         // No source is fetched without JS, or while reduced motion is requested.
-        if (!source.getAttribute('src')) {
+        if (!video.getAttribute('src')) {
           video.muted = true;
-          source.src = source.dataset.src;
+          // One direct source avoids repeated selection of a deferred <source>
+          // observed in WebKit. There is no competing native autoplay owner.
+          video.src = mediaURL;
           video.load();
         }
         await video.play();
@@ -161,8 +169,7 @@
     }
     function sync() {
       revision += 1;
-      // play() is the only playback owner. Toggling native autoplay while
-      // selecting a deferred source can restart resource selection in WebKit.
+      // play() alone owns playback; preferences/visibility only pause or resume.
       if (canPlay()) play();
       else { video.pause(); showPoster(); }
     }
@@ -172,7 +179,11 @@
     });
     video.addEventListener('pause', showPoster);
     video.addEventListener('error', fail);
-    source.addEventListener('error', fail);
+    video.addEventListener('loadstart', () => {
+      // One source is loaded once; repeated starts without navigation indicate
+      // a broken media pipeline. Stop it before it becomes a busy event loop.
+      if (++loadStarts > 3) fail();
+    });
     motion.addEventListener('change', sync);
     document.addEventListener('visibilitychange', sync);
     sync();
