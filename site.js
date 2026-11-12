@@ -135,7 +135,6 @@
     function showPoster() { signature.classList.remove('is-playing'); }
     function fail() {
       failed = true;
-      video.autoplay = false;
       video.pause();
       showPoster();
     }
@@ -146,6 +145,7 @@
       try {
         // No source is fetched without JS, or while reduced motion is requested.
         if (!source.getAttribute('src')) {
+          video.muted = true;
           source.src = source.dataset.src;
           video.load();
         }
@@ -161,7 +161,8 @@
     }
     function sync() {
       revision += 1;
-      video.autoplay = canPlay();
+      // play() is the only playback owner. Toggling native autoplay while
+      // selecting a deferred source can restart resource selection in WebKit.
       if (canPlay()) play();
       else { video.pause(); showPoster(); }
     }

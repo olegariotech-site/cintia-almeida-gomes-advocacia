@@ -15,7 +15,7 @@ async function measure(page) {
     const selectors={header:'.top',hero:'.hero',grid:'.hero-grid',badge:'.hero .badge',title:'.hero h1',statement:'.hero-statement',lead:'.hero .lead',primary:'.hero-actions .gold',secondary:'.hero-actions .out',note:'.hero-note',photo:'.hero-card .portrait',card:'.hero-card',caption:'.portrait-caption',captionTitle:'.portrait-caption h2',signature:'.hero-signature'};
     const boxes=Object.fromEntries(Object.entries(selectors).map(([k,s])=>[k,rect(s)]));
     const v=document.querySelector('#signatureVideo');
-    return {viewport:{width:innerWidth,height:innerHeight},boxes,scrollWidth:document.documentElement.scrollWidth,title:document.title,fonts:document.fonts.status,fontErrors:[...document.fonts].filter(f=>f.status==='error').map(f=>f.family),photo:{naturalWidth:document.querySelector('.portrait').naturalWidth,naturalHeight:document.querySelector('.portrait').naturalHeight,fit:getComputedStyle(document.querySelector('.portrait')).objectFit},caption:{position:getComputedStyle(document.querySelector('.portrait-caption')).position,border:getComputedStyle(document.querySelector('.portrait-caption')).borderTopWidth},video:{paused:v.paused,currentTime:v.currentTime,readyState:v.readyState,muted:v.muted,inline:v.playsInline,autoplay:v.autoplay,currentSrc:v.currentSrc,error:v.error?{code:v.error.code,message:v.error.message}:null,canPlayType:v.canPlayType('video/mp4; codecs="avc1.64001f"'),opacity:getComputedStyle(v).opacity,background:getComputedStyle(v.parentElement).backgroundImage,events:window.__heroMediaEvents}};
+    return {viewport:{width:innerWidth,height:innerHeight},boxes,scrollWidth:document.documentElement.scrollWidth,title:document.title,fonts:document.fonts.status,fontErrors:[...document.fonts].filter(f=>f.status==='error').map(f=>f.family),photo:{naturalWidth:document.querySelector('.portrait').naturalWidth,naturalHeight:document.querySelector('.portrait').naturalHeight,fit:getComputedStyle(document.querySelector('.portrait')).objectFit},caption:{position:getComputedStyle(document.querySelector('.portrait-caption')).position,border:getComputedStyle(document.querySelector('.portrait-caption')).borderTopWidth},video:{paused:v.paused,currentTime:v.currentTime,readyState:v.readyState,muted:v.muted,inline:v.playsInline,autoplay:v.autoplay,currentSrc:v.currentSrc,error:v.error?{code:v.error.code,message:v.error.message}:null,canPlayType:v.canPlayType('video/mp4; codecs="avc1.64001f"'),opacity:getComputedStyle(v).opacity,background:getComputedStyle(v.parentElement).backgroundImage,events:window.__heroMediaEvents,eventCounts:window.__heroMediaCounts}};
   });
 }
 
@@ -29,7 +29,8 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
     page.on('pageerror',e=>errors.push(e.message));page.on('requestfailed',r=>networkErrors.push({url:r.url(),failure:r.failure()}));
     await page.addInitScript(()=>{
       window.__heroMediaEvents=[];
-      for(const name of ['loadstart','loadedmetadata','canplay','playing','pause','error'])document.addEventListener(name,e=>{if(e.target.id==='signatureVideo')window.__heroMediaEvents.push({name,time:performance.now(),currentTime:e.target.currentTime,error:e.target.error?.code});},true);
+      window.__heroMediaCounts={};
+      for(const name of ['loadstart','loadedmetadata','canplay','playing','pause','error'])document.addEventListener(name,e=>{if(e.target.id!=='signatureVideo')return;window.__heroMediaCounts[name]=(window.__heroMediaCounts[name]||0)+1;if(window.__heroMediaEvents.length<40)window.__heroMediaEvents.push({name,time:performance.now(),currentTime:e.target.currentTime,error:e.target.error?.code});},true);
       window.open=()=>null;
     });
     try{
@@ -44,6 +45,7 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
       if([1920,1366,390].includes(width))await page.screenshot({path:`${dir}/${name}-full.png`,fullPage:true});
       assert.ok(data.title.includes('Cíntia Almeida Gomes'));assert.equal(await page.locator('h1').count(),1);assert.equal(data.fontErrors.length,0);assert.deepEqual(errors,[]);
       if(version==='after'){
+        assert.ok((data.video.eventCounts.loadstart||0)<10,'media resource-selection loop: '+JSON.stringify(data.video.eventCounts));
         assert.ok(data.scrollWidth<=width+1,'horizontal overflow');
         assert.equal(data.photo.fit,'cover');assert.ok(data.photo.naturalWidth>0);
         const b=data.boxes;
@@ -68,6 +70,18 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
         writeFileSync(`${dir}/${engine}-video-timeline.json`,JSON.stringify({start:data.video,next:next.video,advanced:next.video.currentTime>t+.1},null,2));
         await page.screenshot({path:`${dir}/${engine}-1366x768-video-later.png`});
         assert.ok(next.video.currentTime>t+.1 || next.video.opacity==='0','stalled visible video');
+        assert.ok((next.video.eventCounts.loadstart||0)<10,'media reload loop after waiting');
+        // The same source must pause offscreen, resume when supported and obey
+        // a live reduced-motion preference change without reloading the media.
+        await page.locator('#contato').scrollIntoViewIfNeeded();await page.waitForTimeout(250);
+        assert.equal(await page.locator('#signatureVideo').evaluate(v=>v.paused),true,'offscreen video not paused');
+        await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));await page.waitForTimeout(350);
+        if(next.video.currentTime>t+.1)assert.equal(await page.locator('#signatureVideo').evaluate(v=>v.paused),false,'visible video did not resume');
+        await page.emulateMedia({reducedMotion:'reduce'});await page.waitForTimeout(100);
+        assert.equal(await page.locator('#signatureVideo').evaluate(v=>v.paused),true,'live reduced motion not paused');
+        assert.equal(await page.locator('#signatureVideo').evaluate(v=>getComputedStyle(v).opacity),'0');
+        await page.emulateMedia({reducedMotion:'no-preference'});await page.waitForTimeout(350);
+        if(next.video.currentTime>t+.1)assert.equal(await page.locator('#signatureVideo').evaluate(v=>v.paused),false,'video did not resume after preference change');
       }
     }catch(e){results.push({name,status:'FAIL',error:e.stack,diagnostic:await measure(page).catch(()=>null)});console.error('FAIL',name,e.message);await page.screenshot({path:`${dir}/${name}-FAIL.png`,timeout:5000}).catch(()=>{});}
     finally{await context.close();}
