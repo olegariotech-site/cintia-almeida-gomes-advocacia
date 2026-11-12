@@ -7,6 +7,18 @@ const dir='artifacts/v5';mkdirSync(dir,{recursive:true});
 const sizes=[[1920,1080],[1366,768],[1280,720],[1024,768],[768,1024],[390,844],[375,812],[320,740],[844,390]];
 const urls={v4:'http://127.0.0.1:4174',v5:'http://127.0.0.1:4173'};
 const results=[];const launched=[];
+// A long screenshot is a reading-state proof, not a substitute for scrolling.
+// Prime lazy images/observers in real viewports, then finish finite animations
+// so offscreen Chromium compositor snapshots do not omit the signature text.
+async function captureReadingPage(page,path){
+ for(const section of await page.locator('main > section').all()){
+  await section.evaluate(e=>e.scrollIntoView({behavior:'instant',block:'start'}));
+  await page.waitForTimeout(50);
+ }
+ await page.evaluate(()=>scrollTo({top:0,behavior:'instant'}));
+ await page.waitForTimeout(750);
+ await page.screenshot({path,fullPage:true,animations:'disabled'});
+}
 async function check(name,fn,page){try{const detail=await fn();results.push({name,status:'PASS',detail});console.log('PASS',name);}catch(e){results.push({name,status:'FAIL',error:e.stack});console.error('FAIL',name,e.message);await page?.screenshot({path:`${dir}/${name}-FAIL.png`,timeout:5000}).catch(()=>{});}finally{writeFileSync(`${dir}/partial-report.json`,JSON.stringify({head:process.env.QA_COMMIT,results},null,2));}}
 async function instrument(context){
  await context.route('https://wa.me/**',route=>route.fulfill({contentType:'text/html',body:'<!doctype html><title>QA intercepted contact</title><p>No message sent.</p>'}));
@@ -45,7 +57,7 @@ try{
      assert.ok(d.motion.some(e=>/^v5-portrait/.test(e.name)),'photo motion not observed');assert.ok(d.motion.some(e=>e.name==='v5-edge'),'gold edge motion not observed');
     }
     await page.screenshot({path:`${dir}/${name}.png`});
-    if([1920,1366,390].includes(width))await page.screenshot({path:`${dir}/${name}-full.png`,fullPage:true});
+    if([1920,1366,390].includes(width))await captureReadingPage(page,`${dir}/${name}-full.png`);
     if(version==='v5'&&width===1366){
      await page.locator('.hero-card-in').evaluate(e=>e.style.clipPath='polygon(2% 0,100% 0,100% 100%,0 100%)');await page.screenshot({path:`${dir}/${engine}-oblique-trial.png`});await page.locator('.hero-card-in').evaluate(e=>e.style.removeProperty('clip-path'));
      const t=d.video.time;await page.waitForTimeout(1100);const v=await measurements(page);assert.ok(v.video.time>t+.1,'video not advancing');
@@ -71,13 +83,17 @@ try{
   // A native GET form remains usable with JS disabled; only text reaches the intercepted destination.
   const nojs=await browser.newContext({viewport:{width:390,height:844},javaScriptEnabled:false});let nativeURL='';await nojs.route('https://wa.me/**',r=>{nativeURL=r.request().url();return r.fulfill({contentType:'text/html',body:'<title>QA intercepted</title>'});});const np=await nojs.newPage();await np.goto(urls.v5,{waitUntil:'networkidle'});
   await check(engine+'-native-no-js-form',async()=>{
+   await np.locator('.impact').scrollIntoViewIfNeeded();
+   const pillars=await np.locator('.impact blockquote span').evaluateAll(es=>es.map(e=>({text:e.textContent,opacity:getComputedStyle(e).opacity,visibility:getComputedStyle(e).visibility})));
+   assert.equal(pillars.length,3);assert.ok(pillars.every(e=>e.text.trim()&&e.opacity==='1'&&e.visibility==='visible'),'no-JS signature hidden');
+   await np.screenshot({path:`${dir}/${engine}-no-js-impact.png`});
    assert.ok(await np.locator('#formFallback a').isVisible());assert.ok(await np.locator('#mensagemSemJS').isVisible());await np.locator('#contactForm').evaluate(e=>e.scrollIntoView({behavior:'instant',block:'center'}));await np.waitForTimeout(200);await np.locator('#mensagemSemJS').fill('Família & imóvel — Cliente QA');
    const state=await np.locator('#contactForm').evaluate(f=>({action:f.action,method:f.method,target:f.target,valid:f.checkValidity(),fields:[...f.elements].map(e=>({tag:e.tagName,name:e.name,disabled:e.matches(':disabled'),valid:e.checkValidity?.(),value:e.value}))}));
    writeFileSync(`${dir}/${engine}-no-js-state.json`,JSON.stringify(state,null,2));assert.equal(state.valid,true,'native form invalid');await np.screenshot({path:`${dir}/${engine}-no-js-before-submit.png`});
-   const [popup]=await Promise.all([nojs.waitForEvent('page',{timeout:8000}),np.locator('.native-contact button').click({noWaitAfter:true,timeout:8000})]);await popup.waitForLoadState('domcontentloaded');assert.ok(nativeURL);const u=new URL(nativeURL);assert.equal(u.pathname,'/5519971432465');assert.equal(u.searchParams.get('text'),'Família & imóvel — Cliente QA');assert.deepEqual([...u.searchParams.keys()],['text']);await np.screenshot({path:`${dir}/${engine}-no-js-form.png`});return {nativeSubmission:true,destination:u.origin+u.pathname,intercepted:true};
+   const [popup]=await Promise.all([nojs.waitForEvent('page',{timeout:8000}),np.locator('.native-contact button').click({noWaitAfter:true,timeout:8000})]);await popup.waitForLoadState('domcontentloaded');assert.ok(nativeURL);const u=new URL(nativeURL);assert.equal(u.pathname,'/5519971432465');assert.equal(u.searchParams.get('text'),'Família & imóvel — Cliente QA');assert.deepEqual([...u.searchParams.keys()],['text']);await np.screenshot({path:`${dir}/${engine}-no-js-form.png`});return {nativeSubmission:true,destination:u.origin+u.pathname,intercepted:true,pillars};
   },np);await nojs.close();
   const reduced=await browser.newContext({viewport:{width:375,height:812},reducedMotion:'reduce'});await instrument(reduced);const rp=await reduced.newPage();const media=[];rp.on('request',r=>{if(r.url().endsWith('.mp4'))media.push(r.url());});await rp.goto(urls.v5,{waitUntil:'networkidle'});
-  await check(engine+'-reduced-motion',async()=>{assert.deepEqual(media,[]);await rp.locator('#cookieReject').click();await rp.locator('.impact').scrollIntoViewIfNeeded();const motions=await rp.evaluate(()=>document.getAnimations().map(a=>a.animationName));assert.deepEqual(motions,[]);assert.equal(await rp.locator('.impact').evaluate(e=>getComputedStyle(e).position),'relative');return {mediaRequests:0,animations:motions};},rp);await reduced.close();
+  await check(engine+'-reduced-motion',async()=>{assert.deepEqual(media,[]);await rp.locator('#cookieReject').click();await rp.locator('.impact').scrollIntoViewIfNeeded();const motions=await rp.evaluate(()=>document.getAnimations().map(a=>a.animationName));assert.deepEqual(motions,[]);assert.equal(await rp.locator('.impact').evaluate(e=>getComputedStyle(e).position),'relative');const pillars=await rp.locator('.impact blockquote span').evaluateAll(es=>es.map(e=>({text:e.textContent,opacity:getComputedStyle(e).opacity,visibility:getComputedStyle(e).visibility})));assert.equal(pillars.length,3);assert.ok(pillars.every(e=>e.text.trim()&&e.opacity==='1'&&e.visibility==='visible'),'reduced-motion signature hidden');await rp.screenshot({path:`${dir}/${engine}-reduced-motion-impact.png`});return {mediaRequests:0,animations:motions,pillars};},rp);await reduced.close();
   // A 1366×768 desktop at 200% reflows to 683×384 CSS pixels. This is emulation, not OS zoom.
   const zoom=await browser.newContext({viewport:{width:683,height:384},deviceScaleFactor:2});await instrument(zoom);const zp=await zoom.newPage();await zp.goto(urls.v5,{waitUntil:'networkidle'});await zp.locator('#cookieReject').click();
   await check(engine+'-200-percent-reflow',async()=>{assert.ok(await zp.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await zp.locator('#toggle').click();assert.equal(await zp.locator('#toggle').getAttribute('aria-expanded'),'true');await zp.keyboard.press('Escape');await zp.locator('.hero-actions .gold').focus();assert.equal(await zp.locator('.hero-actions .gold').evaluate(e=>e===document.activeElement),true);await zp.screenshot({path:`${dir}/${engine}-zoom-reflow.png`});return {cssViewport:'683x384',deviceScaleFactor:2,physicalZoom:false};},zp);await zoom.close();
