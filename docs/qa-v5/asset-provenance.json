@@ -1,0 +1,124 @@
+{
+  "photos": [
+    {
+      "source": "assetsdra-cintia-hero.png",
+      "path": "assets/media/cintia-hero-540.webp",
+      "width": 540,
+      "height": 720,
+      "bytes": 81010,
+      "sha256": "56f4eb5dc83ac115cff2dde2d90178e127e45b0d48ea493eb02111a464118d34",
+      "quality": 90,
+      "resampling": "Lanczos",
+      "note": "responsive derivative, no retouch; original preserved"
+    },
+    {
+      "source": "assetsdra-cintia-hero.png",
+      "path": "assets/media/cintia-hero-810.webp",
+      "width": 810,
+      "height": 1080,
+      "bytes": 164712,
+      "sha256": "5b41211e33b5fa8592998cee26291d9d863eb33b3d4b4774a8f8c66c9b35282b",
+      "quality": 90,
+      "resampling": "Lanczos",
+      "note": "responsive derivative, no retouch; original preserved"
+    },
+    {
+      "source": "assetsdra-cintia-hero.png",
+      "path": "assets/media/cintia-hero-1086.webp",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 259534,
+      "sha256": "dbb62d7453e6d630e43ec26fa95c0dcfed56140109d1892a403c28ffdfb0ac9d",
+      "quality": 90,
+      "resampling": "Lanczos",
+      "note": "responsive derivative, no retouch; original preserved"
+    },
+    {
+      "source": "assetsdra-cintia-sobre.jpeg",
+      "path": "assets/media/cintia-sobre-540.webp",
+      "width": 540,
+      "height": 675,
+      "bytes": 59950,
+      "sha256": "af06834c3b0741c659ccfabce6d7d6d26d1f6d55591d7062a828ce200eb7b23c",
+      "quality": 90,
+      "resampling": "Lanczos",
+      "note": "responsive derivative, no retouch; original preserved"
+    },
+    {
+      "source": "assetsdra-cintia-sobre.jpeg",
+      "path": "assets/media/cintia-sobre-810.webp",
+      "width": 810,
+      "height": 1012,
+      "bytes": 110756,
+      "sha256": "ffd31f4a4e956510d79bc6bbec63a840da69a9403949847521d4069e7769970f",
+      "quality": 90,
+      "resampling": "Lanczos",
+      "note": "responsive derivative, no retouch; original preserved"
+    },
+    {
+      "source": "assetsdra-cintia-sobre.jpeg",
+      "path": "assets/media/cintia-sobre-1122.webp",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 169048,
+      "sha256": "30430f66ed0545514a4e91b7cba3abb224734f64000388d854c84a6b4b13f630",
+      "quality": 90,
+      "resampling": "Lanczos",
+      "note": "responsive derivative, no retouch; original preserved"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Cormorant Garamond",
+      "style": "italic",
+      "weights": [
+        400
+      ],
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jD-iNM8.woff2",
+      "path": "assets/fonts/cormorant-garamond-italic.woff2",
+      "bytes": 23660,
+      "sha256": "e48e58027030df56869b795ca6f19b7012158275f7ad7cde1900b4a0b68d02e2",
+      "coverage": "Google Fonts Latin face, served verbatim locally; Portuguese accents included"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "style": "normal",
+      "weights": [
+        400,
+        500
+      ],
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+      "path": "assets/fonts/cormorant-garamond-normal.woff2",
+      "bytes": 37640,
+      "sha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235",
+      "coverage": "Google Fonts Latin face, served verbatim locally; Portuguese accents included"
+    },
+    {
+      "family": "Inter",
+      "style": "normal",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "path": "assets/fonts/inter-normal.woff2",
+      "bytes": 48256,
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "coverage": "Google Fonts Latin face, served verbatim locally; Portuguese accents included"
+    }
+  ],
+  "licenses": [
+    {
+      "family": "Cormorant Garamond",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+      "path": "assets/fonts/cormorantgaramond-OFL.txt"
+    },
+    {
+      "family": "Inter",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "path": "assets/fonts/inter-OFL.txt"
+    }
+  ]
+}

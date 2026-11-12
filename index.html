@@ -53,15 +53,16 @@
 </script>
 <link rel="icon" href="assetslogo-cintia-oficial.png" type="image/png">
 <link rel="apple-touch-icon" href="assetslogo-cintia-oficial.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/cormorant-garamond-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/cormorant-garamond-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="v4.css">
+<link rel="stylesheet" href="v5.css">
 <script src="site.js" defer>
 </script>
 </head>
-<body class="v4">
+<body class="v4 v5">
 <a class="skip-link" href="#main">Pular para o conteúdo</a>
 <div class="progress" aria-hidden="true">
 </div>
@@ -113,7 +114,7 @@
 <aside class="hero-card" aria-label="Cíntia Almeida Gomes — identidade e apresentação">
 <div class="hero-card-in">
 <picture>
-<source srcset="assetsdra-cintia-hero-lossless.webp" type="image/webp">
+<source srcset="assets/media/cintia-hero-540.webp 540w, assets/media/cintia-hero-810.webp 810w, assets/media/cintia-hero-1086.webp 1086w" sizes="(max-width: 600px) calc(100vw - 36px), (max-width: 900px) 440px, 480px" type="image/webp">
 <img class="portrait" src="assetsdra-cintia-hero.png?v=20260908a" alt="Dra. Cíntia Pereira Almeida Gomes" width="1086" height="1448" fetchpriority="high" decoding="async">
 </picture>
 <div class="portrait-caption">
@@ -191,6 +192,7 @@
 <li>Pensão alimentícia</li>
 <li>Inventários e questões patrimoniais familiares</li>
 </ul>
+<a class="area-contact" href="#contato" data-area="Direito de Família">Solicitar atendimento nesta área<span aria-hidden="true"> ↗</span></a>
 </div>
 </details>
 <details name="areas" class="area reveal">
@@ -209,6 +211,7 @@
 <li>Direito Condominial</li>
 <li>Assessoria a síndicos e administradoras</li>
 </ul>
+<a class="area-contact" href="#contato" data-area="Direito Imobiliário / Locações / Condomínio">Solicitar atendimento nesta área<span aria-hidden="true"> ↗</span></a>
 </div>
 </details>
 <details name="areas" class="area reveal">
@@ -227,6 +230,7 @@
 <li>Danos materiais e morais</li>
 <li>Análise e prevenção de conflitos contratuais</li>
 </ul>
+<a class="area-contact" href="#contato" data-area="Direito Civil / Contratos">Solicitar atendimento nesta área<span aria-hidden="true"> ↗</span></a>
 </div>
 </details>
 <details name="areas" class="area reveal">
@@ -245,6 +249,7 @@
 <li>Falhas na prestação de serviços</li>
 <li>Pedidos de reparação e indenização</li>
 </ul>
+<a class="area-contact" href="#contato" data-area="Direito do Consumidor">Solicitar atendimento nesta área<span aria-hidden="true"> ↗</span></a>
 </div>
 </details>
 </div>
@@ -288,24 +293,24 @@
 <h2 class="title">Organização, eficiência e acolhimento em cada etapa</h2>
 <p class="sub">Do primeiro contato à formalização, cada etapa existe para organizar informações e conduzir a demanda com responsabilidade.</p>
 </div>
-<div class="steps">
-<article class="step" data-n="01">
+<ol class="steps">
+<li class="step" data-n="01">
 <h3>Primeiro contato</h3>
 <p>Você apresenta um breve resumo da situação e informa a área relacionada ao caso.</p>
-</article>
-<article class="step" data-n="02">
+</li>
+<li class="step" data-n="02">
 <h3>Análise inicial</h3>
 <p>As informações são verificadas e, quando necessário, podem ser solicitados documentos para melhor compreensão da demanda.</p>
-</article>
-<article class="step" data-n="03">
+</li>
+<li class="step" data-n="03">
 <h3>Orientação sobre próximos passos</h3>
 <p>Após a análise, são apresentados os caminhos jurídicos possíveis, com transparência e sem promessa de resultado.</p>
-</article>
-<article class="step" data-n="04">
+</li>
+<li class="step" data-n="04">
 <h3>Formalização do atendimento</h3>
 <p>Definida a continuidade, proposta de atuação, honorários, contrato, procuração e orientações iniciais são encaminhados em até 24 horas.</p>
-</article>
-</div>
+</li>
+</ol>
 </div>
 </section>
 <div class="context-cta">
@@ -412,7 +417,7 @@
 </div>
 </div>
 </div>
-<form class="form contact-card reveal" id="contactForm" action="#contato" method="post" aria-describedby="formHelp">
+<form class="form contact-card reveal" id="contactForm" action="https://wa.me/5519971432465" method="get" target="_blank" rel="noopener noreferrer" aria-describedby="formHelp">
 <h3>Solicitar atendimento</h3>
 <fieldset id="contactFields" disabled>
 <legend class="sr-only">Informações para solicitar atendimento pelo WhatsApp</legend>
@@ -444,6 +449,14 @@
 <div class="form-status" id="status" aria-live="polite"></div>
 <button class="btn gold" type="submit">Continuar no WhatsApp</button>
 </fieldset>
+<noscript>
+<div class="field native-contact">
+<label for="mensagemSemJS">Breve resumo</label>
+<textarea id="mensagemSemJS" name="text" required aria-describedby="nativeHelp"></textarea>
+<small id="nativeHelp">As informações preenchidas serão usadas para montar uma mensagem e abrir o WhatsApp. O site não armazena esses dados.</small>
+<button class="btn gold" type="submit">Continuar no WhatsApp</button>
+</div>
+</noscript>
 <p class="form-fallback" id="formFallback">Você também pode <a class="js-wa" href="https://wa.me/5519971432465?text=Ol%C3%A1%2C%20Dra.%20C%C3%ADntia.%20Vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20atendimento%20jur%C3%ADdico." target="_blank" rel="noopener noreferrer">solicitar atendimento diretamente pelo WhatsApp</a>.</p>
 </form>
 </div>

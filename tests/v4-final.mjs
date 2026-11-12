@@ -83,7 +83,7 @@ for (const [engine, type] of [['webkit',webkit],['chromium',chromium]]) {
       // Audit the resting state, after finite reveal/scroll transitions complete.
       // IntersectionObserver may start its last reveal just after the key event.
       await page.waitForTimeout(1200);
-      await page.evaluate(async()=>{await Promise.all(document.getAnimations().filter(a=>a.playState==='running').map(a=>a.finished.catch(()=>{})));});
+      await page.evaluate(async()=>{await Promise.all(document.getAnimations().filter(a=>a.playState==='running' && a.timeline===document.timeline).map(a=>a.finished.catch(()=>{})));});
       await page.addScriptTag({content:axe});const report=await page.evaluate(()=>window.axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}}));
       writeFileSync(`${dir}/${name}-axe.json`,JSON.stringify(report,null,2));assert.deepEqual(report.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),[]);return {passes:report.passes.length,incomplete:report.incomplete.length};
     },page);

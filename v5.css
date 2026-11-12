@@ -1,0 +1,91 @@
+/* Cíntia V5 — Signature Experience. V4 remains the composition/identity base.
+ * Photo: one finite framing gesture. Gold: identity, separators and reading flow.
+ * Main copy is never hidden; FAQ/contact get no entry animation. */
+@font-face { font-family:'Cormorant Garamond'; font-style:normal; font-weight:400; font-display:swap; src:url('assets/fonts/cormorant-garamond-normal.woff2') format('woff2'); }
+@font-face { font-family:'Cormorant Garamond'; font-style:normal; font-weight:500; font-display:swap; src:url('assets/fonts/cormorant-garamond-normal.woff2') format('woff2'); }
+@font-face { font-family:'Cormorant Garamond'; font-style:italic; font-weight:400; font-display:swap; src:url('assets/fonts/cormorant-garamond-italic.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-style:normal; font-weight:400; font-display:swap; src:url('assets/fonts/inter-normal.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-style:normal; font-weight:500; font-display:swap; src:url('assets/fonts/inter-normal.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-style:normal; font-weight:600; font-display:swap; src:url('assets/fonts/inter-normal.woff2') format('woff2'); }
+@font-face { font-family:'Inter'; font-style:normal; font-weight:700; font-display:swap; src:url('assets/fonts/inter-normal.woff2') format('woff2'); }
+
+body.v5 { --v5-ease:cubic-bezier(.2,.65,.3,1); --v5-entry:620ms; }
+body.v5 .hero-card { border-bottom-color:var(--v4-gold); }
+body.v5 .hero-card-in > picture { transform-origin:60% 45%; }
+body.v5 .hero-card-in::after {
+  content:""; position:absolute; z-index:2; inset:0 auto 0 0; width:1px;
+  background:linear-gradient(180deg,transparent,var(--v4-gold-light) 18%,var(--v4-gold) 82%,transparent);
+  opacity:.8; transform-origin:center bottom; pointer-events:none;
+}
+body.v5 .hero.media-enter .hero-card-in > picture { animation:v5-portrait var(--v5-entry) var(--v5-ease) both; }
+body.v5 .hero.media-enter .hero-card-in::after { animation:v5-edge var(--v5-entry) var(--v5-ease) both; }
+@keyframes v5-portrait { from { transform:translateX(6px) scale(1.018); } to { transform:none; } }
+@keyframes v5-edge { from { transform:scaleY(.06); opacity:.35; } to { transform:scaleY(1); opacity:.8; } }
+
+body.v5 .about .enter, body.v5 .principles .enter, body.v5 .insights .enter { animation:v5-reading 420ms var(--v5-ease) both; }
+@keyframes v5-reading { from { opacity:.85; transform:translateY(6px); } to { opacity:1; transform:none; } }
+body.v5 .impact.is-animated blockquote span { animation:v5-pillar 440ms var(--v5-ease) both; }
+body.v5 .impact.is-animated blockquote span:nth-child(2) { animation-delay:80ms; }
+body.v5 .impact.is-animated blockquote span:nth-child(3) { animation-delay:160ms; }
+@keyframes v5-pillar { from { opacity:.65; transform:translateY(8px); } to { opacity:1; transform:none; } }
+
+body.v5 .area.enter { animation:none; }
+body.v5 .area::before {
+  content:""; display:block; position:absolute; z-index:1; inset:auto 0 -1px;
+  height:1px; background:var(--v4-gold-dark); opacity:.65; transform-origin:left center;
+  pointer-events:none;
+}
+body.v5 .area.enter::before { animation:v5-rule 600ms var(--v5-ease) both; }
+@keyframes v5-rule { from { transform:scaleX(.08); opacity:.25; } to { transform:scaleX(1); opacity:.65; } }
+body.v5 .area-contact {
+  display:inline-flex; align-items:center; gap:12px; min-height:44px;
+  margin-top:20px; color:var(--v4-gold-dark); font-size:12px; font-weight:500;
+  border-bottom:1px solid currentColor; text-decoration:none;
+  transition:color 160ms ease;
+}
+body.v5 .area-contact:hover { color:var(--v4-ink); }
+body.v5 .area-contact:focus-visible { outline:2px solid var(--v4-gold-dark); outline-offset:4px; }
+
+body.v5 .steps { position:relative; padding:0; margin:0; list-style:none; }
+body.v5 .steps::before, body.v5 .steps::after {
+  content:""; position:absolute; z-index:0; left:21px; top:30px; bottom:30px;
+  width:1px; pointer-events:none;
+}
+body.v5 .steps::before { background:var(--v4-rule); }
+body.v5 .steps::after { background:var(--v4-gold-dark); transform-origin:center top; }
+body.v5 .step.enter { animation:none; }
+body.v5 .step::before {
+  z-index:1; background:var(--v4-parchment); color:var(--v4-gold-dark);
+  font:500 11px/1.4 'Inter',system-ui,sans-serif;
+  transition:background-color 180ms ease,color 180ms ease;
+}
+body.v5 .step.is-read::before { background:var(--v4-gold); color:var(--v4-espresso); }
+@keyframes v5-progress { from { transform:scaleY(0); } to { transform:scaleY(1); } }
+/* Native reading progression is an enhancement. Unsupported engines keep the
+ * complete static rule and all four steps. No JS scroll-position synchronizer. */
+@supports (animation-timeline:view()) {
+  body.v5 .steps { view-timeline-name:--process-reading; view-timeline-axis:block; }
+  body.v5 .steps::after {
+    animation:v5-progress 1s linear both;
+    animation-timeline:--process-reading;
+    animation-range:entry 40% exit 65%;
+  }
+}
+
+body.v5 .faq .reveal, body.v5 .faq .enter, body.v5 .contact .reveal, body.v5 .contact .enter,
+body.v5 .faq details[open] > :not(summary) { animation:none; opacity:1; transform:none; }
+body.v5 .native-contact { gap:18px; }
+
+@media (max-width:900px) {
+  body.v5 { --v5-entry:420ms; }
+  body.v5 .hero.media-enter .hero-card-in > picture { animation-name:v5-portrait-mobile; }
+  body.v5 .impact.is-animated blockquote span { animation-duration:300ms; animation-delay:0ms; }
+  body.v5 .impact.is-animated blockquote span:nth-child(2) { animation-delay:40ms; }
+  body.v5 .impact.is-animated blockquote span:nth-child(3) { animation-delay:80ms; }
+  body.v5 .steps::after { animation:none; transform:none; }
+}
+@keyframes v5-portrait-mobile { from { transform:translateX(3px) scale(1.01); } to { transform:none; } }
+@media (prefers-reduced-motion:reduce) {
+  body.v5 *, body.v5 *::before, body.v5 *::after { animation:none !important; transition:none !important; }
+  body.v5 .hero-card-in > picture, body.v5 .hero-card-in::after, body.v5 .area::before, body.v5 .steps::after { transform:none !important; }
+}
