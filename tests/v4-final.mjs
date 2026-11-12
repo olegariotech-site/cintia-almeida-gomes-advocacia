@@ -80,6 +80,8 @@ for (const [engine, type] of [['webkit',webkit],['chromium',chromium]]) {
       for(const m of measurements){assert.equal(m.outline,'solid');assert.ok(m.ratio>=3,`${m.selector}: focus contrast ${m.ratio.toFixed(2)} < 3`);} return measurements;
     },page);
     if(width===390 || width===1440)await check(name+'-axe',async()=>{
+      // Audit the resting state, after finite reveal/scroll transitions complete.
+      await page.evaluate(async()=>{await Promise.all(document.getAnimations().filter(a=>a.playState==='running').map(a=>a.finished.catch(()=>{})));});
       await page.addScriptTag({content:axe});const report=await page.evaluate(()=>window.axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa']}}));
       writeFileSync(`${dir}/${name}-axe.json`,JSON.stringify(report,null,2));assert.deepEqual(report.violations.map(v=>({id:v.id,impact:v.impact,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),[]);return {passes:report.passes.length,incomplete:report.incomplete.length};
     },page);
